@@ -1,0 +1,4135 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-01T16:45:05+00:00",
+  "sourceRevision": "b13b215156c4",
+  "count": 73,
+  "categories": [
+    "Bowls & Salads",
+    "Cooking Reference",
+    "Mains",
+    "Meal Plans",
+    "Sauces & Dressings",
+    "Sides & Components",
+    "Smoothies"
+  ],
+  "recipes": [
+    {
+      "id": "aguachile-verde-ceviche",
+      "title": "Aguachile Verde Ceviche",
+      "category": "Bowls & Salads",
+      "source": {
+        "label": "Instagram Reel — Daniella Christie (@daniyellla)",
+        "url": "https://www.instagram.com/reel/Dbe4svTK3Pq/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 1/2–2 lb raw shrimp, cleaned and deveined"
+        },
+        {
+          "group": "Main",
+          "text": "12 limes"
+        },
+        {
+          "group": "Main",
+          "text": "1 red onion"
+        },
+        {
+          "group": "Main",
+          "text": "2 jalapeños"
+        },
+        {
+          "group": "Main",
+          "text": "1 serrano, or 2 serranos / 1 jalapeño depending on desired spice level"
+        },
+        {
+          "group": "Main",
+          "text": "2 cucumbers, or more if desired"
+        },
+        {
+          "group": "Main",
+          "text": "A handful of cilantro"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp Jugo Maggi"
+        },
+        {
+          "group": "Main",
+          "text": "Salt and pepper"
+        }
+      ],
+      "steps": [
+        "Slice the clean shrimp almost fully down the backside to butterfly-cut it.",
+        "Juice the limes and pour the juice over the raw shrimp. Season with salt and pepper.",
+        "Set aside for 30 minutes or longer according to preference. The source says it keeps the shrimp in the refrigerator during this step.",
+        "After 30 minutes or longer, reserve 1/2 cup of the lime juice for the salsa.",
+        "Blend 1/2 cucumber, the peppers, a piece of red onion, cilantro, Jugo Maggi, and the reserved lime juice until smooth.",
+        "Add sliced red onion and cucumber to the shrimp. The source specifies removing the cucumber seeds and skin before slicing.",
+        "Pour the salsa over the shrimp and vegetables, then mix everything together.",
+        "Enjoy immediately or chill in the refrigerator before serving."
+      ],
+      "notes": [
+        "Original reel title: “Aguachile Verde Ceviche.”",
+        "The source does not specify servings.",
+        "The source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "aguachile verde ceviche bowls & salads 1 1/2–2 lb raw shrimp, cleaned and deveined 12 limes 1 red onion 2 jalapeños 1 serrano, or 2 serranos / 1 jalapeño depending on desired spice level 2 cucumbers, or more if desired a handful of cilantro 1 tsp jugo maggi salt and pepper slice the clean shrimp almost fully down the backside to butterfly-cut it. juice the limes and pour the juice over the raw shrimp. season with salt and pepper. set aside for 30 minutes or longer according to preference. the source says it keeps the shrimp in the refrigerator during this step. after 30 minutes or longer, reserve 1/2 cup of the lime juice for the salsa. blend 1/2 cucumber, the peppers, a piece of red onion, cilantro, jugo maggi, and the reserved lime juice until smooth. add sliced red onion and cucumber to the shrimp. the source specifies removing the cucumber seeds and skin before slicing. pour the salsa over the shrimp and vegetables, then mix everything together. enjoy immediately or chill in the refrigerator before serving. original reel title: “aguachile verde ceviche.” the source does not specify servings. the source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
+    },
+    {
+      "id": "chicken-caesar-salad",
+      "title": "Chicken Caesar Salad",
+      "category": "Bowls & Salads",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [
+        "Original Dinner Recipes note had this as a todo.",
+        "Missing image reference from legacy note: chickencaesarsalad.jpeg."
+      ],
+      "useWith": [],
+      "meta": [
+        "Status: needs extraction/details."
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "limited",
+      "badges": [
+        "limited"
+      ],
+      "searchText": "chicken caesar salad bowls & salads original dinner recipes note had this as a todo. missing image reference from legacy note: chickencaesarsalad.jpeg. status: needs extraction/details."
+    },
+    {
+      "id": "cucumber-radish-salad",
+      "title": "Cucumber Radish Salad",
+      "category": "Bowls & Salads",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !cucumberradishsalad.png"
+      ],
+      "nutrition": [],
+      "reference": [
+        "https://downshiftology.com/recipes/cucumber-radish-salad/"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "cucumber radish salad bowls & salads image: !cucumberradishsalad.png https://downshiftology.com/recipes/cucumber-radish-salad/"
+    },
+    {
+      "id": "ground-turkey-and-arugula-salad",
+      "title": "Ground Turkey and Arugula Salad",
+      "category": "Bowls & Salads",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Ground turkey"
+        },
+        {
+          "group": "Main",
+          "text": "Arugula salad with olive oil, lemon, balsamic, salt, pepper, parmesan, and almond shavings"
+        },
+        {
+          "group": "Main",
+          "text": "Raw broccoli"
+        },
+        {
+          "group": "Main",
+          "text": "Carrots"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !turkeyandarugula.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "ground turkey and arugula salad bowls & salads ground turkey arugula salad with olive oil, lemon, balsamic, salt, pepper, parmesan, and almond shavings raw broccoli carrots image: !turkeyandarugula.jpeg"
+    },
+    {
+      "id": "zero-thinking-tuna-rice-bowl",
+      "title": "Zero Thinking Tuna Rice Bowl",
+      "category": "Bowls & Salads",
+      "source": {
+        "label": "Instagram Reel — Alissa Nguyen Won (@alissanguyen_)",
+        "url": "https://www.instagram.com/reel/DFT-yfhtjoa/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Rice"
+        },
+        {
+          "group": "Main",
+          "text": "Canned tuna"
+        },
+        {
+          "group": "Main",
+          "text": "Chopped scallion"
+        },
+        {
+          "group": "Main",
+          "text": "Sesame oil"
+        },
+        {
+          "group": "Main",
+          "text": "Soy sauce"
+        },
+        {
+          "group": "Main",
+          "text": "Mayonnaise"
+        },
+        {
+          "group": "Main",
+          "text": "Sriracha"
+        },
+        {
+          "group": "Main",
+          "text": "Seasoned/shredded seaweed"
+        },
+        {
+          "group": "Main",
+          "text": "Sesame seeds"
+        }
+      ],
+      "steps": [
+        "Add rice to a bowl.",
+        "Add canned tuna on top.",
+        "Add chopped scallion.",
+        "Add sesame oil and soy sauce.",
+        "Add mayonnaise and sriracha.",
+        "Top with seasoned/shredded seaweed and sesame seeds.",
+        "Mix together and eat as a quick rice bowl."
+      ],
+      "notes": [
+        "Original description: “Zero thinking dinner ingredients: rice, canned tuna, chopped scallion, sesame oil, soy sauce, mayonnaise, sriracha, seasoned/ shredded seaweed and sesame seeds.”",
+        "Video overlay/title: “Zero Thinking Dinner.”",
+        "No ingredient quantities were shown in the source metadata/video frames."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "zero thinking tuna rice bowl bowls & salads rice canned tuna chopped scallion sesame oil soy sauce mayonnaise sriracha seasoned/shredded seaweed sesame seeds add rice to a bowl. add canned tuna on top. add chopped scallion. add sesame oil and soy sauce. add mayonnaise and sriracha. top with seasoned/shredded seaweed and sesame seeds. mix together and eat as a quick rice bowl. original description: “zero thinking dinner ingredients: rice, canned tuna, chopped scallion, sesame oil, soy sauce, mayonnaise, sriracha, seasoned/ shredded seaweed and sesame seeds.” video overlay/title: “zero thinking dinner.” no ingredient quantities were shown in the source metadata/video frames."
+    },
+    {
+      "id": "air-fried-chicken-thighs-steps",
+      "title": "Air-fried chicken thighs steps",
+      "category": "Cooking Reference",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [
+        "Air fry at 380°F (193°C) for 14–16 minutes, flipping halfway through at around the 7-minute mark."
+      ],
+      "status": "reference",
+      "badges": [
+        "reference"
+      ],
+      "searchText": "air-fried chicken thighs steps cooking reference air fry at 380°f (193°c) for 14–16 minutes, flipping halfway through at around the 7-minute mark."
+    },
+    {
+      "id": "boiled-chicken-timing",
+      "title": "Boiled Chicken Timing",
+      "category": "Cooking Reference",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [
+        "Use a gentle simmer rather than a hard rolling boil for juicier chicken.",
+        "Rest 5 minutes before slicing or shredding."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [
+        "Chicken is done when the thickest part reaches 165°F / 74°C internally.",
+        "Boneless chicken breast: 12–15 minutes",
+        "Bone-in chicken breast: 20–30 minutes",
+        "Boneless thighs: 10–15 minutes",
+        "Bone-in thighs / drumsticks: 25–35 minutes",
+        "Whole chicken: 60–90 minutes, depending on size"
+      ],
+      "status": "reference",
+      "badges": [
+        "reference"
+      ],
+      "searchText": "boiled chicken timing cooking reference use a gentle simmer rather than a hard rolling boil for juicier chicken. rest 5 minutes before slicing or shredding. chicken is done when the thickest part reaches 165°f / 74°c internally. boneless chicken breast: 12–15 minutes bone-in chicken breast: 20–30 minutes boneless thighs: 10–15 minutes bone-in thighs / drumsticks: 25–35 minutes whole chicken: 60–90 minutes, depending on size"
+    },
+    {
+      "id": "grilling-raw-meat-carrying-tip",
+      "title": "Grilling Raw Meat Carrying Tip",
+      "category": "Cooking Reference",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [
+        "For grilling marinated raw meat, keep the meat in a sealed ziplock bag inside the clean serving/carrying bowl.",
+        "Why:",
+        "The bag contains raw-meat marinade and prevents contaminating the bowl.",
+        "After putting meat on the grill, discard the bag.",
+        "The same clean bowl can safely carry the cooked meat back.",
+        "This also consolidates what needs to be carried between the kitchen and grill.",
+        "Checklist:",
+        "Put marinated raw meat in a ziplock bag.",
+        "Place the sealed bag inside the clean bowl that will later hold cooked meat.",
+        "Carry the bowl + bag together to the grill.",
+        "After raw meat goes on the grill, dispose of the bag.",
+        "Reuse the uncontaminated bowl to carry cooked meat back."
+      ],
+      "status": "reference",
+      "badges": [
+        "reference"
+      ],
+      "searchText": "grilling raw meat carrying tip cooking reference for grilling marinated raw meat, keep the meat in a sealed ziplock bag inside the clean serving/carrying bowl. why: the bag contains raw-meat marinade and prevents contaminating the bowl. after putting meat on the grill, discard the bag. the same clean bowl can safely carry the cooked meat back. this also consolidates what needs to be carried between the kitchen and grill. checklist: put marinated raw meat in a ziplock bag. place the sealed bag inside the clean bowl that will later hold cooked meat. carry the bowl + bag together to the grill. after raw meat goes on the grill, dispose of the bag. reuse the uncontaminated bowl to carry cooked meat back."
+    },
+    {
+      "id": "air-fried-salmon",
+      "title": "Air Fried Salmon",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Salmon filet"
+        },
+        {
+          "group": "Main",
+          "text": "Avocado oil"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        }
+      ],
+      "steps": [
+        "Coat salmon with avocado oil.",
+        "Season with salt and pepper.",
+        "Air fry at 375°F for 8 minutes.",
+        "If the salmon is thick, let it sit in the air fryer for another 1 minute after cooking."
+      ],
+      "notes": [
+        "Simple salmon prep for a fast main protein."
+      ],
+      "useWith": [],
+      "meta": [
+        "Category: Main",
+        "Cook time: 8–9 minutes"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing"
+      ],
+      "searchText": "air fried salmon mains salmon filet avocado oil salt pepper coat salmon with avocado oil. season with salt and pepper. air fry at 375°f for 8 minutes. if the salmon is thick, let it sit in the air fryer for another 1 minute after cooking. simple salmon prep for a fast main protein. category: main cook time: 8–9 minutes"
+    },
+    {
+      "id": "bulgogi-beef-bowl",
+      "title": "Bulgogi Beef Bowl",
+      "category": "Mains",
+      "source": {
+        "label": "TikTok — annlmartinez (@annlmartinez)",
+        "url": "https://www.tiktok.com/@annlmartinez/video/7688129794373913870/",
+        "platform": "tiktok"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 lb ground beef (93/7)"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp sugar"
+        },
+        {
+          "group": "Main",
+          "text": "3 tbsp soy sauce"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp sesame oil"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp minced garlic"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp cooking oil"
+        },
+        {
+          "group": "Main",
+          "text": "Kimchi"
+        },
+        {
+          "group": "Main",
+          "text": "Chopped green onions"
+        },
+        {
+          "group": "Main",
+          "text": "Egg"
+        },
+        {
+          "group": "Main",
+          "text": "Sesame seeds (optional)"
+        },
+        {
+          "group": "Main",
+          "text": "Rice, for serving (shown in the video; amount not specified)"
+        }
+      ],
+      "steps": [
+        "Heat the cooking oil in a pan and cook the ground beef until browned.",
+        "Add the sugar, soy sauce, sesame oil, and minced garlic; stir through the beef. The source does not specify the order or cooking time for the sauce ingredients.",
+        "Serve over rice with kimchi and a fried egg. Top with chopped green onions and optional sesame seeds."
+      ],
+      "notes": [
+        "The video title describes this as a bulgogi beef bowl.",
+        "The ingredient list and quantities come from the creator's caption. The caption says “1 lbs ground beef 93\\\\7”; normalized here as 1 lb, 93/7 ground beef.",
+        "The video shows the beef being browned and served with rice, kimchi, and a fried egg; it does not show measured quantities for toppings or detailed cooking times."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "bulgogi beef bowl mains 1 lb ground beef (93/7) 2 tbsp sugar 3 tbsp soy sauce 1 tbsp sesame oil 1 tbsp minced garlic 1 tbsp cooking oil kimchi chopped green onions egg sesame seeds (optional) rice, for serving (shown in the video; amount not specified) heat the cooking oil in a pan and cook the ground beef until browned. add the sugar, soy sauce, sesame oil, and minced garlic; stir through the beef. the source does not specify the order or cooking time for the sauce ingredients. serve over rice with kimchi and a fried egg. top with chopped green onions and optional sesame seeds. the video title describes this as a bulgogi beef bowl. the ingredient list and quantities come from the creator's caption. the caption says “1 lbs ground beef 93\\\\7”; normalized here as 1 lb, 93/7 ground beef. the video shows the beef being browned and served with rice, kimchi, and a fried egg; it does not show measured quantities for toppings or detailed cooking times."
+    },
+    {
+      "id": "cajun-chicken-with-broccoli-carrots-rice-or-quinoa",
+      "title": "Cajun Chicken with Broccoli, Carrots, Rice or Quinoa",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Baked chicken breast"
+        },
+        {
+          "group": "Main",
+          "text": "Organic raw broccoli and carrot"
+        },
+        {
+          "group": "Main",
+          "text": "Brown rice, white rice, or quinoa"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !cajunchicken.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "cajun chicken with broccoli, carrots, rice or quinoa mains baked chicken breast organic raw broccoli and carrot brown rice, white rice, or quinoa image: !cajunchicken.jpeg"
+    },
+    {
+      "id": "cajun-shrimp-with-cauliflower-rice-and-cucumber",
+      "title": "Cajun Shrimp with Cauliflower Rice and Cucumber",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "#Cajun Butter Shrimp"
+        },
+        {
+          "group": "Main",
+          "text": "Cauliflower rice"
+        },
+        {
+          "group": "Main",
+          "text": "Celery"
+        },
+        {
+          "group": "Main",
+          "text": "Cucumber"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !cajunshrimp.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "cajun shrimp with cauliflower rice and cucumber mains #cajun butter shrimp cauliflower rice celery cucumber image: !cajunshrimp.jpeg"
+    },
+    {
+      "id": "chicken-bacon-ranch-smash-and-scoop",
+      "title": "Chicken Bacon Ranch Smash & Scoop",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Panacea Palm | Dij (@panaceapalm)",
+        "url": "https://www.instagram.com/reel/DejuHUotxuj/",
+        "platform": "instagram"
+      },
+      "servings": "4 servings",
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "6 hard-boiled eggs"
+        },
+        {
+          "group": "Main",
+          "text": "250 g chicken breast (2 chicken breasts)"
+        },
+        {
+          "group": "Main",
+          "text": "80 g 0% Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "100 g light mayonnaise"
+        },
+        {
+          "group": "Main",
+          "text": "5 rashers bacon, of choice"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp Parmesan"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp Dijon mustard"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp fresh parsley, chopped"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp chives, chopped"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic powder, onion powder, and black pepper to taste (roughly 1/2–1 tsp)"
+        },
+        {
+          "group": "Main",
+          "text": "Salt to taste (roughly 1/2 tsp)"
+        }
+      ],
+      "steps": [
+        "Slice the chicken breasts in half and air-fry at 200°C for 12–15 minutes.",
+        "Prepare the hard-boiled eggs and bacon. The caption does not specify the cooking method or timing for these ingredients.",
+        "Combine the eggs, chicken, bacon, Greek yogurt, mayonnaise, Parmesan, Dijon mustard, parsley, chives, and seasonings. The reel title describes the result as a “smash & scoop,” but the caption does not provide detailed mashing or mixing instructions.",
+        "Divide into 4 servings."
+      ],
+      "notes": [
+        "The caption calls this “High Protein Smash & Scoop! — EP. 4 Chicken Bacon Ranch.”",
+        "Garlic powder, onion powder, and black pepper are written as “to taste,” with an approximate range of 1/2–1 tsp."
+      ],
+      "useWith": [],
+      "meta": [
+        "Makes: 4 servings",
+        "Per serving: 260 calories, 34 g protein, 4 g carbohydrates, 12 g fat"
+      ],
+      "nutrition": [
+        "Per serving: 260 calories, 34 g protein, 4 g carbohydrates, 12 g fat"
+      ],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "source video"
+      ],
+      "searchText": "chicken bacon ranch smash & scoop mains 6 hard-boiled eggs 250 g chicken breast (2 chicken breasts) 80 g 0% greek yogurt 100 g light mayonnaise 5 rashers bacon, of choice 2 tbsp parmesan 1 tsp dijon mustard 2 tbsp fresh parsley, chopped 2 tbsp chives, chopped garlic powder, onion powder, and black pepper to taste (roughly 1/2–1 tsp) salt to taste (roughly 1/2 tsp) slice the chicken breasts in half and air-fry at 200°c for 12–15 minutes. prepare the hard-boiled eggs and bacon. the caption does not specify the cooking method or timing for these ingredients. combine the eggs, chicken, bacon, greek yogurt, mayonnaise, parmesan, dijon mustard, parsley, chives, and seasonings. the reel title describes the result as a “smash & scoop,” but the caption does not provide detailed mashing or mixing instructions. divide into 4 servings. the caption calls this “high protein smash & scoop! — ep. 4 chicken bacon ranch.” garlic powder, onion powder, and black pepper are written as “to taste,” with an approximate range of 1/2–1 tsp. makes: 4 servings per serving: 260 calories, 34 g protein, 4 g carbohydrates, 12 g fat"
+    },
+    {
+      "id": "chicken-gyro-wraps",
+      "title": "Chicken Gyro Wraps",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Tzatziki sauce:",
+        "Chicken marinade:",
+        "Vegetable medley:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "#Tzatziki Sauce",
+        "1 cup Greek yogurt",
+        "Salt",
+        "Pepper",
+        "3 garlic cloves",
+        "1 tbsp red wine vinegar",
+        "1 tbsp olive oil",
+        "1 tsp ground coriander",
+        "1 tbsp oregano",
+        "1 tsp smoked paprika",
+        "Juice of 1 lemon",
+        "1 cucumber",
+        "2 Roma tomatoes",
+        "1/2 red onion",
+        "1 tbsp red wine vinegar",
+        "1/4 cup parsley",
+        "Salt",
+        "Pepper"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "chicken gyro wraps mains tzatziki sauce: chicken marinade: vegetable medley: #tzatziki sauce 1 cup greek yogurt salt pepper 3 garlic cloves 1 tbsp red wine vinegar 1 tbsp olive oil 1 tsp ground coriander 1 tbsp oregano 1 tsp smoked paprika juice of 1 lemon 1 cucumber 2 roma tomatoes 1/2 red onion 1 tbsp red wine vinegar 1/4 cup parsley salt pepper"
+    },
+    {
+      "id": "chicken-broccoli-and-potatoes",
+      "title": "Chicken, Broccoli, and Potatoes",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Raw broccoli"
+        },
+        {
+          "group": "Main",
+          "text": "Baked chicken breast"
+        },
+        {
+          "group": "Main",
+          "text": "Potatoes"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !chickenandbroccoli.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "chicken, broccoli, and potatoes mains raw broccoli baked chicken breast potatoes image: !chickenandbroccoli.jpeg"
+    },
+    {
+      "id": "chinese-beef-and-vegetable-soup-lu-s-ng-t-ng",
+      "title": "Chinese Beef and Vegetable Soup (Luó Sòng Tāng)",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Angel (@angelunsweetened)",
+        "url": "https://www.instagram.com/reel/DfEJH8ev4rG/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Tomatoes"
+        },
+        {
+          "group": "Main",
+          "text": "Carrots"
+        },
+        {
+          "group": "Main",
+          "text": "Celery"
+        },
+        {
+          "group": "Main",
+          "text": "Onions"
+        },
+        {
+          "group": "Main",
+          "text": "Cabbage"
+        },
+        {
+          "group": "Main",
+          "text": "Beef"
+        },
+        {
+          "group": "Main",
+          "text": "Potatoes"
+        },
+        {
+          "group": "Main",
+          "text": "Salt, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "Black pepper, to taste"
+        }
+      ],
+      "steps": [
+        "Chop the tomatoes, carrots, celery, onions, cabbage, and beef.",
+        "Layer everything except the potatoes in a pot, with the tomatoes at the bottom.",
+        "The source caption does not include a step numbered 3.",
+        "Cover and simmer on low for 30 minutes, until the juices start coming out.",
+        "Season with salt and pepper.",
+        "Add more cabbage and the potatoes.",
+        "Cover and simmer for another 30 minutes, or however long it takes for the beef to become tender."
+      ],
+      "notes": [
+        "The source emphasizes that no water is added; the vegetables release their natural juices to create the broth.",
+        "The caption provides no ingredient quantities, serving yield, or specific type/cut of beef.",
+        "The title describes this as a Chinese-style beef and vegetable soup called 罗宋汤 (Luó Sòng Tāng)."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "chinese beef and vegetable soup (luó sòng tāng) mains tomatoes carrots celery onions cabbage beef potatoes salt, to taste black pepper, to taste chop the tomatoes, carrots, celery, onions, cabbage, and beef. layer everything except the potatoes in a pot, with the tomatoes at the bottom. the source caption does not include a step numbered 3. cover and simmer on low for 30 minutes, until the juices start coming out. season with salt and pepper. add more cabbage and the potatoes. cover and simmer for another 30 minutes, or however long it takes for the beef to become tender. the source emphasizes that no water is added; the vegetables release their natural juices to create the broth. the caption provides no ingredient quantities, serving yield, or specific type/cut of beef. the title describes this as a chinese-style beef and vegetable soup called 罗宋汤 (luó sòng tāng)."
+    },
+    {
+      "id": "cowboy-butter-lemon-bowtie-chicken-with-broccoli",
+      "title": "Cowboy Butter Lemon Bowtie Chicken with Broccoli",
+      "category": "Mains",
+      "source": {
+        "label": "Recipes By Kip",
+        "url": "https://recipesbykip.com/recipe/cowboy-butter-lemon-bowtie-chicken/",
+        "platform": "web"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "For the chicken",
+          "text": "1.5 lbs chicken breast or chicken tenders, cut into bite-sized pieces"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp garlic powder"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp smoked paprika"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp onion powder"
+        },
+        {
+          "group": "For the chicken",
+          "text": "Salt and black pepper to taste"
+        },
+        {
+          "group": "For the chicken",
+          "text": "2 tbsp olive oil"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "6 tbsp unsalted butter"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "6 cloves garlic, minced"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "2 tbsp fresh lemon juice"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "1 tsp lemon zest"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "1 tbsp Dijon mustard"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "1 tsp red pepper flakes"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "2 tbsp fresh parsley, finely chopped"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "1 tsp fresh thyme leaves"
+        },
+        {
+          "group": "For the cowboy butter sauce",
+          "text": "Salt and black pepper to taste"
+        },
+        {
+          "group": "For the pasta and broccoli",
+          "text": "12 oz bowtie pasta (farfalle)"
+        },
+        {
+          "group": "For the pasta and broccoli",
+          "text": "3 cups broccoli florets"
+        },
+        {
+          "group": "For the pasta and broccoli",
+          "text": "1/2 cup reserved pasta water"
+        }
+      ],
+      "steps": [
+        "Boil generously salted water. Cook the bowtie pasta until just al dente. During the last 3 minutes, add the broccoli. Reserve at least 1/2 cup pasta water, then drain the pasta and broccoli together.",
+        "Toss the chicken with garlic powder, smoked paprika, onion powder, salt, and pepper. Heat the olive oil in a wide skillet over medium-high heat and sear the chicken in a single layer for 3–4 minutes on the first side and 2–3 minutes on the second, until cooked through to 165°F. Transfer to a plate and leave the browned bits in the skillet.",
+        "Reduce the heat to medium. Melt the butter in the same skillet, add the garlic, and cook for 1–2 minutes until golden and fragrant.",
+        "Stir in the Dijon mustard and red pepper flakes; cook for 30 seconds. Remove from the heat and add the lemon juice, lemon zest, and a splash of pasta water. Stir until glossy, then return to low heat and season to taste.",
+        "Add the pasta and broccoli to the skillet. Toss over medium heat, adding pasta water a splash at a time if needed. Return the chicken to the pan and toss to coat.",
+        "Add the parsley and thyme, taste, adjust seasoning, and serve immediately with extra parsley, lemon, and black pepper if desired."
+      ],
+      "notes": [
+        "Penne or rotini can replace the farfalle.",
+        "The source describes the recipe as taking about 30 minutes, but does not state a serving yield."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete"
+      ],
+      "searchText": "cowboy butter lemon bowtie chicken with broccoli mains 1.5 lbs chicken breast or chicken tenders, cut into bite-sized pieces 1 tsp garlic powder 1 tsp smoked paprika 1 tsp onion powder salt and black pepper to taste 2 tbsp olive oil 6 tbsp unsalted butter 6 cloves garlic, minced 2 tbsp fresh lemon juice 1 tsp lemon zest 1 tbsp dijon mustard 1 tsp red pepper flakes 2 tbsp fresh parsley, finely chopped 1 tsp fresh thyme leaves salt and black pepper to taste 12 oz bowtie pasta (farfalle) 3 cups broccoli florets 1/2 cup reserved pasta water boil generously salted water. cook the bowtie pasta until just al dente. during the last 3 minutes, add the broccoli. reserve at least 1/2 cup pasta water, then drain the pasta and broccoli together. toss the chicken with garlic powder, smoked paprika, onion powder, salt, and pepper. heat the olive oil in a wide skillet over medium-high heat and sear the chicken in a single layer for 3–4 minutes on the first side and 2–3 minutes on the second, until cooked through to 165°f. transfer to a plate and leave the browned bits in the skillet. reduce the heat to medium. melt the butter in the same skillet, add the garlic, and cook for 1–2 minutes until golden and fragrant. stir in the dijon mustard and red pepper flakes; cook for 30 seconds. remove from the heat and add the lemon juice, lemon zest, and a splash of pasta water. stir until glossy, then return to low heat and season to taste. add the pasta and broccoli to the skillet. toss over medium heat, adding pasta water a splash at a time if needed. return the chicken to the pan and toss to coat. add the parsley and thyme, taste, adjust seasoning, and serve immediately with extra parsley, lemon, and black pepper if desired. penne or rotini can replace the farfalle. the source describes the recipe as taking about 30 minutes, but does not state a serving yield."
+    },
+    {
+      "id": "fiber-and-immunity-protein-soup",
+      "title": "Fiber & Immunity Protein Soup",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Arash Hashemi / Shred Happens (@shredhappens)",
+        "url": "https://www.instagram.com/reel/DewnoMXut3C/",
+        "platform": "instagram"
+      },
+      "servings": "4 large servings (the source also suggests splitting it into 3 or 4 servings)",
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 lb carrots, peeled and chopped"
+        },
+        {
+          "group": "Main",
+          "text": "1 large yellow onion, roughly chopped"
+        },
+        {
+          "group": "Main",
+          "text": "8–10 garlic cloves"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "2 tsp curry powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp smoked paprika"
+        },
+        {
+          "group": "Main",
+          "text": "A couple of generous pinches of salt"
+        },
+        {
+          "group": "Main",
+          "text": "Cracked black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "4 cups bone broth"
+        },
+        {
+          "group": "Main",
+          "text": "2 servings cottage cheese, or 1 block of soft tofu"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp fresh ginger, grated"
+        },
+        {
+          "group": "Main",
+          "text": "Juice of 1/2 lemon, plus more for serving"
+        },
+        {
+          "group": "Main",
+          "text": "Chili flakes, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup chickpeas, with more optional for a thicker soup"
+        },
+        {
+          "group": "For topping",
+          "text": "Freshly grated Parmesan"
+        },
+        {
+          "group": "For topping",
+          "text": "Fresh herbs"
+        },
+        {
+          "group": "For topping",
+          "text": "Lemon juice"
+        },
+        {
+          "group": "For topping",
+          "text": "Chili flakes"
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 400°F.",
+        "Add the carrots, onion, and garlic to a lined sheet pan.",
+        "Drizzle with the olive oil and season with curry powder, smoked paprika, salt, and black pepper.",
+        "Roast for 45–50 minutes, until everything is roasted.",
+        "Transfer the roasted carrots, onion, and garlic to a blender or large pot.",
+        "Add the bone broth, cottage cheese or tofu, grated ginger, lemon juice, chili flakes, and chickpeas.",
+        "Blend until creamy and smooth. Taste and adjust with more salt, curry powder, lemon juice, or bone broth as needed to thin it.",
+        "Pour into bowls and top with Parmesan, fresh herbs, lemon juice, and chili flakes."
+      ],
+      "notes": [
+        "The source says cottage cheese can be substituted with tofu.",
+        "The source adds 1/4 cup chickpeas for extra protein and fiber, but says they can be omitted or increased for a thicker soup. White beans are also suggested as an alternative.",
+        "The source does not specify quantities for the toppings."
+      ],
+      "useWith": [],
+      "meta": [
+        "Makes: 4 large servings (the source also suggests splitting it into 3 or 4 servings)",
+        "Whole pot: 1,100 calories, 88 g protein, 36 g fiber",
+        "Per large serving: 274 calories, 22 g protein, 9 g fiber"
+      ],
+      "nutrition": [
+        "Whole pot: 1,100 calories, 88 g protein, 36 g fiber",
+        "Per large serving: 274 calories, 22 g protein, 9 g fiber"
+      ],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "fiber & immunity protein soup mains 2 lb carrots, peeled and chopped 1 large yellow onion, roughly chopped 8–10 garlic cloves 1 tbsp olive oil 2 tsp curry powder 1 tbsp smoked paprika a couple of generous pinches of salt cracked black pepper 4 cups bone broth 2 servings cottage cheese, or 1 block of soft tofu 1 tbsp fresh ginger, grated juice of 1/2 lemon, plus more for serving chili flakes, to taste 1/4 cup chickpeas, with more optional for a thicker soup freshly grated parmesan fresh herbs lemon juice chili flakes preheat the oven to 400°f. add the carrots, onion, and garlic to a lined sheet pan. drizzle with the olive oil and season with curry powder, smoked paprika, salt, and black pepper. roast for 45–50 minutes, until everything is roasted. transfer the roasted carrots, onion, and garlic to a blender or large pot. add the bone broth, cottage cheese or tofu, grated ginger, lemon juice, chili flakes, and chickpeas. blend until creamy and smooth. taste and adjust with more salt, curry powder, lemon juice, or bone broth as needed to thin it. pour into bowls and top with parmesan, fresh herbs, lemon juice, and chili flakes. the source says cottage cheese can be substituted with tofu. the source adds 1/4 cup chickpeas for extra protein and fiber, but says they can be omitted or increased for a thicker soup. white beans are also suggested as an alternative. the source does not specify quantities for the toppings. makes: 4 large servings (the source also suggests splitting it into 3 or 4 servings) whole pot: 1,100 calories, 88 g protein, 36 g fiber per large serving: 274 calories, 22 g protein, 9 g fiber"
+    },
+    {
+      "id": "giniling-na-baka-filipino-ground-beef",
+      "title": "Giniling na Baka (Filipino Ground Beef)",
+      "category": "Mains",
+      "source": {
+        "label": "TikTok — Amanda Janelle 🇵🇭 (@amandajanelles)",
+        "url": "https://www.tiktok.com/@amandajanelles/video/7524083839396760887/",
+        "platform": "tiktok"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 lb ground beef"
+        },
+        {
+          "group": "Main",
+          "text": "1 onion, diced"
+        },
+        {
+          "group": "Main",
+          "text": "4 garlic cloves, minced"
+        },
+        {
+          "group": "Main",
+          "text": "1 green bell pepper, diced"
+        },
+        {
+          "group": "Main",
+          "text": "Frozen peas and carrots, to taste (preferred over dicing fresh carrot)"
+        },
+        {
+          "group": "Main",
+          "text": "2 diced potatoes"
+        },
+        {
+          "group": "Main",
+          "text": "2 tsp fish sauce"
+        },
+        {
+          "group": "Main",
+          "text": "2 tsp chicken bouillon"
+        },
+        {
+          "group": "Main",
+          "text": "0.5 tsp salt/pepper"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp sugar"
+        },
+        {
+          "group": "Main",
+          "text": "Paprika, amount not shown (visible in video but not listed in the ingredient overlay)"
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "1. Start rice first if serving with rice."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "2. Set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "3. Prep vegetables before opening the beef. Dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "4. Hold diced potatoes in water if they will sit while you prep or cook. Drain before adding them to the pan."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "5. Organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "6. Clean the prep area before handling beef. Clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "7. Sweat the aromatics. Heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. Remove to a clean bowl."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "8. Brown the beef. Increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. Drain excess grease if needed."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "9. Season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. Stir well and scrape up browned bits."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "10. Add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. Stir to combine."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "11. Cover and cook until potatoes soften, stirring occasionally. Add a small splash of water if the pan gets too dry."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "12. Stir in sugar near the end, taste, and adjust seasoning."
+        },
+        {
+          "group": "Optimized Steps",
+          "text": "13. Serve with white rice."
+        },
+        {
+          "group": "Cleanup / Safety Notes",
+          "text": "Prep vegetables before opening raw beef to reduce cross-contamination."
+        },
+        {
+          "group": "Cleanup / Safety Notes",
+          "text": "Avoid putting raw ground beef on the cutting board; add it straight from the package to the pan."
+        },
+        {
+          "group": "Cleanup / Safety Notes",
+          "text": "Wash hands after handling the beef package."
+        },
+        {
+          "group": "Cleanup / Safety Notes",
+          "text": "Use a clean spoon for final tasting and serving."
+        }
+      ],
+      "steps": [],
+      "notes": [
+        "Original caption: “My version of giniling na baka! Such an easy recipe for ground beef.”",
+        "Ingredient list was extracted from the TikTok video overlay; paprika was visible in the cooking steps, but the quantity was not shown.",
+        "The optimized method intentionally sweats onion, bell pepper, and garlic first, sets them aside, then browns the beef for better browning and less steaming."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "giniling na baka (filipino ground beef) mains 1 lb ground beef 1 onion, diced 4 garlic cloves, minced 1 green bell pepper, diced frozen peas and carrots, to taste (preferred over dicing fresh carrot) 2 diced potatoes 2 tsp fish sauce 2 tsp chicken bouillon 0.5 tsp salt/pepper 1 tsp sugar paprika, amount not shown (visible in video but not listed in the ingredient overlay) 1. start rice first if serving with rice. 2. set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash. 3. prep vegetables before opening the beef. dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready. 4. hold diced potatoes in water if they will sit while you prep or cook. drain before adding them to the pan. 5. organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby. 6. clean the prep area before handling beef. clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area. 7. sweat the aromatics. heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. remove to a clean bowl. 8. brown the beef. increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. drain excess grease if needed. 9. season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. stir well and scrape up browned bits. 10. add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. stir to combine. 11. cover and cook until potatoes soften, stirring occasionally. add a small splash of water if the pan gets too dry. 12. stir in sugar near the end, taste, and adjust seasoning. 13. serve with white rice. prep vegetables before opening raw beef to reduce cross-contamination. avoid putting raw ground beef on the cutting board; add it straight from the package to the pan. wash hands after handling the beef package. use a clean spoon for final tasting and serving. original caption: “my version of giniling na baka! such an easy recipe for ground beef.” ingredient list was extracted from the tiktok video overlay; paprika was visible in the cooking steps, but the quantity was not shown. the optimized method intentionally sweats onion, bell pepper, and garlic first, sets them aside, then browns the beef for better browning and less steaming."
+    },
+    {
+      "id": "greek-lemon-chicken-and-potatoes-with-dairy-free-greek-salad",
+      "title": "Greek Lemon Chicken and Potatoes with Dairy-Free Greek Salad",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Sivan's Kitchen (@sivanskitchen)",
+        "url": "https://www.instagram.com/reel/De-ZeM9POHt/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "For the chicken and potatoes",
+          "text": "3 lbs golden potatoes, peeled and quartered"
+        },
+        {
+          "group": "For the chicken and potatoes",
+          "text": "7 bone-in chicken pieces (about 2 lbs 10 oz)"
+        },
+        {
+          "group": "For the sauce",
+          "text": "1/2 cup fresh lemon juice (about 2 large lemons)"
+        },
+        {
+          "group": "For the sauce",
+          "text": "1/4 cup olive oil"
+        },
+        {
+          "group": "For the sauce",
+          "text": "1 tbsp Dijon mustard"
+        },
+        {
+          "group": "For the sauce",
+          "text": "6 garlic cloves, minced"
+        },
+        {
+          "group": "For the sauce",
+          "text": "2–3 tsp salt"
+        },
+        {
+          "group": "For the sauce",
+          "text": "A few fresh oregano sprigs or 1 tbsp dried"
+        },
+        {
+          "group": "For the sauce",
+          "text": "1/4 cup water"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "6 Persian cucumbers"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "3 beefsteak tomatoes"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "1 red pepper"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "1/2 red onion"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "1 cup pitted Kalamata olives"
+        },
+        {
+          "group": "For the dairy-free Greek salad",
+          "text": "1 bunch flat-leaf parsley"
+        },
+        {
+          "group": "For the dressing",
+          "text": "1/3 cup olive oil"
+        },
+        {
+          "group": "For the dressing",
+          "text": "1/4 cup fresh lemon juice"
+        },
+        {
+          "group": "For the dressing",
+          "text": "2 tbsp red wine vinegar"
+        },
+        {
+          "group": "For the dressing",
+          "text": "2 garlic cloves, minced"
+        },
+        {
+          "group": "For the dressing",
+          "text": "1 tbsp dried oregano"
+        },
+        {
+          "group": "For the dressing",
+          "text": "2 tsp salt"
+        },
+        {
+          "group": "For the dressing",
+          "text": "1 tsp black pepper"
+        }
+      ],
+      "steps": [
+        "Preheat the oven to 375°F (190°C). Pat the chicken dry and arrange it in a large oven-safe pot or braiser. Add the potatoes on top.",
+        "Shake the sauce ingredients, except the water, in a jar. Pour the sauce over the chicken and potatoes. Swirl the water in the jar and pour it into the pot.",
+        "Cover with an oven-safe lid or parchment and foil. Bake for 1½ hours. Uncover, baste, and bake for another 30 minutes, until the chicken is cooked through and the potatoes are tender and golden.",
+        "Meanwhile, chop the salad vegetables and parsley. Combine them with the olives in a bowl.",
+        "Shake the dressing ingredients in a clean jar, toss with the salad, and serve."
+      ],
+      "notes": [
+        "The reel describes this as an easy weeknight dinner and says it is served with a fresh Greek salad.",
+        "The source does not specify a yield."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "source video"
+      ],
+      "searchText": "greek lemon chicken and potatoes with dairy-free greek salad mains 3 lbs golden potatoes, peeled and quartered 7 bone-in chicken pieces (about 2 lbs 10 oz) 1/2 cup fresh lemon juice (about 2 large lemons) 1/4 cup olive oil 1 tbsp dijon mustard 6 garlic cloves, minced 2–3 tsp salt a few fresh oregano sprigs or 1 tbsp dried 1/4 cup water 6 persian cucumbers 3 beefsteak tomatoes 1 red pepper 1/2 red onion 1 cup pitted kalamata olives 1 bunch flat-leaf parsley 1/3 cup olive oil 1/4 cup fresh lemon juice 2 tbsp red wine vinegar 2 garlic cloves, minced 1 tbsp dried oregano 2 tsp salt 1 tsp black pepper preheat the oven to 375°f (190°c). pat the chicken dry and arrange it in a large oven-safe pot or braiser. add the potatoes on top. shake the sauce ingredients, except the water, in a jar. pour the sauce over the chicken and potatoes. swirl the water in the jar and pour it into the pot. cover with an oven-safe lid or parchment and foil. bake for 1½ hours. uncover, baste, and bake for another 30 minutes, until the chicken is cooked through and the potatoes are tender and golden. meanwhile, chop the salad vegetables and parsley. combine them with the olives in a bowl. shake the dressing ingredients in a clean jar, toss with the salad, and serve. the reel describes this as an easy weeknight dinner and says it is served with a fresh greek salad. the source does not specify a yield."
+    },
+    {
+      "id": "hailey-s-creamy-feta-chicken-pasta",
+      "title": "Hailey's Creamy Feta Chicken Pasta",
+      "category": "Mains",
+      "source": {
+        "label": "YouTube Shorts",
+        "url": "https://youtube.com/shorts/82YTLiB-i_U/",
+        "platform": "youtube"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 chicken breast or boneless skin-on chicken thigh"
+        },
+        {
+          "group": "Main",
+          "text": "7 oz cherry or grape tomatoes"
+        },
+        {
+          "group": "Main",
+          "text": "1 whole garlic bulb, top trimmed"
+        },
+        {
+          "group": "Main",
+          "text": "1 small onion, sliced"
+        },
+        {
+          "group": "Main",
+          "text": "1 handful bell pepper, sliced"
+        },
+        {
+          "group": "Main",
+          "text": "1 block feta cheese (7–8 oz)"
+        },
+        {
+          "group": "Main",
+          "text": "3–5 Tbsp olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp Italian seasoning"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp smoked paprika"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp salt, divided"
+        },
+        {
+          "group": "Main",
+          "text": "Black pepper, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "6 oz spaghetti"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup heavy cream"
+        },
+        {
+          "group": "Main",
+          "text": "1 sprig rosemary"
+        },
+        {
+          "group": "Main",
+          "text": "Parsley and chili flakes for garnish"
+        }
+      ],
+      "steps": [
+        "Assemble the bake in a baking dish with the tomatoes, feta, chicken, garlic bulb, sliced onion, bell pepper, and rosemary.",
+        "Season the chicken with 1/4 tsp salt and black pepper. Sprinkle Italian seasoning and smoked paprika over the chicken. Season the tomatoes lightly with salt and black pepper. Drizzle olive oil evenly over everything.",
+        "Bake at 400°F for 20–22 minutes, or until the chicken reaches 165°F and the tomatoes are soft and bursting.",
+        "While the chicken bakes, cook the spaghetti and reserve 1/4 cup pasta water.",
+        "Remove the rosemary. Slice the chicken and squeeze out the roasted garlic. Pour in the heavy cream, then mash the tomatoes and feta together until smooth and creamy.",
+        "Add the cooked spaghetti and toss until evenly coated. If needed, add a splash of reserved pasta water to loosen the sauce.",
+        "Garnish with parsley and chili flakes. Serve immediately."
+      ],
+      "notes": [
+        "If the tomatoes taste too tangy, add 1/2 tsp sugar to balance the flavor.",
+        "Chicken thighs stay extra juicy, but chicken breast works great too."
+      ],
+      "useWith": [],
+      "meta": [
+        "Original title: The Best One Pan Creamy Pasta Recipe #asmrfood #mukbang"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "hailey's creamy feta chicken pasta mains 1 chicken breast or boneless skin-on chicken thigh 7 oz cherry or grape tomatoes 1 whole garlic bulb, top trimmed 1 small onion, sliced 1 handful bell pepper, sliced 1 block feta cheese (7–8 oz) 3–5 tbsp olive oil 1 tsp italian seasoning 1/2 tsp smoked paprika 1/2 tsp salt, divided black pepper, to taste 6 oz spaghetti 1/2 cup heavy cream 1 sprig rosemary parsley and chili flakes for garnish assemble the bake in a baking dish with the tomatoes, feta, chicken, garlic bulb, sliced onion, bell pepper, and rosemary. season the chicken with 1/4 tsp salt and black pepper. sprinkle italian seasoning and smoked paprika over the chicken. season the tomatoes lightly with salt and black pepper. drizzle olive oil evenly over everything. bake at 400°f for 20–22 minutes, or until the chicken reaches 165°f and the tomatoes are soft and bursting. while the chicken bakes, cook the spaghetti and reserve 1/4 cup pasta water. remove the rosemary. slice the chicken and squeeze out the roasted garlic. pour in the heavy cream, then mash the tomatoes and feta together until smooth and creamy. add the cooked spaghetti and toss until evenly coated. if needed, add a splash of reserved pasta water to loosen the sauce. garnish with parsley and chili flakes. serve immediately. if the tomatoes taste too tangy, add 1/2 tsp sugar to balance the flavor. chicken thighs stay extra juicy, but chicken breast works great too. original title: the best one pan creamy pasta recipe #asmrfood #mukbang"
+    },
+    {
+      "id": "honey-mustard-chicken-thighs",
+      "title": "Honey Mustard Chicken Thighs",
+      "category": "Mains",
+      "source": {
+        "label": "YouTube Shorts",
+        "url": "https://www.youtube.com/shorts/ImUPlhOEeIw/",
+        "platform": "youtube"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "3–4 garlic cloves, grated or minced"
+        },
+        {
+          "group": "Main",
+          "text": "1/3 cup honey"
+        },
+        {
+          "group": "Main",
+          "text": "1/3 cup mustard"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch kosher salt"
+        },
+        {
+          "group": "Main",
+          "text": "Black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 tsp onion powder"
+        },
+        {
+          "group": "Main",
+          "text": "2–3 tsp vinegar"
+        },
+        {
+          "group": "Main",
+          "text": "About 1/3–1/2 cup olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "1 1/2–2 lbs boneless skinless chicken thighs"
+        }
+      ],
+      "steps": [
+        "Mix garlic, honey, mustard, kosher salt, black pepper, onion powder, vinegar, and olive oil into a marinade.",
+        "Coat boneless skinless chicken thighs with the marinade.",
+        "Roast at 450°F for about 25–30 minutes, until cooked through.",
+        "If fully cooked but not caramelized, place under the broiler for about 1 minute, watching closely."
+      ],
+      "notes": [
+        "Original title: “Your new favorite chicken marinade.”",
+        "Source caption hashtags include chicken, dinner, cooking, recipe, food, cook, and everydayisfeastday."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "honey mustard chicken thighs mains 3–4 garlic cloves, grated or minced 1/3 cup honey 1/3 cup mustard pinch kosher salt black pepper 1/4 tsp onion powder 2–3 tsp vinegar about 1/3–1/2 cup olive oil 1 1/2–2 lbs boneless skinless chicken thighs mix garlic, honey, mustard, kosher salt, black pepper, onion powder, vinegar, and olive oil into a marinade. coat boneless skinless chicken thighs with the marinade. roast at 450°f for about 25–30 minutes, until cooked through. if fully cooked but not caramelized, place under the broiler for about 1 minute, watching closely. original title: “your new favorite chicken marinade.” source caption hashtags include chicken, dinner, cooking, recipe, food, cook, and everydayisfeastday."
+    },
+    {
+      "id": "japanese-egg-salad-sando-with-potatoes-bacon-and-cucumber",
+      "title": "Japanese Egg Salad Sando with Potatoes, Bacon, and Cucumber",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — soo / soosfoods",
+        "url": "https://www.instagram.com/reel/DduIRLSS4sb/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "4 boiled eggs"
+        },
+        {
+          "group": "Main",
+          "text": "1 large or 2 medium boiled potatoes"
+        },
+        {
+          "group": "Main",
+          "text": "1 Persian cucumber, sliced and lightly salted for 10 minutes"
+        },
+        {
+          "group": "Main",
+          "text": "2–3 slices bacon or ham (optional)"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp Kewpie mayonnaise"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp whole grain mustard"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tbsp sesame dressing"
+        },
+        {
+          "group": "Main",
+          "text": "Toasted slices of bread, for serving"
+        }
+      ],
+      "steps": [
+        "Prepare the ingredients. Boil the potatoes and eggs.",
+        "Thinly slice the cucumber, salt it, and let it sit for 10 minutes. Squeeze and drain out the liquid.",
+        "Chop and cook the bacon, if using.",
+        "Mix together the Greek yogurt, Kewpie mayonnaise, mustard, and sesame dressing.",
+        "Mash in the rest of the ingredients.",
+        "Sandwich the mixture with toasted slices of bread."
+      ],
+      "notes": [
+        "The reel describes this as “Japanese egg salad sando, but with potatoes + bacon + cucumber.”",
+        "The source image says the creator used Hero bread (@hero).",
+        "The source does not specify a yield."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "japanese egg salad sando with potatoes, bacon, and cucumber mains 4 boiled eggs 1 large or 2 medium boiled potatoes 1 persian cucumber, sliced and lightly salted for 10 minutes 2–3 slices bacon or ham (optional) 2 tbsp greek yogurt 2 tbsp kewpie mayonnaise 1 tbsp whole grain mustard 1/2 tbsp sesame dressing toasted slices of bread, for serving prepare the ingredients. boil the potatoes and eggs. thinly slice the cucumber, salt it, and let it sit for 10 minutes. squeeze and drain out the liquid. chop and cook the bacon, if using. mix together the greek yogurt, kewpie mayonnaise, mustard, and sesame dressing. mash in the rest of the ingredients. sandwich the mixture with toasted slices of bread. the reel describes this as “japanese egg salad sando, but with potatoes + bacon + cucumber.” the source image says the creator used hero bread (@hero). the source does not specify a yield."
+    },
+    {
+      "id": "lettuce-burgers-and-sweet-potato-fries",
+      "title": "Lettuce Burgers and Sweet Potato Fries",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [
+        "Original Dinner Recipes note had this as a todo.",
+        "Missing image reference from legacy note: lettuceburgers.jpeg."
+      ],
+      "useWith": [],
+      "meta": [
+        "Status: needs extraction/details."
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "limited",
+      "badges": [
+        "limited"
+      ],
+      "searchText": "lettuce burgers and sweet potato fries mains original dinner recipes note had this as a todo. missing image reference from legacy note: lettuceburgers.jpeg. status: needs extraction/details."
+    },
+    {
+      "id": "mayak-tofu-asanebo-style",
+      "title": "Mayak Tofu — Asanebo Style",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Asanebo Restaurant (@asanebo_restaurant)",
+        "url": "https://www.instagram.com/reel/DcHUkkRyn3D/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Tofu — type and quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Soy sauce — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Mirin — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Onion, chopped — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Ginger, grated — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic, grated — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Sesame seeds — quantity not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Chili — quantity/type not specified"
+        },
+        {
+          "group": "Main",
+          "text": "Chili oil — quantity not specified"
+        }
+      ],
+      "steps": [
+        "Cut the tofu into pieces.",
+        "Add soy sauce and mirin to a shallow dish.",
+        "Add chopped onion, grated ginger, and grated garlic.",
+        "Add sesame seeds, chili, and chili oil.",
+        "Mix the marinade.",
+        "Place the tofu pieces in the marinade and marinate. The source does not show a duration.",
+        "Serve the marinated tofu with rice, spooning some of the marinade over the tofu."
+      ],
+      "notes": [
+        "The recipe is transcribed from the reel’s visible ingredient labels and preparation shots; no measurements are shown.",
+        "Green onion-like pieces are visible in the marinade, but “green onion” is not separately labeled in the source, so it is not listed as a confirmed ingredient."
+      ],
+      "useWith": [],
+      "meta": [
+        "Original title/caption: “My Secret Tasty Tofu Recipe… Mayak Tofu, Asanebo Style!”",
+        "Servings: Not specified",
+        "Marinating time: Not specified in source"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "mayak tofu — asanebo style mains tofu — type and quantity not specified soy sauce — quantity not specified mirin — quantity not specified onion, chopped — quantity not specified ginger, grated — quantity not specified garlic, grated — quantity not specified sesame seeds — quantity not specified chili — quantity/type not specified chili oil — quantity not specified cut the tofu into pieces. add soy sauce and mirin to a shallow dish. add chopped onion, grated ginger, and grated garlic. add sesame seeds, chili, and chili oil. mix the marinade. place the tofu pieces in the marinade and marinate. the source does not show a duration. serve the marinated tofu with rice, spooning some of the marinade over the tofu. the recipe is transcribed from the reel’s visible ingredient labels and preparation shots; no measurements are shown. green onion-like pieces are visible in the marinade, but “green onion” is not separately labeled in the source, so it is not listed as a confirmed ingredient. original title/caption: “my secret tasty tofu recipe… mayak tofu, asanebo style!” servings: not specified marinating time: not specified in source"
+    },
+    {
+      "id": "mongolian-beef",
+      "title": "Mongolian Beef",
+      "category": "Mains",
+      "source": {
+        "label": "TikTok by @stephvnietea",
+        "url": "https://www.tiktok.com/@stephvnietea/video/7324865404797504811/",
+        "platform": "tiktok"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 lb beef flank, sliced into 2 inch pieces"
+        },
+        {
+          "group": "Main",
+          "text": "1 large onion, 1/4 inch slices"
+        },
+        {
+          "group": "Main",
+          "text": "4–5 green onion stalks, 2–3 inch pieces"
+        },
+        {
+          "group": "Main",
+          "text": "4–5 cloves garlic, finely minced"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp ginger, grated"
+        },
+        {
+          "group": "Main",
+          "text": "Optional: 4–7 dried chilies for spice"
+        },
+        {
+          "group": "Main",
+          "text": "1/3 cup cooking oil, for shallow fry"
+        },
+        {
+          "group": "Main",
+          "text": "Steamed rice, to serve"
+        },
+        {
+          "group": "Marinade",
+          "text": "3 tbsp cornstarch"
+        },
+        {
+          "group": "Marinade",
+          "text": "1/4 tsp baking soda"
+        },
+        {
+          "group": "Marinade",
+          "text": "1 tbsp shao xing wine; dry sherry or dry white wine is fine"
+        },
+        {
+          "group": "Marinade",
+          "text": "1/2 tbsp soy sauce"
+        },
+        {
+          "group": "Marinade",
+          "text": "1/2 tbsp dark soy sauce"
+        },
+        {
+          "group": "Marinade",
+          "text": "1/4 tsp ground white pepper"
+        },
+        {
+          "group": "Sauce",
+          "text": "1 tbsp oyster sauce"
+        },
+        {
+          "group": "Sauce",
+          "text": "1/2 tbsp dark soy sauce"
+        },
+        {
+          "group": "Sauce",
+          "text": "1/2 tbsp soy sauce"
+        },
+        {
+          "group": "Sauce",
+          "text": "2 tsp sugar"
+        },
+        {
+          "group": "Sauce",
+          "text": "1 tsp chicken bouillon"
+        },
+        {
+          "group": "Sauce",
+          "text": "1 tsp sesame oil, or to taste"
+        },
+        {
+          "group": "Sauce",
+          "text": "1/2 tsp white or black pepper"
+        }
+      ],
+      "steps": [
+        "Marinate sliced beef with cornstarch, baking soda, shao xing wine, soy sauce, dark soy sauce, and white pepper. Mix well and marinate for 15 minutes.",
+        "Make the sauce by combining oyster sauce, dark soy sauce, soy sauce, sugar, chicken bouillon, white or black pepper, and sesame oil. Set aside.",
+        "Heat a wok with 1/3 cup oil, adjusting the amount if desired. When hot, add marinated beef, spread evenly, and cook 2–3 minutes per side for a crust.",
+        "Once beef is about 90% cooked through, strain it from the oil and set aside.",
+        "Leave 2–3 tbsp oil in the wok. Add ginger, garlic, and dried chilies. Cook until fragrant.",
+        "Add onion and cook 2–3 minutes, until barely translucent.",
+        "Add beef back with the sauce and toss evenly for about 2 minutes.",
+        "Top with green onions and toss one last time.",
+        "Serve with steamed rice or by itself."
+      ],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Serves: 3–4"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "mongolian beef mains 1 lb beef flank, sliced into 2 inch pieces 1 large onion, 1/4 inch slices 4–5 green onion stalks, 2–3 inch pieces 4–5 cloves garlic, finely minced 1 tsp ginger, grated optional: 4–7 dried chilies for spice 1/3 cup cooking oil, for shallow fry steamed rice, to serve 3 tbsp cornstarch 1/4 tsp baking soda 1 tbsp shao xing wine; dry sherry or dry white wine is fine 1/2 tbsp soy sauce 1/2 tbsp dark soy sauce 1/4 tsp ground white pepper 1 tbsp oyster sauce 1/2 tbsp dark soy sauce 1/2 tbsp soy sauce 2 tsp sugar 1 tsp chicken bouillon 1 tsp sesame oil, or to taste 1/2 tsp white or black pepper marinate sliced beef with cornstarch, baking soda, shao xing wine, soy sauce, dark soy sauce, and white pepper. mix well and marinate for 15 minutes. make the sauce by combining oyster sauce, dark soy sauce, soy sauce, sugar, chicken bouillon, white or black pepper, and sesame oil. set aside. heat a wok with 1/3 cup oil, adjusting the amount if desired. when hot, add marinated beef, spread evenly, and cook 2–3 minutes per side for a crust. once beef is about 90% cooked through, strain it from the oil and set aside. leave 2–3 tbsp oil in the wok. add ginger, garlic, and dried chilies. cook until fragrant. add onion and cook 2–3 minutes, until barely translucent. add beef back with the sauce and toss evenly for about 2 minutes. top with green onions and toss one last time. serve with steamed rice or by itself. serves: 3–4"
+    },
+    {
+      "id": "oyakodon",
+      "title": "Oyakodon",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Lunch O’Clock (@lunches_at_home)",
+        "url": "https://www.instagram.com/reel/Db0S_62TPDQ/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 chicken leg, about 250 g, unseasoned"
+        },
+        {
+          "group": "Main",
+          "text": "¼ onion, about 20 g"
+        },
+        {
+          "group": "Main",
+          "text": "¼ pack shimeji mushrooms, about 20 g"
+        },
+        {
+          "group": "Main",
+          "text": "1 egg, beaten"
+        },
+        {
+          "group": "Seasoning",
+          "text": "1 tsp miso (Hikari)"
+        },
+        {
+          "group": "Seasoning",
+          "text": "2 tbsp cooking sake (Hinode Ryorishu)"
+        },
+        {
+          "group": "Seasoning",
+          "text": "1 tsp mirin (Gu Wang)"
+        },
+        {
+          "group": "Seasoning",
+          "text": "1 tsp soy sauce (Lee Kum Kee First Draw Authentic)"
+        },
+        {
+          "group": "Seasoning",
+          "text": "A tiny splash of rice vinegar, about ⅛ tsp (Din Tai Fung)"
+        },
+        {
+          "group": "For serving",
+          "text": "Warm rice"
+        },
+        {
+          "group": "For serving",
+          "text": "Freshly chopped green onions"
+        }
+      ],
+      "steps": [
+        "Prepare the chicken, onion, shimeji mushrooms, seasoning, and beaten egg. The caption does not specify the cooking method or order for the chicken, onion, mushrooms, and seasoning before the finishing step.",
+        "Drizzle the beaten egg over the chicken and cook for another 30 seconds, just until the egg is softly set.",
+        "Top with freshly chopped green onions.",
+        "Spoon the oyakodon over a bowl of warm rice and serve."
+      ],
+      "notes": [
+        "Original reel caption: “OYAKODON.”",
+        "The caption lists the chicken as unseasoned and does not specify a serving yield."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "oyakodon mains 1 chicken leg, about 250 g, unseasoned ¼ onion, about 20 g ¼ pack shimeji mushrooms, about 20 g 1 egg, beaten 1 tsp miso (hikari) 2 tbsp cooking sake (hinode ryorishu) 1 tsp mirin (gu wang) 1 tsp soy sauce (lee kum kee first draw authentic) a tiny splash of rice vinegar, about ⅛ tsp (din tai fung) warm rice freshly chopped green onions prepare the chicken, onion, shimeji mushrooms, seasoning, and beaten egg. the caption does not specify the cooking method or order for the chicken, onion, mushrooms, and seasoning before the finishing step. drizzle the beaten egg over the chicken and cook for another 30 seconds, just until the egg is softly set. top with freshly chopped green onions. spoon the oyakodon over a bowl of warm rice and serve. original reel caption: “oyakodon.” the caption lists the chicken as unseasoned and does not specify a serving yield."
+    },
+    {
+      "id": "quinoa-turkey-bowls",
+      "title": "Quinoa Turkey Bowls",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Stir fry:",
+        "Sear:",
+        "Base:",
+        "Top with:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "Garlic",
+        "Bell pepper",
+        "Onion",
+        "Green onion",
+        "Olive oil",
+        "Ground turkey",
+        "Quinoa",
+        "Lime slice",
+        "Cilantro",
+        "Avocado",
+        "Salsa"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "quinoa turkey bowls mains stir fry: sear: base: top with: garlic bell pepper onion green onion olive oil ground turkey quinoa lime slice cilantro avocado salsa"
+    },
+    {
+      "id": "rice-cooker-hainanese-chicken",
+      "title": "Rice Cooker Hainanese Chicken",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 cups rice"
+        },
+        {
+          "group": "Main",
+          "text": "2.5 cups seasoned chicken stock"
+        },
+        {
+          "group": "Main",
+          "text": "1 chicken breast, skin-on"
+        },
+        {
+          "group": "Main",
+          "text": "1 chicken leg"
+        },
+        {
+          "group": "Main",
+          "text": "1 cm ginger, chopped"
+        },
+        {
+          "group": "Main",
+          "text": "2 cloves garlic, chopped"
+        },
+        {
+          "group": "Main",
+          "text": "2 scallion whites"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp sesame oil"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "White pepper"
+        },
+        {
+          "group": "Main",
+          "text": "1 cucumber"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp sweet chili sauce — or ginger scallion sauce as an alternative"
+        }
+      ],
+      "steps": [],
+      "notes": [
+        "Source: Instagram reel from patty.plates.",
+        "Good meal-prep candidate."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "rice cooker hainanese chicken mains 2 cups rice 2.5 cups seasoned chicken stock 1 chicken breast, skin-on 1 chicken leg 1 cm ginger, chopped 2 cloves garlic, chopped 2 scallion whites 1 tsp sesame oil salt white pepper 1 cucumber 2 tbsp sweet chili sauce — or ginger scallion sauce as an alternative source: instagram reel from patty.plates. good meal-prep candidate."
+    },
+    {
+      "id": "salmon-filet-with-cabbage-stir-fry",
+      "title": "Salmon Filet with Cabbage Stir Fry",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Salmon"
+        },
+        {
+          "group": "Main",
+          "text": "Brown rice"
+        },
+        {
+          "group": "Main",
+          "text": "Steamed cabbage or #Cabbage Stir Fry"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !salmonfiletcabbage.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "salmon filet with cabbage stir fry mains salmon brown rice steamed cabbage or #cabbage stir fry image: !salmonfiletcabbage.jpeg"
+    },
+    {
+      "id": "slow-cooker-mexican-chicken-pozole-verde",
+      "title": "Slow Cooker Mexican Chicken Pozole Verde",
+      "category": "Mains",
+      "source": {
+        "label": "Spice Up Bites — Millie Pham",
+        "url": "https://spiceupbites.com/slow-cooker-mexican-chicken-pozole-verde/",
+        "platform": "web"
+      },
+      "servings": "6 servings",
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 ½ pounds boneless, skinless chicken thighs"
+        },
+        {
+          "group": "Main",
+          "text": "1 pound tomatillos, husked and halved"
+        },
+        {
+          "group": "Main",
+          "text": "1 small onion, quartered"
+        },
+        {
+          "group": "Main",
+          "text": "4 cloves garlic, peeled"
+        },
+        {
+          "group": "Main",
+          "text": "1–2 jalapeños, stemmed; remove seeds for less heat"
+        },
+        {
+          "group": "Main",
+          "text": "1 bunch fresh cilantro, roughly chopped"
+        },
+        {
+          "group": "Main",
+          "text": "1 teaspoon dried oregano"
+        },
+        {
+          "group": "Main",
+          "text": "1 teaspoon ground cumin"
+        },
+        {
+          "group": "Main",
+          "text": "1 tablespoon olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "1 (25 oz) can hominy, drained and rinsed"
+        },
+        {
+          "group": "Main",
+          "text": "4 cups chicken broth"
+        },
+        {
+          "group": "Main",
+          "text": "1 ½ teaspoons kosher salt, adjusted to taste"
+        },
+        {
+          "group": "Main",
+          "text": "½ teaspoon black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Juice of 1 lime"
+        },
+        {
+          "group": "Optional toppings",
+          "text": "Thinly sliced radishes"
+        },
+        {
+          "group": "Optional toppings",
+          "text": "Diced avocado"
+        },
+        {
+          "group": "Optional toppings",
+          "text": "Chopped cilantro"
+        },
+        {
+          "group": "Optional toppings",
+          "text": "Lime wedges"
+        },
+        {
+          "group": "Optional toppings",
+          "text": "Shredded cabbage or lettuce"
+        }
+      ],
+      "steps": [
+        "Blend the tomatillos, onion, garlic, jalapeños, cilantro, oregano, cumin, and olive oil until smooth.",
+        "Add the chicken thighs, blended green sauce, hominy, chicken broth, kosher salt, and black pepper to the slow cooker.",
+        "Cover and cook on LOW for 6–7 hours or HIGH for 4–5 hours, until the chicken is tender and easy to shred.",
+        "Remove the chicken, shred it with two forks, return it to the slow cooker, and stir.",
+        "Stir in the lime juice. Taste and adjust the salt as needed.",
+        "Ladle into bowls and serve with the optional toppings."
+      ],
+      "notes": [
+        "The source recommends rinsing canned hominy to remove its canned taste.",
+        "Chicken breasts, poblano peppers, fresh or frozen hominy, spinach, or kale can be used as variations. The source also describes a vegan version using white beans and vegetable broth.",
+        "Leftovers keep refrigerated for up to 4 days or frozen without toppings for up to 3 months."
+      ],
+      "useWith": [],
+      "meta": [
+        "Makes: 6 servings",
+        "Cook time: 6–7 hours on LOW or 4–5 hours on HIGH"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing"
+      ],
+      "searchText": "slow cooker mexican chicken pozole verde mains 1 ½ pounds boneless, skinless chicken thighs 1 pound tomatillos, husked and halved 1 small onion, quartered 4 cloves garlic, peeled 1–2 jalapeños, stemmed; remove seeds for less heat 1 bunch fresh cilantro, roughly chopped 1 teaspoon dried oregano 1 teaspoon ground cumin 1 tablespoon olive oil 1 (25 oz) can hominy, drained and rinsed 4 cups chicken broth 1 ½ teaspoons kosher salt, adjusted to taste ½ teaspoon black pepper juice of 1 lime thinly sliced radishes diced avocado chopped cilantro lime wedges shredded cabbage or lettuce blend the tomatillos, onion, garlic, jalapeños, cilantro, oregano, cumin, and olive oil until smooth. add the chicken thighs, blended green sauce, hominy, chicken broth, kosher salt, and black pepper to the slow cooker. cover and cook on low for 6–7 hours or high for 4–5 hours, until the chicken is tender and easy to shred. remove the chicken, shred it with two forks, return it to the slow cooker, and stir. stir in the lime juice. taste and adjust the salt as needed. ladle into bowls and serve with the optional toppings. the source recommends rinsing canned hominy to remove its canned taste. chicken breasts, poblano peppers, fresh or frozen hominy, spinach, or kale can be used as variations. the source also describes a vegan version using white beans and vegetable broth. leftovers keep refrigerated for up to 4 days or frozen without toppings for up to 3 months. makes: 6 servings cook time: 6–7 hours on low or 4–5 hours on high"
+    },
+    {
+      "id": "steak-and-potatoes-with-onions-and-bell-peppers",
+      "title": "Steak and Potatoes with Onions and Bell Peppers",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Skirt steak"
+        },
+        {
+          "group": "Main",
+          "text": "Onions and bell peppers for pan deglazing"
+        },
+        {
+          "group": "Main",
+          "text": "Potatoes"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Image: !steakpotatoesandveggies.jpeg"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "steak and potatoes with onions and bell peppers mains skirt steak onions and bell peppers for pan deglazing potatoes image: !steakpotatoesandveggies.jpeg"
+    },
+    {
+      "id": "street-corn-chicken-meal-prep",
+      "title": "Street Corn Chicken Meal Prep",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Adam Wolfe | Fitness (@adamwolfefitness)",
+        "url": "https://www.instagram.com/reel/DbGVJwyKJfF/",
+        "platform": "instagram"
+      },
+      "servings": "6 meals",
+      "ingredients": [
+        {
+          "group": "For the chicken",
+          "text": "2.5 lb chicken breast"
+        },
+        {
+          "group": "For the chicken",
+          "text": "2 tsp garlic powder"
+        },
+        {
+          "group": "For the chicken",
+          "text": "2 tsp onion powder"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1.5 tbsp smoked paprika"
+        },
+        {
+          "group": "For the chicken",
+          "text": "2 tsp oregano"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp chili powder"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp cumin"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1 tsp salt"
+        },
+        {
+          "group": "For the chicken",
+          "text": "1/2 tsp pepper"
+        },
+        {
+          "group": "For the street corn",
+          "text": "2 cans corn, strained"
+        },
+        {
+          "group": "For the street corn",
+          "text": "300 g non-fat plain Greek yogurt"
+        },
+        {
+          "group": "For the street corn",
+          "text": "120 g light mayonnaise"
+        },
+        {
+          "group": "For the street corn",
+          "text": "100 g cotija cheese"
+        },
+        {
+          "group": "For the street corn",
+          "text": "1/2 medium red onion"
+        },
+        {
+          "group": "For the street corn",
+          "text": "2 large jalapeños"
+        },
+        {
+          "group": "For the street corn",
+          "text": "Cilantro"
+        },
+        {
+          "group": "For the street corn",
+          "text": "4 limes"
+        },
+        {
+          "group": "For the street corn",
+          "text": "2 tsp chili powder"
+        },
+        {
+          "group": "For the street corn",
+          "text": "Salt, to taste"
+        },
+        {
+          "group": "For the street corn",
+          "text": "Tajín, to taste"
+        },
+        {
+          "group": "For serving",
+          "text": "1.5 cups jasmine rice, dry"
+        }
+      ],
+      "steps": [
+        "Season and cook the chicken, prepare the street corn mixture, and cook the jasmine rice according to the source reel. The caption provides the ingredients and quantities but does not include detailed cooking instructions, temperatures, or timings.",
+        "Divide the cooked chicken, street corn, and jasmine rice into 6 meal-prep portions."
+      ],
+      "notes": [
+        "Original reel caption: “Street Corn Never Misses 🔥 558 cals 55g protein 12g fat 57g carbs.”",
+        "The caption says: “If you don’t make the meal, at least make the street corn - I promise it will not disappoint 🔥”"
+      ],
+      "useWith": [],
+      "meta": [
+        "Makes: 6 meals",
+        "Per meal: 558 calories, 55 g protein, 12 g fat, 57 g carbohydrates"
+      ],
+      "nutrition": [
+        "Per meal: 558 calories, 55 g protein, 12 g fat, 57 g carbohydrates"
+      ],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "street corn chicken meal prep mains 2.5 lb chicken breast 2 tsp garlic powder 2 tsp onion powder 1.5 tbsp smoked paprika 2 tsp oregano 1 tsp chili powder 1 tsp cumin 1 tsp salt 1/2 tsp pepper 2 cans corn, strained 300 g non-fat plain greek yogurt 120 g light mayonnaise 100 g cotija cheese 1/2 medium red onion 2 large jalapeños cilantro 4 limes 2 tsp chili powder salt, to taste tajín, to taste 1.5 cups jasmine rice, dry season and cook the chicken, prepare the street corn mixture, and cook the jasmine rice according to the source reel. the caption provides the ingredients and quantities but does not include detailed cooking instructions, temperatures, or timings. divide the cooked chicken, street corn, and jasmine rice into 6 meal-prep portions. original reel caption: “street corn never misses 🔥 558 cals 55g protein 12g fat 57g carbs.” the caption says: “if you don’t make the meal, at least make the street corn - i promise it will not disappoint 🔥” makes: 6 meals per meal: 558 calories, 55 g protein, 12 g fat, 57 g carbohydrates"
+    },
+    {
+      "id": "turkey-lettuce-wraps-with-cilantro-lime-yogurt-sauce",
+      "title": "Turkey Lettuce Wraps with Cilantro Lime Yogurt Sauce",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Turkey:",
+        "Sauce:",
+        "Toppings:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "Avocado oil",
+        "Seasonings",
+        "Cheese",
+        "#Cilantro Lime Yogurt Sauce",
+        "Avocado",
+        "Cholula hot sauce"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "turkey lettuce wraps with cilantro lime yogurt sauce mains turkey: sauce: toppings: avocado oil seasonings cheese #cilantro lime yogurt sauce avocado cholula hot sauce"
+    },
+    {
+      "id": "turkish-pasta",
+      "title": "Turkish Pasta",
+      "category": "Mains",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Ground beef"
+        },
+        {
+          "group": "Main",
+          "text": "Pasta"
+        },
+        {
+          "group": "Main",
+          "text": "Paprika"
+        },
+        {
+          "group": "Main",
+          "text": "Curry powder"
+        },
+        {
+          "group": "Main",
+          "text": "Onion powder"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Yellow onion"
+        },
+        {
+          "group": "Main",
+          "text": "Cherry tomato"
+        },
+        {
+          "group": "Main",
+          "text": "Parsley"
+        },
+        {
+          "group": "Sauces",
+          "text": "#Turkish Pasta Yogurt Garlic Sauce"
+        },
+        {
+          "group": "Sauces",
+          "text": "#Turkish Pasta Butter Sauce"
+        },
+        {
+          "group": "Side",
+          "text": "Broccolini and carrots"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "turkish pasta mains ground beef pasta paprika curry powder onion powder salt pepper yellow onion cherry tomato parsley #turkish pasta yogurt garlic sauce #turkish pasta butter sauce broccolini and carrots"
+    },
+    {
+      "id": "yuringi-rice-bowl",
+      "title": "Yuringi Rice Bowl",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — bear_wife (@bear_wife_)",
+        "url": "https://www.instagram.com/reel/Dbpd8QsS5_U/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "500 g chicken thighs"
+        },
+        {
+          "group": "Main",
+          "text": "250 g mung bean sprouts"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp cooking oil"
+        },
+        {
+          "group": "Main",
+          "text": "Potato starch — amount not specified; the source says any starch works"
+        },
+        {
+          "group": "Main",
+          "text": "Salt and pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Rice, to serve"
+        },
+        {
+          "group": "Main",
+          "text": "Shredded green onions, to serve"
+        },
+        {
+          "group": "Main",
+          "text": "Sliced chili peppers, amount not specified"
+        },
+        {
+          "group": "Sauce",
+          "text": "50 ml soy sauce"
+        },
+        {
+          "group": "Sauce",
+          "text": "50 ml vinegar"
+        },
+        {
+          "group": "Sauce",
+          "text": "50 ml agave syrup"
+        },
+        {
+          "group": "Sauce",
+          "text": "50 ml water"
+        },
+        {
+          "group": "Sauce",
+          "text": "A splash of lemon juice"
+        },
+        {
+          "group": "Sauce",
+          "text": "1 tbsp minced garlic"
+        },
+        {
+          "group": "Sauce",
+          "text": "Sliced chili peppers"
+        }
+      ],
+      "steps": [
+        "Add the cooking oil and potato starch to a pan and mix.",
+        "Add the chicken thighs, mix well, and spread them skin-side down.",
+        "Season the chicken with salt and pepper.",
+        "Place a steamer basket containing the mung bean sprouts on top of the chicken. Cover and cook for 10 minutes.",
+        "Mix the soy sauce, vinegar, agave syrup, water, lemon juice, minced garlic, and sliced chili peppers to make the sauce.",
+        "Remove the tender-crisp mung bean sprouts, then cook the chicken for 5 more minutes.",
+        "Flip the chicken and cook for 3 minutes.",
+        "Flip it again and sear over high heat for about 3 minutes, until the skin is crispy.",
+        "Place the chicken, mung bean sprouts, and shredded green onions over rice. Pour the sauce over everything right before serving."
+      ],
+      "notes": [
+        "Agave syrup can be replaced with honey or oligosaccharide syrup. If using sugar instead, the source says to use about 30 g.",
+        "The source recommends keeping the dish somewhat soupy so the rice can soak up the sauce.",
+        "Original reel caption: “Breakfast for husband day 66 - Yuringi Rice Bowl.”"
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "yuringi rice bowl mains 500 g chicken thighs 250 g mung bean sprouts 2 tbsp cooking oil potato starch — amount not specified; the source says any starch works salt and pepper rice, to serve shredded green onions, to serve sliced chili peppers, amount not specified 50 ml soy sauce 50 ml vinegar 50 ml agave syrup 50 ml water a splash of lemon juice 1 tbsp minced garlic sliced chili peppers add the cooking oil and potato starch to a pan and mix. add the chicken thighs, mix well, and spread them skin-side down. season the chicken with salt and pepper. place a steamer basket containing the mung bean sprouts on top of the chicken. cover and cook for 10 minutes. mix the soy sauce, vinegar, agave syrup, water, lemon juice, minced garlic, and sliced chili peppers to make the sauce. remove the tender-crisp mung bean sprouts, then cook the chicken for 5 more minutes. flip the chicken and cook for 3 minutes. flip it again and sear over high heat for about 3 minutes, until the skin is crispy. place the chicken, mung bean sprouts, and shredded green onions over rice. pour the sauce over everything right before serving. agave syrup can be replaced with honey or oligosaccharide syrup. if using sugar instead, the source says to use about 30 g. the source recommends keeping the dish somewhat soupy so the rice can soak up the sauce. original reel caption: “breakfast for husband day 66 - yuringi rice bowl.”"
+    },
+    {
+      "id": "weekly-menu-snapshot",
+      "title": "Weekly Menu Snapshot",
+      "category": "Meal Plans",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Sunday/Monday:",
+        "Tuesday:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "#Turkish Pasta with roasted broccolini and carrots",
+        "#Asian Tuna Salad",
+        "#Asian Tuna Salad",
+        "#Chicken Caesar Salad",
+        "Sauteed #Cabbage Stir Fry with chicken breast or thigh over rice",
+        "#Bell Peppers and Onions"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "weekly menu snapshot meal plans sunday/monday: tuesday: #turkish pasta with roasted broccolini and carrots #asian tuna salad #asian tuna salad #chicken caesar salad sauteed #cabbage stir fry with chicken breast or thigh over rice #bell peppers and onions"
+    },
+    {
+      "id": "buffalo-protein-sauce",
+      "title": "Buffalo Protein Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/4 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp hot sauce"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp paprika"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Wraps",
+        "Sandwiches",
+        "Bowls"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "buffalo protein sauce sauces & dressings 1/4 cup greek yogurt 1 tbsp hot sauce pinch salt 1 tsp lemon juice 1/2 tsp garlic powder 1/2 tsp paprika 1 tsp honey 1 tbsp water chicken wraps sandwiches bowls"
+    },
+    {
+      "id": "cilantro-lime-yogurt-sauce",
+      "title": "Cilantro Lime Yogurt Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Plain Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 large lime, juiced"
+        },
+        {
+          "group": "Main",
+          "text": "Full lime zest"
+        },
+        {
+          "group": "Main",
+          "text": "Cilantro"
+        },
+        {
+          "group": "Main",
+          "text": "3 garlic cloves"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Turkey lettuce wraps",
+        "Bowls",
+        "Tacos/wraps"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "cilantro lime yogurt sauce sauces & dressings plain greek yogurt 1/2 large lime, juiced full lime zest cilantro 3 garlic cloves salt pepper turkey lettuce wraps bowls tacos/wraps"
+    },
+    {
+      "id": "creamy-cajun-yogurt-sauce",
+      "title": "Creamy Cajun Yogurt Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp Cajun seasoning"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp onion powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Rice bowls",
+        "Wraps",
+        "Potatoes"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "creamy cajun yogurt sauce sauces & dressings 1/2 cup greek yogurt 1 tsp cajun seasoning pinch salt 1 tbsp lemon juice 1/2 tsp garlic powder 1/2 tsp onion powder 1 tsp honey 1 tbsp water chicken rice bowls wraps potatoes"
+    },
+    {
+      "id": "jalape-o-lime-yogurt-sauce",
+      "title": "Jalapeño Lime Yogurt Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 whole jalapeño"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lime juice"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp coriander"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        },
+        {
+          "group": "Main",
+          "text": "Lime zest"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Tacos/wraps",
+        "Rice bowls",
+        "Salads"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "jalapeño lime yogurt sauce sauces & dressings 1/2 cup greek yogurt 1 whole jalapeño pinch salt 1 tbsp lime juice 1 tbsp coriander 1/2 tsp garlic powder 1 tbsp water lime zest chicken tacos/wraps rice bowls salads"
+    },
+    {
+      "id": "lemon-herb-dill-protein-sauce",
+      "title": "Lemon Herb Dill Protein Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/4 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp fresh dill"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Lemon zest"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Fish",
+        "Salads",
+        "Mediterranean bowls"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "lemon herb dill protein sauce sauces & dressings 1/4 cup greek yogurt 1 tbsp fresh dill pinch salt 1 tbsp lemon juice 1/2 tsp garlic powder 1/2 tsp black pepper lemon zest 1 tbsp water chicken fish salads mediterranean bowls"
+    },
+    {
+      "id": "mustard-lime-dressing",
+      "title": "Mustard Lime Dressing",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Lime"
+        },
+        {
+          "group": "Main",
+          "text": "Mustard"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Crushed pepper"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Salads",
+        "Bowls"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "mustard lime dressing sauces & dressings lime mustard salt pepper olive oil crushed pepper salads bowls"
+    },
+    {
+      "id": "peri-peri-garlic-yogurt-sauce",
+      "title": "Peri Peri Garlic Yogurt Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp peri peri seasoning"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "2 garlic cloves"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp paprika"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Rice bowls",
+        "Wraps",
+        "Roasted vegetables"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "peri peri garlic yogurt sauce sauces & dressings 1/2 cup greek yogurt 1 tsp peri peri seasoning pinch salt 1 tsp lemon juice 2 garlic cloves 1/2 tsp paprika 1 tsp honey 1 tbsp water chicken rice bowls wraps roasted vegetables"
+    },
+    {
+      "id": "roasted-garlic-parmesan-protein-sauce",
+      "title": "Roasted Garlic Parmesan Protein Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp parmesan cheese"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "2 garlic cloves"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Rice bowls",
+        "Wraps",
+        "Salads"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "roasted garlic parmesan protein sauce sauces & dressings 1/2 cup greek yogurt 2 tbsp parmesan cheese pinch salt 1 tsp lemon juice 1/2 tsp garlic powder 1/2 tsp black pepper 2 garlic cloves 1 tbsp water chicken rice bowls wraps salads"
+    },
+    {
+      "id": "roasted-red-pepper-protein-sauce",
+      "title": "Roasted Red Pepper Protein Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup roasted red peppers"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp paprika"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Pasta bowls",
+        "Sandwiches",
+        "Salads"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "roasted red pepper protein sauce sauces & dressings 1/2 cup greek yogurt 1/2 cup roasted red peppers pinch salt 1 tbsp lemon juice 1/2 tsp garlic powder 1 tsp paprika 1 tsp olive oil 1 tbsp water chicken pasta bowls sandwiches salads"
+    },
+    {
+      "id": "smoky-chipotle-protein-sauce",
+      "title": "Smoky Chipotle Protein Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp chipotle powder"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch salt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lemon juice"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp paprika"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 tsp garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken",
+        "Rice bowls",
+        "Sandwiches",
+        "Roasted vegetables"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "smoky chipotle protein sauce sauces & dressings 1/2 cup greek yogurt 1 tsp chipotle powder pinch salt 1 tbsp lemon juice 1/2 tsp paprika 1/2 tsp garlic powder 1 tsp honey 1 tbsp water chicken rice bowls sandwiches roasted vegetables"
+    },
+    {
+      "id": "turkish-pasta-butter-sauce",
+      "title": "Turkish Pasta Butter Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Melted butter"
+        },
+        {
+          "group": "Main",
+          "text": "Dried mint"
+        },
+        {
+          "group": "Main",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Chili flakes"
+        },
+        {
+          "group": "Main",
+          "text": "Paprika"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Turkish pasta"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "turkish pasta butter sauce sauces & dressings melted butter dried mint olive oil chili flakes paprika turkish pasta"
+    },
+    {
+      "id": "turkish-pasta-yogurt-garlic-sauce",
+      "title": "Turkish Pasta Yogurt Garlic Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Turkish pasta"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "turkish pasta yogurt garlic sauce sauces & dressings greek yogurt garlic turkish pasta"
+    },
+    {
+      "id": "tzatziki-sauce",
+      "title": "Tzatziki Sauce",
+      "category": "Sauces & Dressings",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        },
+        {
+          "group": "Main",
+          "text": "3 garlic cloves"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Juice of 1 lemon"
+        },
+        {
+          "group": "Main",
+          "text": "Grated and strained cucumber"
+        },
+        {
+          "group": "Main",
+          "text": "Chopped dill"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "Chicken gyro wraps",
+        "Mediterranean bowls",
+        "Grilled chicken"
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "tzatziki sauce sauces & dressings 1 cup greek yogurt salt pepper 3 garlic cloves 1 tbsp olive oil juice of 1 lemon grated and strained cucumber chopped dill chicken gyro wraps mediterranean bowls grilled chicken"
+    },
+    {
+      "id": "air-fried-sweet-potato-cubes",
+      "title": "Air Fried Sweet Potato Cubes",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 large sweet potato, peeled or unpeeled"
+        },
+        {
+          "group": "Main",
+          "text": "1–2 tsp olive oil or avocado oil"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Black pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic powder"
+        },
+        {
+          "group": "Main",
+          "text": "Paprika or smoked paprika"
+        },
+        {
+          "group": "Main",
+          "text": "Optional: cinnamon, chili powder, cayenne, or a little honey after cooking"
+        }
+      ],
+      "steps": [
+        "Preheat air fryer to 380°F for 3–5 minutes.",
+        "Cut sweet potato into 1/2-inch to 3/4-inch cubes, keeping them similar in size for even cooking.",
+        "Toss cubes with oil, salt, black pepper, garlic powder, and paprika. Use just enough oil to lightly coat.",
+        "Place cubes in a single layer in the air fryer basket.",
+        "Air fry at 380°F for 12–16 minutes.",
+        "Shake the basket or toss cubes around the 7–8 minute mark.",
+        "Check for tenderness. They are done when fork-tender inside and browned/crisp around the edges. Add 2–4 more minutes if needed.",
+        "Taste and adjust salt.",
+        "Optional finish: parsley, hot honey, lime juice, or a little parmesan."
+      ],
+      "notes": [
+        "For larger 1-inch cubes, air fry at 380°F for 18–22 minutes and shake twice."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing"
+      ],
+      "searchText": "air fried sweet potato cubes sides & components 1 large sweet potato, peeled or unpeeled 1–2 tsp olive oil or avocado oil salt black pepper garlic powder paprika or smoked paprika optional: cinnamon, chili powder, cayenne, or a little honey after cooking preheat air fryer to 380°f for 3–5 minutes. cut sweet potato into 1/2-inch to 3/4-inch cubes, keeping them similar in size for even cooking. toss cubes with oil, salt, black pepper, garlic powder, and paprika. use just enough oil to lightly coat. place cubes in a single layer in the air fryer basket. air fry at 380°f for 12–16 minutes. shake the basket or toss cubes around the 7–8 minute mark. check for tenderness. they are done when fork-tender inside and browned/crisp around the edges. add 2–4 more minutes if needed. taste and adjust salt. optional finish: parsley, hot honey, lime juice, or a little parmesan. for larger 1-inch cubes, air fry at 380°f for 18–22 minutes and shake twice."
+    },
+    {
+      "id": "bell-peppers-and-onions",
+      "title": "Bell Peppers and Onions",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Status: needs details.",
+        "Original note:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "todo"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "bell peppers and onions sides & components status: needs details. original note: todo"
+    },
+    {
+      "id": "broccolini-and-carrots",
+      "title": "Broccolini and Carrots",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "#Turkish Pasta",
+        "Status: needs details."
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "limited",
+      "badges": [
+        "limited"
+      ],
+      "searchText": "broccolini and carrots sides & components #turkish pasta status: needs details."
+    },
+    {
+      "id": "cabbage-stir-fry",
+      "title": "Cabbage Stir Fry",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Recipe 1:",
+        "Recipe 2:",
+        "Recipe 3:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "1/2 napa cabbage",
+        "Olive oil",
+        "Garlic",
+        "Oyster sauce",
+        "Asian chicken powder / Lee Kum Kee, 1/4 tsp",
+        "1 tsp sugar",
+        "Salt",
+        "When cabbage is translucent, add 1/4 tbsp oyster sauce or to taste.",
+        "Mix in a bowl:",
+        "2 tbsp oyster sauce",
+        "2 tbsp warm water",
+        "Sauté as much garlic as desired.",
+        "Add 1 full tsp sugar.",
+        "Panda Express teriyaki sauce."
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "cabbage stir fry sides & components recipe 1: recipe 2: recipe 3: 1/2 napa cabbage olive oil garlic oyster sauce asian chicken powder / lee kum kee, 1/4 tsp 1 tsp sugar salt when cabbage is translucent, add 1/4 tbsp oyster sauce or to taste. mix in a bowl: 2 tbsp oyster sauce 2 tbsp warm water sauté as much garlic as desired. add 1 full tsp sugar. panda express teriyaki sauce."
+    },
+    {
+      "id": "cajun-butter-shrimp",
+      "title": "Cajun Butter Shrimp",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Thawed shrimp"
+        },
+        {
+          "group": "Main",
+          "text": "3 tbsp butter"
+        },
+        {
+          "group": "Main",
+          "text": "1.5 tbsp minced garlic"
+        },
+        {
+          "group": "Main",
+          "text": "Cajun seasoning"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup water"
+        },
+        {
+          "group": "Main",
+          "text": "Lemon juice"
+        }
+      ],
+      "steps": [
+        "Heat pan to medium heat.",
+        "Add butter and minced garlic.",
+        "Lightly season shrimp with Cajun seasoning.",
+        "Add shrimp to the pan with 1/4 cup water.",
+        "Generously season the contents in the pan.",
+        "Cook 5 minutes each side.",
+        "Add lemon juice right before flipping."
+      ],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Yield: 15 shrimp"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing"
+      ],
+      "searchText": "cajun butter shrimp sides & components thawed shrimp 3 tbsp butter 1.5 tbsp minced garlic cajun seasoning 1/4 cup water lemon juice heat pan to medium heat. add butter and minced garlic. lightly season shrimp with cajun seasoning. add shrimp to the pan with 1/4 cup water. generously season the contents in the pan. cook 5 minutes each side. add lemon juice right before flipping. yield: 15 shrimp"
+    },
+    {
+      "id": "cucumber-and-onion-pico",
+      "title": "Cucumber and Onion Pico",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Small English cucumber"
+        },
+        {
+          "group": "Main",
+          "text": "Red onion"
+        },
+        {
+          "group": "Main",
+          "text": "Radish"
+        },
+        {
+          "group": "Main",
+          "text": "Mint"
+        },
+        {
+          "group": "Main",
+          "text": "Sage"
+        },
+        {
+          "group": "Main",
+          "text": "Coriander"
+        },
+        {
+          "group": "Main",
+          "text": "Lime"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "cucumber and onion pico sides & components small english cucumber red onion radish mint sage coriander lime salt"
+    },
+    {
+      "id": "mini-baked-potatoes",
+      "title": "Mini Baked Potatoes",
+      "category": "Sides & Components",
+      "source": {
+        "label": "TikTok by @heresyourbite",
+        "url": "https://www.tiktok.com/@heresyourbite/video/7390533434273238303/",
+        "platform": "tiktok"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 lb mini gold potatoes"
+        },
+        {
+          "group": "Main",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Salt and pepper, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic powder, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "Chives, finely diced (about 1/2 cup)"
+        },
+        {
+          "group": "Main",
+          "text": "Sour cream (about 1/2–3/4 cup)"
+        },
+        {
+          "group": "Main",
+          "text": "Cheddar cheese, freshly shredded"
+        },
+        {
+          "group": "Main",
+          "text": "5–6 slices bacon, cooked and crumbled"
+        }
+      ],
+      "steps": [
+        "Preheat oven to 400°F.",
+        "Add potatoes to a baking sheet and coat with olive oil.",
+        "Season with salt, pepper, and garlic powder.",
+        "Bake for about 40–45 minutes, or until crispy.",
+        "While potatoes bake, combine sour cream and chives, reserving some chives for garnish.",
+        "When potatoes are done and cool enough to handle, scoop out the insides with a spoon or melon baller. Save the scooped potato for a breakfast scramble.",
+        "Add a pinch of cheddar cheese to each potato.",
+        "Top with the sour cream mixture, bacon, and chives."
+      ],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "mini baked potatoes sides & components 1 lb mini gold potatoes olive oil salt and pepper, to taste garlic powder, to taste chives, finely diced (about 1/2 cup) sour cream (about 1/2–3/4 cup) cheddar cheese, freshly shredded 5–6 slices bacon, cooked and crumbled preheat oven to 400°f. add potatoes to a baking sheet and coat with olive oil. season with salt, pepper, and garlic powder. bake for about 40–45 minutes, or until crispy. while potatoes bake, combine sour cream and chives, reserving some chives for garnish. when potatoes are done and cool enough to handle, scoop out the insides with a spoon or melon baller. save the scooped potato for a breakfast scramble. add a pinch of cheddar cheese to each potato. top with the sour cream mixture, bacon, and chives."
+    },
+    {
+      "id": "onions-and-mushrooms",
+      "title": "Onions and Mushrooms",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [
+        "Status: needs details.",
+        "Original note:"
+      ],
+      "nutrition": [],
+      "reference": [
+        "todo"
+      ],
+      "status": "method-only",
+      "badges": [
+        "method-only"
+      ],
+      "searchText": "onions and mushrooms sides & components status: needs details. original note: todo"
+    },
+    {
+      "id": "sourdough-mozzarella-bruschetta",
+      "title": "Sourdough Mozzarella Bruschetta",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Basil"
+        },
+        {
+          "group": "Main",
+          "text": "Tomato"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Pepper"
+        },
+        {
+          "group": "Main",
+          "text": "Mozzarella"
+        },
+        {
+          "group": "Main",
+          "text": "Sourdough"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "sourdough mozzarella bruschetta sides & components olive oil basil tomato salt pepper mozzarella sourdough"
+    },
+    {
+      "id": "sushi-rice",
+      "title": "Sushi Rice",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 cups rice"
+        },
+        {
+          "group": "Main",
+          "text": "2 cups water"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp salt"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup sugar"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup rice vinegar"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup white wine vinegar"
+        }
+      ],
+      "steps": [
+        "Rinse rice.",
+        "Bring rice and water to a boil.",
+        "Turn to medium heat and cover for 10 minutes.",
+        "Turn to low for another 10 minutes.",
+        "Remove from heat and let stand untouched for 15 minutes.",
+        "Mix vinegars with sugar and salt until dissolved.",
+        "Mix vinegar seasoning into the rice in a big bowl."
+      ],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete"
+      ],
+      "searchText": "sushi rice sides & components 2 cups rice 2 cups water 1 tbsp salt 1/4 cup sugar 1/4 cup rice vinegar 1/4 cup white wine vinegar rinse rice. bring rice and water to a boil. turn to medium heat and cover for 10 minutes. turn to low for another 10 minutes. remove from heat and let stand untouched for 15 minutes. mix vinegars with sugar and salt until dissolved. mix vinegar seasoning into the rice in a big bowl."
+    },
+    {
+      "id": "sweet-potato-fries",
+      "title": "Sweet Potato Fries",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [],
+      "steps": [],
+      "notes": [],
+      "useWith": [
+        "#Lettuce Burgers and Sweet Potato Fries",
+        "Status: needs details."
+      ],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "limited",
+      "badges": [
+        "limited"
+      ],
+      "searchText": "sweet potato fries sides & components #lettuce burgers and sweet potato fries status: needs details."
+    },
+    {
+      "id": "sweet-potato-wraps",
+      "title": "Sweet Potato Wraps",
+      "category": "Sides & Components",
+      "source": {
+        "label": "Instagram Reel — Sarah | Fit Foodie (@scmfitfoodie)",
+        "url": "https://www.instagram.com/reel/DcSBHD7MIW2/",
+        "platform": "instagram"
+      },
+      "servings": "9–10 wraps",
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 cups mashed sweet potato"
+        },
+        {
+          "group": "Main",
+          "text": "2.5 cups all-purpose flour"
+        }
+      ],
+      "steps": [
+        "Mix the mashed sweet potato and all-purpose flour.",
+        "Knead the mixture.",
+        "Divide and roll into 9–10 very thin wraps.",
+        "Cook on medium heat for about 2 minutes per side."
+      ],
+      "notes": [
+        "The source describes this as a two-ingredient recipe.",
+        "Original caption: “Sweet Potato Wraps 👇 about 150 cals each.”",
+        "The source does not specify the sweet potato preparation method or the exact cooking temperature."
+      ],
+      "useWith": [],
+      "meta": [
+        "Makes: 9–10 wraps",
+        "Calories: About 150 per wrap, according to the source"
+      ],
+      "nutrition": [
+        "Calories: About 150 per wrap, according to the source"
+      ],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "source video"
+      ],
+      "searchText": "sweet potato wraps sides & components 2 cups mashed sweet potato 2.5 cups all-purpose flour mix the mashed sweet potato and all-purpose flour. knead the mixture. divide and roll into 9–10 very thin wraps. cook on medium heat for about 2 minutes per side. the source describes this as a two-ingredient recipe. original caption: “sweet potato wraps 👇 about 150 cals each.” the source does not specify the sweet potato preparation method or the exact cooking temperature. makes: 9–10 wraps calories: about 150 per wrap, according to the source"
+    },
+    {
+      "id": "yamitsuki-cabbage-addictive-cabbage",
+      "title": "Yamitsuki Cabbage (Addictive Cabbage)",
+      "category": "Sides & Components",
+      "source": {
+        "label": "Instagram Reel — Erika Izumi | Easy Japanese Recipes (@easy.japanese.kitchen)",
+        "url": "https://www.instagram.com/reel/DclvFdeMpfP/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "200 g cabbage"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp chicken bouillon powder"
+        },
+        {
+          "group": "Main",
+          "text": "2 tsp soy sauce"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp sesame oil"
+        },
+        {
+          "group": "Main",
+          "text": "A pinch of salt"
+        },
+        {
+          "group": "Main",
+          "text": "A little black pepper"
+        },
+        {
+          "group": "For a vegan version",
+          "text": "Use vegan chicken-style bouillon powder instead of chicken bouillon powder."
+        }
+      ],
+      "steps": [
+        "Roughly chop the cabbage.",
+        "Put the cabbage in a plastic bag and add all the seasonings.",
+        "Seal the bag, then mix and massage everything well.",
+        "Refrigerate for about 20 minutes so the flavors can soak in.",
+        "Serve cold or chilled as a crunchy side dish."
+      ],
+      "notes": [
+        "In Japan, this dish is called Yamitsuki Cabbage (やみつきキャベツ); “Yamitsuki” means addictive or irresistibly delicious.",
+        "The source notes that regular round cabbage is commonly used in Japan. It uses Spitzkohl in Germany because it has fewer tough white parts and is pleasant to eat raw.",
+        "If you are concerned about whether cabbage can be eaten raw where you live, check before preparing it."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "yamitsuki cabbage (addictive cabbage) sides & components 200 g cabbage 1 tsp chicken bouillon powder 2 tsp soy sauce 1 tbsp sesame oil a pinch of salt a little black pepper use vegan chicken-style bouillon powder instead of chicken bouillon powder. roughly chop the cabbage. put the cabbage in a plastic bag and add all the seasonings. seal the bag, then mix and massage everything well. refrigerate for about 20 minutes so the flavors can soak in. serve cold or chilled as a crunchy side dish. in japan, this dish is called yamitsuki cabbage (やみつきキャベツ); “yamitsuki” means addictive or irresistibly delicious. the source notes that regular round cabbage is commonly used in japan. it uses spitzkohl in germany because it has fewer tough white parts and is pleasant to eat raw. if you are concerned about whether cabbage can be eaten raw where you live, check before preparing it."
+    },
+    {
+      "id": "zucchini-salsa",
+      "title": "Zucchini Salsa",
+      "category": "Sides & Components",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "Jalapeño"
+        },
+        {
+          "group": "Main",
+          "text": "Tomatillo"
+        },
+        {
+          "group": "Main",
+          "text": "Cilantro"
+        },
+        {
+          "group": "Main",
+          "text": "Zucchini"
+        },
+        {
+          "group": "Main",
+          "text": "Garlic"
+        },
+        {
+          "group": "Main",
+          "text": "Onion"
+        },
+        {
+          "group": "Main",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Main",
+          "text": "Salt"
+        },
+        {
+          "group": "Main",
+          "text": "Water"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "zucchini salsa sides & components jalapeño tomatillo cilantro zucchini garlic onion olive oil salt water"
+    },
+    {
+      "id": "avocado-mint-smoothie",
+      "title": "Avocado Mint Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 ripe avocado"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup fresh mint leaves"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup spinach"
+        },
+        {
+          "group": "Main",
+          "text": "1 cup coconut water"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp lime juice"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "avocado mint smoothie smoothies 1 ripe avocado 1/2 cup fresh mint leaves 1/2 cup spinach 1 cup coconut water 1 tbsp lime juice"
+    },
+    {
+      "id": "berry-blast-smoothie",
+      "title": "Berry Blast Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup mixed berries: strawberries, blueberries, raspberries"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup spinach"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup plain yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup water"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp honey"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "berry blast smoothie smoothies 1 cup mixed berries: strawberries, blueberries, raspberries 1/2 cup spinach 1/2 cup plain yogurt 1/2 cup water 1 tbsp honey"
+    },
+    {
+      "id": "blueberry-almond-delight",
+      "title": "Blueberry Almond Delight",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup blueberries"
+        },
+        {
+          "group": "Main",
+          "text": "1/4 cup almonds"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup almond milk"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp honey"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "blueberry almond delight smoothies 1 cup blueberries 1/4 cup almonds 1/2 cup greek yogurt 1/2 cup almond milk 1 tbsp honey"
+    },
+    {
+      "id": "chocolate-banana-protein-smoothie",
+      "title": "Chocolate Banana Protein Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 ripe bananas"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp cocoa powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 scoop chocolate protein powder"
+        },
+        {
+          "group": "Main",
+          "text": "1 cup milk of your choice"
+        },
+        {
+          "group": "Main",
+          "text": "Ice cubes"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "chocolate banana protein smoothie smoothies 2 ripe bananas 2 tbsp cocoa powder 1 scoop chocolate protein powder 1 cup milk of your choice ice cubes"
+    },
+    {
+      "id": "classic-green-smoothie",
+      "title": "Classic Green Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup spinach"
+        },
+        {
+          "group": "Main",
+          "text": "1 banana"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup almond milk"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "Ice cubes"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "classic green smoothie smoothies 1 cup spinach 1 banana 1/2 cup greek yogurt 1/2 cup almond milk 1 tbsp honey ice cubes"
+    },
+    {
+      "id": "mango-lassi-smoothie",
+      "title": "Mango Lassi Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup ripe mango chunks"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup plain yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup water"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "Pinch cardamom"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "mango lassi smoothie smoothies 1 cup ripe mango chunks 1/2 cup plain yogurt 1/2 cup water 1 tbsp honey pinch cardamom"
+    },
+    {
+      "id": "peanut-butter-banana-smoothie",
+      "title": "Peanut Butter Banana Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "2 ripe bananas"
+        },
+        {
+          "group": "Main",
+          "text": "2 tbsp peanut butter"
+        },
+        {
+          "group": "Main",
+          "text": "1 cup almond milk"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp honey"
+        },
+        {
+          "group": "Main",
+          "text": "Ice cubes"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only",
+        "some quantities missing"
+      ],
+      "searchText": "peanut butter banana smoothie smoothies 2 ripe bananas 2 tbsp peanut butter 1 cup almond milk 1 tbsp honey ice cubes"
+    },
+    {
+      "id": "spinach-and-pineapple-green-smoothie",
+      "title": "Spinach and Pineapple Green Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup spinach"
+        },
+        {
+          "group": "Main",
+          "text": "1 cup pineapple chunks"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup coconut water"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup Greek yogurt"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp chia seeds"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "spinach and pineapple green smoothie smoothies 1 cup spinach 1 cup pineapple chunks 1/2 cup coconut water 1/2 cup greek yogurt 1 tbsp chia seeds"
+    },
+    {
+      "id": "tropical-paradise-smoothie",
+      "title": "Tropical Paradise Smoothie",
+      "category": "Smoothies",
+      "source": null,
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 cup kale"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup pineapple chunks"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup mango chunks"
+        },
+        {
+          "group": "Main",
+          "text": "1/2 cup coconut milk"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp chia seeds"
+        }
+      ],
+      "steps": [],
+      "notes": [],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "ingredients-only",
+      "badges": [
+        "ingredients-only"
+      ],
+      "searchText": "tropical paradise smoothie smoothies 1 cup kale 1/2 cup pineapple chunks 1/2 cup mango chunks 1/2 cup coconut milk 1 tbsp chia seeds"
+    }
+  ]
+}

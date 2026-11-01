@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#132e26">
+  <meta name="description" content="A practical, offline-friendly collection of recipes and cooking references.">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.instagram.com https://www.tiktok.com; style-src 'self' 'unsafe-inline' https://www.instagram.com; img-src 'self' data: https:; media-src 'self' https:; frame-src https://www.youtube-nocookie.com https://www.youtube.com https://www.instagram.com https://www.tiktok.com; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Rogi's Recipe Book</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" type="module"></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Skip to recipes</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Rogi's Recipe Book home">
+      <span class="brand-mark" aria-hidden="true">R</span>
+      <span><strong>Rogi's</strong><small>Recipe Book</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <button class="nav-button is-active" data-view="catalog">Browse</button>
+      <button class="nav-button" data-open="meal-builder">Build a meal</button>
+      <button class="nav-button" data-open="grocery">Grocery <span class="count-pill" id="grocery-count">0</span></button>
+      <button class="icon-button" id="theme-toggle" type="button" aria-label="Toggle color theme">◐</button>
+      <button class="install-button" id="install-button" type="button" hidden>Install app</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Cook what sounds good</p>
+        <h1 id="hero-title">A recipe collection built for the kitchen.</h1>
+        <p>Search the catalog, build a meal from reusable components, and switch to hands-free-friendly cooking steps when it is time to cook.</p>
+      </div>
+      <div class="search-shell">
+        <label for="recipe-search">Search recipes and ingredients</label>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="recipe-search" type="search" autocomplete="off" placeholder="Try chicken, lime, air fryer…">
+          <kbd>/</kbd>
+        </div>
+        <div class="quick-stats" id="quick-stats" aria-live="polite">Loading the kitchen…</div>
+      </div>
+    </section>
+
+    <section class="catalog-shell" id="catalog" aria-labelledby="catalog-heading">
+      <div class="catalog-toolbar">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2 id="catalog-heading">Find your next meal</h2>
+        </div>
+        <div class="toolbar-actions">
+          <label class="select-label">Status
+            <select id="status-filter">
+              <option value="all">All entries</option>
+              <option value="complete">Complete recipes</option>
+              <option value="ingredients-only">Ingredients only</option>
+              <option value="method-only">Method only</option>
+              <option value="reference">Cooking references</option>
+            </select>
+          </label>
+          <label class="check-label"><input id="favorites-filter" type="checkbox"> Favorites</label>
+        </div>
+      </div>
+      <div class="category-scroller" id="category-filters" role="group" aria-label="Filter by category"></div>
+      <div class="results-line"><span id="result-count">0 recipes</span><button class="text-button" id="clear-filters" type="button">Clear filters</button></div>
+      <div class="recipe-grid" id="recipe-grid" aria-live="polite"></div>
+      <div class="empty-state" id="empty-state" hidden>
+        <span aria-hidden="true">🥄</span>
+        <h3>No recipes found</h3>
+        <p>Try a broader ingredient or clear the filters.</p>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="recipe-dialog" id="recipe-dialog">
+    <button class="dialog-close" data-close-dialog aria-label="Close recipe">×</button>
+    <article id="recipe-detail"></article>
+  </dialog>
+
+  <dialog class="utility-dialog" id="grocery-dialog">
+    <div class="dialog-heading">
+      <div><p class="eyebrow">Plan the shop</p><h2>Grocery list</h2></div>
+      <button class="dialog-close inline" data-close-dialog aria-label="Close grocery list">×</button>
+    </div>
+    <p class="muted">Ingredients stay on this device. Add ingredients from any recipe, then check them off while shopping.</p>
+    <div id="grocery-list" class="grocery-list"></div>
+    <div class="dialog-actions">
+      <button class="secondary-button" id="copy-grocery" type="button">Copy list</button>
+      <button class="danger-button" id="clear-grocery" type="button">Clear list</button>
+    </div>
+  </dialog>
+
+  <dialog class="utility-dialog" id="meal-builder-dialog">
+    <div class="dialog-heading">
+      <div><p class="eyebrow">Mix and match</p><h2>Build a meal</h2></div>
+      <button class="dialog-close inline" data-close-dialog aria-label="Close meal builder">×</button>
+    </div>
+    <p class="muted">Pair a main with one of the collection's reusable sauces and sides.</p>
+    <div id="meal-builder" class="meal-builder"></div>
+    <button class="primary-button wide" id="shuffle-meal" type="button">Surprise me again</button>
+  </dialog>
+
+  <dialog class="cook-dialog" id="cook-dialog">
+    <div class="cook-header">
+      <div><p class="eyebrow">Kitchen mode</p><h2 id="cook-title">Recipe</h2></div>
+      <button class="dialog-close inline" data-close-cook aria-label="Exit kitchen mode">×</button>
+    </div>
+    <div class="cook-progress" aria-hidden="true"><span id="cook-progress-bar"></span></div>
+    <section class="cook-step" id="cook-step" aria-live="polite"></section>
+    <div class="cook-controls">
+      <button class="secondary-button" id="cook-previous" type="button">← Previous</button>
+      <span id="cook-counter">Step 1 of 1</span>
+      <button class="primary-button" id="cook-next" type="button">Next →</button>
+    </div>
+  </dialog>
+
+  <div class="timer-rack" id="timer-rack" aria-live="polite"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <footer>
+    <p>Cook thoughtfully. Source links and creator attribution remain with each recipe.</p>
+    <p id="catalog-revision"></p>
+  </footer>
+
+  <noscript>This cooking companion requires JavaScript for search, scaling, timers, and offline support.</noscript>
+</body>
+</html>

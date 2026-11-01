@@ -1,0 +1,13 @@
+{
+  "name": "Rogi's Recipe Book",
+  "short_name": "Recipes",
+  "description": "An offline-friendly cooking companion.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f2e8",
+  "theme_color": "#132e26",
+  "icons": [
+    {"src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}
+  ]
+}
