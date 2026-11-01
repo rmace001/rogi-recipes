@@ -87,7 +87,7 @@ function initializeCatalog() {
   const videos = state.catalog.recipes.filter(recipe => recipe.badges.includes('source video')).length;
   const complete = state.catalog.recipes.filter(recipe => recipe.status === 'complete').length;
   $('#quick-stats').textContent = `${state.catalog.count} entries · ${complete} complete recipes · ${videos} source videos`;
-  $('#catalog-revision').textContent = `Catalog ${state.catalog.sourceRevision}`;
+  $('#catalog-revision').textContent = `Catalog ${state.catalog.catalogRevision}`;
   renderCategoryFilters();
   renderRecipes();
   renderGrocery();

@@ -8,7 +8,6 @@ import hashlib
 import json
 import re
 import sys
-from datetime import UTC, datetime
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -256,16 +255,14 @@ def build_catalog(source: Path) -> dict:
     recipes = [parse_entry(*entry) for entry in split_entries(markdown)]
     unique_ids(recipes)
     recipes.sort(key=lambda item: (item["category"], item["title"].casefold()))
-    source_hash = hashlib.sha256(markdown.encode()).hexdigest()[:12]
-    source_updated = datetime.fromtimestamp(source.stat().st_mtime, UTC).isoformat(timespec="seconds")
     catalog = {
         "schemaVersion": 1,
-        "generatedAt": source_updated,
-        "sourceRevision": source_hash,
         "count": len(recipes),
         "categories": sorted({recipe["category"] for recipe in recipes}),
         "recipes": recipes,
     }
+    public_bytes = json.dumps(catalog, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()
+    catalog["catalogRevision"] = hashlib.sha256(public_bytes).hexdigest()[:12]
     encoded = json.dumps(catalog, ensure_ascii=False, indent=2) + "\n"
     sanitize(encoded)
     return catalog
