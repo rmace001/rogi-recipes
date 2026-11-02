@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 73,
+  "count": 74,
   "categories": [
     "Bowls & Salads",
     "Cooking Reference",
@@ -1590,6 +1590,84 @@
         "source video"
       ],
       "searchText": "mayak tofu — asanebo style mains tofu — type and quantity not specified soy sauce — quantity not specified mirin — quantity not specified onion, chopped — quantity not specified ginger, grated — quantity not specified garlic, grated — quantity not specified sesame seeds — quantity not specified chili — quantity/type not specified chili oil — quantity not specified cut the tofu into pieces. add soy sauce and mirin to a shallow dish. add chopped onion, grated ginger, and grated garlic. add sesame seeds, chili, and chili oil. mix the marinade. place the tofu pieces in the marinade and marinate. the source does not show a duration. serve the marinated tofu with rice, spooning some of the marinade over the tofu. the recipe is transcribed from the reel’s visible ingredient labels and preparation shots; no measurements are shown. green onion-like pieces are visible in the marinade, but “green onion” is not separately labeled in the source, so it is not listed as a confirmed ingredient. original title/caption: “my secret tasty tofu recipe… mayak tofu, asanebo style!” servings: not specified marinating time: not specified in source"
+    },
+    {
+      "id": "mayo-chicken-skillet-meal",
+      "title": "Mayo Chicken Skillet Meal",
+      "category": "Mains",
+      "source": {
+        "label": "Instagram Reel — Lunch O’Clock (@lunches_at_home)",
+        "url": "https://www.instagram.com/reel/DcgIJGiTxvs/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "1 chicken leg, about 250 g"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp grated ginger"
+        },
+        {
+          "group": "Main",
+          "text": "1 tbsp Kewpie mayonnaise"
+        },
+        {
+          "group": "Main",
+          "text": "1 tsp soy sauce"
+        },
+        {
+          "group": "Skillet rice",
+          "text": "1 cup soaked rice"
+        },
+        {
+          "group": "Skillet rice",
+          "text": "1 tsp shio kombu"
+        },
+        {
+          "group": "Skillet rice",
+          "text": "½ cup water"
+        },
+        {
+          "group": "For finishing",
+          "text": "Green onions"
+        },
+        {
+          "group": "For finishing",
+          "text": "Toasted sesame seeds"
+        },
+        {
+          "group": "For finishing",
+          "text": "Togarashi (chili flakes seasoning)"
+        }
+      ],
+      "steps": [
+        "Soak the rice for at least 30 minutes, until the grains turn completely white. Because soaked rice has already absorbed moisture, use about half the usual amount of water.",
+        "Put the chicken leg in a skillet with the grated ginger, Kewpie mayonnaise, and soy sauce. Coat the chicken and cook until it is about 80% cooked, as shown in the source.",
+        "Remove the chicken while leaving the browned marinade bits in the skillet. Add the soaked rice, shio kombu, and water. Stir the rice through the caramelized marinade bits.",
+        "Return the chicken to the skillet, cover, and cook on very low heat for at least 10 minutes.",
+        "Finish with green onions, toasted sesame seeds, and togarashi."
+      ],
+      "notes": [
+        "The source emphasizes that the leftover marinade bits—caramelized mayonnaise, ginger, soy sauce, shio kombu, and chicken juices—add flavor to the rice and should not be wasted.",
+        "The source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving.",
+        "Original caption: “Mayo Chicken Skillet Meal.”"
+      ],
+      "useWith": [],
+      "meta": [
+        "Servings: Not specified"
+      ],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "mayo chicken skillet meal mains 1 chicken leg, about 250 g 1 tbsp grated ginger 1 tbsp kewpie mayonnaise 1 tsp soy sauce 1 cup soaked rice 1 tsp shio kombu ½ cup water green onions toasted sesame seeds togarashi (chili flakes seasoning) soak the rice for at least 30 minutes, until the grains turn completely white. because soaked rice has already absorbed moisture, use about half the usual amount of water. put the chicken leg in a skillet with the grated ginger, kewpie mayonnaise, and soy sauce. coat the chicken and cook until it is about 80% cooked, as shown in the source. remove the chicken while leaving the browned marinade bits in the skillet. add the soaked rice, shio kombu, and water. stir the rice through the caramelized marinade bits. return the chicken to the skillet, cover, and cook on very low heat for at least 10 minutes. finish with green onions, toasted sesame seeds, and togarashi. the source emphasizes that the leftover marinade bits—caramelized mayonnaise, ginger, soy sauce, shio kombu, and chicken juices—add flavor to the rice and should not be wasted. the source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving. original caption: “mayo chicken skillet meal.” servings: not specified"
     },
     {
       "id": "mongolian-beef",
@@ -4130,5 +4208,5 @@
       "searchText": "tropical paradise smoothie smoothies 1 cup kale 1/2 cup pineapple chunks 1/2 cup mango chunks 1/2 cup coconut milk 1 tbsp chia seeds"
     }
   ],
-  "catalogRevision": "a1e1609a42a6"
+  "catalogRevision": "825f8a453f97"
 }
