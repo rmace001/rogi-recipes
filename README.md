@@ -37,10 +37,11 @@ git diff -- site/data/recipes.json
 Review the generated diff before committing. The exporter:
 
 1. allowlists known public catalog sections;
-2. excludes staging links, source-note consolidation, templates, and note metadata;
-3. converts Obsidian links to plain text;
-4. rejects home-directory paths, email addresses, credential-like assignments, private keys, and remaining wikilinks;
-5. preserves incomplete source information rather than inventing missing details.
+2. excludes meal plans, staging links, source-note consolidation, templates, legacy note metadata, and image references;
+3. allowlists metadata and known ingredient component labels; unrecognized labeled fields fail the export for review;
+4. converts Obsidian links to plain text and rejects home-directory paths, email addresses, credential-like assignments, private keys, and remaining wikilinks;
+5. excludes task checkboxes and their nested content; source labels are published only when the exact canonical URL and label pair is reviewed in `REVIEWED_SOURCE_LABELS` (otherwise the label is generic);
+6. preserves incomplete source information rather than inventing missing details. Review every generated change: automated checks cannot identify all private prose.
 
 ## Video policy
 

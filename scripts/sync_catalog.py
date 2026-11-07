@@ -18,9 +18,54 @@ PUBLIC_CATEGORIES = {
     "Bowls & Salads",
     "Sides & Components",
     "Smoothies",
-    "Meal Plans",
 }
 EXCLUDED_TITLES = {"Recipe Name"}
+EXCLUDED_CATEGORIES = {"Index", "External Links / To Extract", "Source Notes Consolidated", "Recipe Template", "Meal Plans"}
+# Every public URL must be reviewed individually. A None label permits the URL
+# but keeps attribution generic; changed labels also fall back to generic.
+REVIEWED_SOURCE_LABELS = {
+    "https://www.instagram.com/reel/Dbe4svTK3Pq/": "Instagram Reel — Daniella Christie (@daniyellla)",
+    "https://www.instagram.com/reel/DFT-yfhtjoa/": "Instagram Reel — Alissa Nguyen Won (@alissanguyen_)",
+    "https://www.tiktok.com/@annlmartinez/video/7688129794373913870/": "TikTok — annlmartinez (@annlmartinez)",
+    "https://www.instagram.com/reel/DejuHUotxuj/": "Instagram Reel — Panacea Palm | Dij (@panaceapalm)",
+    "https://www.instagram.com/reel/DfEJH8ev4rG/": "Instagram Reel — Angel (@angelunsweetened)",
+    "https://recipesbykip.com/recipe/cowboy-butter-lemon-bowtie-chicken/": "Recipes By Kip",
+    "https://www.instagram.com/reel/DewnoMXut3C/": "Instagram Reel — Arash Hashemi / Shred Happens (@shredhappens)",
+    "https://www.tiktok.com/@amandajanelles/video/7524083839396760887/": "TikTok — Amanda Janelle 🇵🇭 (@amandajanelles)",
+    "https://www.instagram.com/reel/De-ZeM9POHt/": "Instagram Reel — Sivan's Kitchen (@sivanskitchen)",
+    "https://youtube.com/shorts/82YTLiB-i_U/": "YouTube Shorts",
+    "https://www.youtube.com/shorts/ImUPlhOEeIw/": "YouTube Shorts",
+    "https://www.instagram.com/reel/DduIRLSS4sb/": "Instagram Reel — soo / soosfoods",
+    "https://www.instagram.com/reel/DcHUkkRyn3D/": "Instagram Reel — Asanebo Restaurant (@asanebo_restaurant)",
+    "https://www.instagram.com/reel/DcgIJGiTxvs/": "Instagram Reel — Lunch O’Clock (@lunches_at_home)",
+    "https://www.tiktok.com/@stephvnietea/video/7324865404797504811/": "TikTok by @stephvnietea",
+    "https://www.instagram.com/reel/Db0S_62TPDQ/": "Instagram Reel — Lunch O’Clock (@lunches_at_home)",
+    "https://spiceupbites.com/slow-cooker-mexican-chicken-pozole-verde/": "Spice Up Bites — Millie Pham",
+    "https://downshiftology.com/recipes/cucumber-radish-salad/": None,
+    "https://www.instagram.com/reel/DbGVJwyKJfF/": "Instagram Reel — Adam Wolfe | Fitness (@adamwolfefitness)",
+    "https://www.instagram.com/reel/Dbpd8QsS5_U/": "Instagram Reel — bear_wife (@bear_wife_)",
+    "https://www.tiktok.com/@heresyourbite/video/7390533434273238303/": "TikTok by @heresyourbite",
+    "https://www.instagram.com/reel/DcSBHD7MIW2/": "Instagram Reel — Sarah | Fit Foodie (@scmfitfoodie)",
+    "https://www.instagram.com/reel/DclvFdeMpfP/": "Instagram Reel — Erika Izumi | Easy Japanese Recipes (@easy.japanese.kitchen)",
+}
+PUBLIC_META_FIELDS = {"makes", "servings", "serves", "yield", "prep time", "cook time", "marinating time", "calories", "protein", "fiber", "carbohydrates", "fat", "per serving", "per large serving", "per meal", "whole pot"}
+PRIVATE_FIELDS = {"image", "images", "original note", "original title", "original title/caption", "status", "category", "original reel caption", "original caption", "original reel title", "original description", "video overlay/title", "missing image reference from legacy note"}
+REFERENCE_LABELS = {"boneless chicken breast", "bone-in chicken breast", "boneless thighs", "bone-in thighs / drumsticks", "whole chicken", "why", "checklist"}
+INLINE_LABELS = {"optional", "optional finish", "the caption says", "set out 6 bowls", "organize ingredients", "mix in a bowl"}
+INGREDIENT_GROUPS = {name.casefold() for name in (
+    "For the chicken", "Sauce", "For the street corn", "For the cowboy butter sauce",
+    "For the sauce", "For the dressing", "For the dairy-free Greek salad", "Marinade",
+    "Seasoning", "Optional toppings", "For topping", "For the pasta and broccoli",
+    "Skillet rice", "For finishing", "For serving", "For the chicken and potatoes",
+    "Sauces", "Side", "For a vegan version", "Main",
+)}
+INTRO_GROUPS = {
+    "Turkey Lettuce Wraps with Cilantro Lime Yogurt Sauce": {"turkey", "sauce", "toppings"},
+    "Quinoa Turkey Bowls": {"stir fry", "sear", "base", "top with"},
+    "Chicken Gyro Wraps": {"tzatziki sauce", "chicken marinade", "vegetable medley"},
+}
+IMAGE_EMBED_RE = re.compile(r"!\[\[[^\]]*\]\]|!\[[^\]]*\]\([^)]*\)")
+IMAGE_FILENAME_RE = re.compile(r"(?i)(?:[^\s/\\]+[/\\])*[^\s/\\]+\.(?:png|jpe?g|gif|webp|heic|svg)(?:\?[^\s]*)?")
 PRIVATE_PATTERNS = [
     ("absolute home path", re.compile(r"/home/[A-Za-z0-9._-]+/")),
     ("credential-like assignment", re.compile(r"(?i)(?:token|api[_-]?key|password|secret)[\"']?\s*[:=]\s*[\"']?[^\s,\"']{8,}")),
@@ -30,23 +75,35 @@ PRIVATE_PATTERNS = [
 URL_RE = re.compile(r"https?://[^\s)>]+")
 HEADING_RE = re.compile(r"^(#{2,3})\s+(.+?)\s*$")
 NUMBERED_RE = re.compile(r"^\d+[.)]\s+(.+)$")
-BULLET_RE = re.compile(r"^-\s+(?:\[[ xX]\]\s*)?(.+)$")
-FIELD_RE = re.compile(r"^([A-Za-z][A-Za-z &/()-]{1,40}):\s*(.*)$")
+BULLET_RE = re.compile(r"^-\s+(.+)$")
+TASK_RE = re.compile(r"^(?:[-+*]|\d+[.)])\s+\[[ xX]\](?:\s|$)")
+FIELD_RE = re.compile(r"^([^:]+):\s*(.*)$")
+HTML_RE = re.compile(r"<(?:!|\?|/?[A-Za-z])")
+PRIVATE_TODO_RE = re.compile(r"^original .+ note had this as a todo\.?$", re.I)
 
 
 def canonicalize_url(value: str) -> str:
-    value = value.rstrip(".,")
-    parsed = urlparse(value)
-    host = parsed.netloc.casefold().removeprefix("www.")
-    if any(domain in host for domain in ("instagram.com", "tiktok.com", "youtube.com", "youtu.be")):
-        value = parsed._replace(query="", fragment="").geturl().rstrip("/") + "/"
-    return value
+    # Strip query/fragment and incidental sentence punctuation. A single
+    # trailing slash may be added only when the exact resulting URL is reviewed.
+    # Never normalize path segments, hostname, encoding, credentials or scheme.
+    candidate = value.rstrip(".,").split("#", 1)[0].split("?", 1)[0]
+    if candidate in REVIEWED_SOURCE_LABELS:
+        return candidate
+    if not candidate.endswith("/") and candidate + "/" in REVIEWED_SOURCE_LABELS:
+        return candidate + "/"
+    return ""
 
 
 def clean_text(value: str) -> str:
+    if HTML_RE.search(value):
+        raise ValueError("Public export rejected: HTML or comment")
     value = value.strip()
+    value = IMAGE_EMBED_RE.sub("", value)
+    value = IMAGE_FILENAME_RE.sub("", value)
     value = URL_RE.sub(lambda match: canonicalize_url(match.group(0)), value)
-    value = re.sub(r"\[\[([^]|]+)(?:\|([^]]+))?\]\]", lambda m: m.group(2) or m.group(1), value)
+    # Only local heading links can be rendered as recipe text; a cross-note
+    # link may name a private note, even when its syntax is stripped.
+    value = re.sub(r"\[\[([^]|]+)(?:\|([^]]+))?\]\]", lambda m: (m.group(2) or m.group(1)[1:]) if m.group(1).startswith("#") else "", value)
     value = re.sub(r"\*\*(.*?)\*\*", r"\1", value)
     value = re.sub(r"`([^`]+)`", r"\1", value)
     return value.strip()
@@ -80,7 +137,10 @@ def parse_source(line: str) -> dict | None:
     # public provenance. Do not publish them.
     if not url:
         return None
-    return {"label": label or "Original source", "url": url, "platform": platform_for(url)}
+    if url not in REVIEWED_SOURCE_LABELS:
+        raise ValueError("Public export rejected: unapproved source URL")
+    public_label = label if REVIEWED_SOURCE_LABELS.get(url) == label else "Original source"
+    return {"label": public_label, "url": url, "platform": platform_for(url)}
 
 
 def split_entries(markdown: str) -> list[tuple[str, str, list[str]]]:
@@ -101,6 +161,8 @@ def split_entries(markdown: str) -> list[tuple[str, str, list[str]]]:
         if match and len(match.group(1)) == 2:
             flush()
             category = clean_text(match.group(2))
+            if category not in PUBLIC_CATEGORIES | EXCLUDED_CATEGORIES:
+                raise ValueError("Public export rejected: unrecognized section")
             title = None
         elif match and len(match.group(1)) == 3:
             flush()
@@ -121,36 +183,122 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
     reference: list[str] = []
     section = "intro"
     ingredient_group = "Main"
+    servings = None
+    nutrition: list[str] = []
+    excluded_indent: int | None = None
+    excluded_list_item = False
+    previous_section = "intro"
+    task_indent: int | None = None
 
     for raw in body:
+        expanded = raw.expandtabs(4)
+        indent = len(expanded) - len(expanded.lstrip())
+        if not raw.strip():
+            continue
+        if task_indent is not None:
+            if indent > task_indent:
+                continue
+            task_indent = None
+        if TASK_RE.match(raw.lstrip()):
+            task_indent = indent
+            continue
         line = clean_text(raw)
-        if not line or line == "---":
+        if not line or line == "---" or line in {"-", "*"}:
+            continue
+        if excluded_indent is not None:
+            if indent > excluded_indent:
+                continue
+            if excluded_list_item and indent == excluded_indent and BULLET_RE.match(line):
+                section = previous_section
+            elif not BULLET_RE.match(line) and not NUMBERED_RE.match(line) and FIELD_RE.match(line):
+                section = "intro"
+            else:
+                continue
+            excluded_indent = None
+        item = BULLET_RE.match(line) or NUMBERED_RE.match(line)
+        if PRIVATE_TODO_RE.match(item.group(1) if item else line):
             continue
         lower = line.casefold()
         if lower == "ingredients:":
             section = "ingredients"
             continue
-        if lower in {"steps:", "instructions:", "method:"}:
+        if lower in {"steps:", "instructions:", "method:", "optimized steps:"}:
             section = "steps"
             continue
-        if lower == "notes:":
+        if lower in {"notes:", "cleanup / safety notes:"}:
             section = "notes"
             continue
         if lower == "use with:":
             section = "use"
             continue
-        if line.startswith("Source:") and source is None:
-            source = parse_source(line)
-            continue
-
         numbered = NUMBERED_RE.match(line)
         bullet = BULLET_RE.match(line)
-        field = FIELD_RE.match(line)
+        content_match = bullet or numbered
+        field = FIELD_RE.match(content_match.group(1) if content_match else line)
+        if section == "source" and bullet and bullet.group(1).startswith("https://"):
+            source = parse_source("Source: " + bullet.group(1))
+            section = "intro"
+            continue
+        # This reviewed ingredient uses a colon to enumerate its berries.
+        if (title == "Berry Blast Smoothie" and section == "ingredients" and bullet
+                and bullet.group(1) == "1 cup mixed berries: strawberries, blueberries, raspberries"):
+            field = None
 
-        if section == "ingredients":
-            if field and not bullet and not numbered and not field.group(2):
-                ingredient_group = clean_text(field.group(1))
-            elif bullet:
+        # Recognize fields before processing the current section: otherwise a
+        # private field after Ingredients/Notes becomes public recipe content.
+        if field:
+            name = field.group(1).casefold()
+            value = field.group(2).strip()
+            if name in PRIVATE_FIELDS:
+                previous_section = section
+                excluded_indent = indent
+                excluded_list_item = bool(content_match)
+                section = "excluded"
+                continue
+            if name == "source":
+                if source is None:
+                    source = parse_source("Source: " + value)
+                if not content_match:
+                    section = "source" if not value else "intro"
+                continue
+            if not content_match and not value and name in INTRO_GROUPS.get(title, set()) and section in {"intro", "ingredients"}:
+                section = "ingredients"
+                ingredient_group = field.group(1)
+                continue
+            if title == "Cabbage Stir Fry" and not content_match and not value and name in {"recipe 1", "recipe 2", "recipe 3"}:
+                section = "mixed-reference"
+                reference.append(line)
+                continue
+            if section == "mixed-reference" and content_match and name == "mix in a bowl" and not value:
+                reference.append(content_match.group(1))
+                continue
+            if category == "Cooking Reference" and name in REFERENCE_LABELS:
+                reference.append(clean_text(content_match.group(1)) if content_match else line)
+                continue
+            if content_match and name in INLINE_LABELS and section in {"ingredients", "steps", "notes"}:
+                field = None
+            elif name in PUBLIC_META_FIELDS:
+                if value:
+                    meta.append(line)
+                    if name in {"makes", "servings", "serves", "yield"}:
+                        servings = value
+                    if name in {"calories", "protein", "fiber", "carbohydrates", "fat", "per serving", "per large serving", "per meal", "whole pot"}:
+                        nutrition.append(line)
+                section = "intro"
+                continue
+            if field and section == "ingredients" and not bullet and not numbered and name in INGREDIENT_GROUPS and not value:
+                ingredient_group = field.group(1)
+                continue
+            if field:
+                raise ValueError("Public export rejected: unrecognized field or component label")
+
+        if section == "excluded":
+            continue
+
+        if section == "mixed-reference":
+            reference.append(content_match.group(1) if content_match else line)
+        elif section == "ingredients":
+            if bullet:
                 ingredients.append({"group": ingredient_group, "text": clean_text(bullet.group(1))})
             else:
                 ingredients.append({"group": ingredient_group, "text": line})
@@ -167,19 +315,7 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
             use_with.append(clean_text(bullet.group(1)) if bullet else line)
         elif category == "Cooking Reference":
             reference.append(clean_text((bullet or numbered).group(1)) if (bullet or numbered) else line)
-        elif bullet:
-            reference.append(clean_text(bullet.group(1)))
-        else:
-            meta.append(line)
-
-    # Promote recognizable metadata and retain source-provided claims verbatim.
-    servings = None
-    nutrition: list[str] = []
-    for item in meta[:]:
-        if re.match(r"(?i)^makes\s*:", item):
-            servings = item.split(":", 1)[1].strip()
-        if re.search(r"(?i)\b(?:calories?|protein|fiber|carbohydrates?|fat)\b", item):
-            nutrition.append(item)
+        # Unlabelled introduction text is not an approved public field.
 
     if category == "Cooking Reference":
         status = "reference"
@@ -231,12 +367,11 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
 
 
 def unique_ids(recipes: list[dict]) -> None:
-    seen: dict[str, int] = {}
+    seen: set[str] = set()
     for recipe in recipes:
-        base = recipe["id"]
-        seen[base] = seen.get(base, 0) + 1
-        if seen[base] > 1:
-            recipe["id"] = f"{base}-{seen[base]}"
+        if recipe["id"] in seen:
+            raise ValueError("Public export rejected: ambiguous recipe identifier")
+        seen.add(recipe["id"])
 
 
 def sanitize(payload: str) -> None:
@@ -252,6 +387,8 @@ def sanitize(payload: str) -> None:
 
 def build_catalog(source: Path) -> dict:
     markdown = source.read_text(encoding="utf-8")
+    if HTML_RE.search(markdown):
+        raise ValueError("Public export rejected: HTML or comment")
     recipes = [parse_entry(*entry) for entry in split_entries(markdown)]
     unique_ids(recipes)
     recipes.sort(key=lambda item: (item["category"], item["title"].casefold()))

@@ -36,11 +36,17 @@ if (catalog) {
   if (catalog.count !== catalog.recipes?.length) failures.push('Catalog count does not match recipes length');
   if (!catalog.count || catalog.count < 1) failures.push('Catalog is empty');
   const idsSeen = new Set();
+  const allowedCategories = new Set(['Cooking Reference', 'Sauces & Dressings', 'Mains', 'Bowls & Salads', 'Sides & Components', 'Smoothies']);
+  const allowedMeta = /^(?:makes|servings|serves|yield|prep time|cook time|marinating time|calories|protein|fiber|carbohydrates|fat|per serving|per large serving|per meal|whole pot):/i;
+  if ((catalog.categories || []).some(category => !allowedCategories.has(category))) failures.push('Catalog contains an unapproved category');
   for (const recipe of catalog.recipes || []) {
     for (const key of ['id', 'title', 'category', 'status']) if (!recipe[key]) failures.push(`Recipe missing ${key}: ${recipe.title || '(untitled)'}`);
     if (idsSeen.has(recipe.id)) failures.push(`Duplicate recipe id: ${recipe.id}`);
     idsSeen.add(recipe.id);
+    if (!allowedCategories.has(recipe.category)) failures.push('Recipe contains an unapproved category');
+    if ((recipe.meta || []).some(item => !allowedMeta.test(item))) failures.push('Recipe contains unapproved metadata');
   }
+  if (/(?:!\[\[|!\[[^\]]*\]\(|[^\s"/\\]+\.(?:png|jpe?g|gif|webp|heic|svg)(?:[?"\s]|$))/i.test(JSON.stringify(catalog))) failures.push('Catalog contains an image reference');
 }
 
 function filesIn(directory) {

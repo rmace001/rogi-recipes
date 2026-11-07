@@ -1,11 +1,10 @@
 {
   "schemaVersion": 1,
-  "count": 74,
+  "count": 73,
   "categories": [
     "Bowls & Salads",
     "Cooking Reference",
     "Mains",
-    "Meal Plans",
     "Sauces & Dressings",
     "Sides & Components",
     "Smoothies"
@@ -70,7 +69,6 @@
         "Enjoy immediately or chill in the refrigerator before serving."
       ],
       "notes": [
-        "Original reel title: “Aguachile Verde Ceviche.”",
         "The source does not specify servings.",
         "The source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
       ],
@@ -84,7 +82,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "aguachile verde ceviche bowls & salads 1 1/2–2 lb raw shrimp, cleaned and deveined 12 limes 1 red onion 2 jalapeños 1 serrano, or 2 serranos / 1 jalapeño depending on desired spice level 2 cucumbers, or more if desired a handful of cilantro 1 tsp jugo maggi salt and pepper slice the clean shrimp almost fully down the backside to butterfly-cut it. juice the limes and pour the juice over the raw shrimp. season with salt and pepper. set aside for 30 minutes or longer according to preference. the source says it keeps the shrimp in the refrigerator during this step. after 30 minutes or longer, reserve 1/2 cup of the lime juice for the salsa. blend 1/2 cucumber, the peppers, a piece of red onion, cilantro, jugo maggi, and the reserved lime juice until smooth. add sliced red onion and cucumber to the shrimp. the source specifies removing the cucumber seeds and skin before slicing. pour the salsa over the shrimp and vegetables, then mix everything together. enjoy immediately or chill in the refrigerator before serving. original reel title: “aguachile verde ceviche.” the source does not specify servings. the source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
+      "searchText": "aguachile verde ceviche bowls & salads 1 1/2–2 lb raw shrimp, cleaned and deveined 12 limes 1 red onion 2 jalapeños 1 serrano, or 2 serranos / 1 jalapeño depending on desired spice level 2 cucumbers, or more if desired a handful of cilantro 1 tsp jugo maggi salt and pepper slice the clean shrimp almost fully down the backside to butterfly-cut it. juice the limes and pour the juice over the raw shrimp. season with salt and pepper. set aside for 30 minutes or longer according to preference. the source says it keeps the shrimp in the refrigerator during this step. after 30 minutes or longer, reserve 1/2 cup of the lime juice for the salsa. blend 1/2 cucumber, the peppers, a piece of red onion, cilantro, jugo maggi, and the reserved lime juice until smooth. add sliced red onion and cucumber to the shrimp. the source specifies removing the cucumber seeds and skin before slicing. pour the salsa over the shrimp and vegetables, then mix everything together. enjoy immediately or chill in the refrigerator before serving. the source does not specify servings. the source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
     },
     {
       "id": "chicken-caesar-salad",
@@ -94,44 +92,39 @@
       "servings": null,
       "ingredients": [],
       "steps": [],
-      "notes": [
-        "Original Dinner Recipes note had this as a todo.",
-        "Missing image reference from legacy note: chickencaesarsalad.jpeg."
-      ],
+      "notes": [],
       "useWith": [],
-      "meta": [
-        "Status: needs extraction/details."
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "limited",
       "badges": [
         "limited"
       ],
-      "searchText": "chicken caesar salad bowls & salads original dinner recipes note had this as a todo. missing image reference from legacy note: chickencaesarsalad.jpeg. status: needs extraction/details."
+      "searchText": "chicken caesar salad bowls & salads"
     },
     {
       "id": "cucumber-radish-salad",
       "title": "Cucumber Radish Salad",
       "category": "Bowls & Salads",
-      "source": null,
+      "source": {
+        "label": "Original source",
+        "url": "https://downshiftology.com/recipes/cucumber-radish-salad/",
+        "platform": "web"
+      },
       "servings": null,
       "ingredients": [],
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !cucumberradishsalad.png"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "https://downshiftology.com/recipes/cucumber-radish-salad/"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "limited",
       "badges": [
-        "method-only"
+        "limited"
       ],
-      "searchText": "cucumber radish salad bowls & salads image: !cucumberradishsalad.png https://downshiftology.com/recipes/cucumber-radish-salad/"
+      "searchText": "cucumber radish salad bowls & salads"
     },
     {
       "id": "ground-turkey-and-arugula-salad",
@@ -160,9 +153,7 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !turkeyandarugula.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -170,7 +161,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "ground turkey and arugula salad bowls & salads ground turkey arugula salad with olive oil, lemon, balsamic, salt, pepper, parmesan, and almond shavings raw broccoli carrots image: !turkeyandarugula.jpeg"
+      "searchText": "ground turkey and arugula salad bowls & salads ground turkey arugula salad with olive oil, lemon, balsamic, salt, pepper, parmesan, and almond shavings raw broccoli carrots"
     },
     {
       "id": "zero-thinking-tuna-rice-bowl",
@@ -230,8 +221,6 @@
         "Mix together and eat as a quick rice bowl."
       ],
       "notes": [
-        "Original description: “Zero thinking dinner ingredients: rice, canned tuna, chopped scallion, sesame oil, soy sauce, mayonnaise, sriracha, seasoned/ shredded seaweed and sesame seeds.”",
-        "Video overlay/title: “Zero Thinking Dinner.”",
         "No ingredient quantities were shown in the source metadata/video frames."
       ],
       "useWith": [],
@@ -244,7 +233,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "zero thinking tuna rice bowl bowls & salads rice canned tuna chopped scallion sesame oil soy sauce mayonnaise sriracha seasoned/shredded seaweed sesame seeds add rice to a bowl. add canned tuna on top. add chopped scallion. add sesame oil and soy sauce. add mayonnaise and sriracha. top with seasoned/shredded seaweed and sesame seeds. mix together and eat as a quick rice bowl. original description: “zero thinking dinner ingredients: rice, canned tuna, chopped scallion, sesame oil, soy sauce, mayonnaise, sriracha, seasoned/ shredded seaweed and sesame seeds.” video overlay/title: “zero thinking dinner.” no ingredient quantities were shown in the source metadata/video frames."
+      "searchText": "zero thinking tuna rice bowl bowls & salads rice canned tuna chopped scallion sesame oil soy sauce mayonnaise sriracha seasoned/shredded seaweed sesame seeds add rice to a bowl. add canned tuna on top. add chopped scallion. add sesame oil and soy sauce. add mayonnaise and sriracha. top with seasoned/shredded seaweed and sesame seeds. mix together and eat as a quick rice bowl. no ingredient quantities were shown in the source metadata/video frames."
     },
     {
       "id": "air-fried-chicken-thighs-steps",
@@ -315,18 +304,13 @@
         "After putting meat on the grill, discard the bag.",
         "The same clean bowl can safely carry the cooked meat back.",
         "This also consolidates what needs to be carried between the kitchen and grill.",
-        "Checklist:",
-        "Put marinated raw meat in a ziplock bag.",
-        "Place the sealed bag inside the clean bowl that will later hold cooked meat.",
-        "Carry the bowl + bag together to the grill.",
-        "After raw meat goes on the grill, dispose of the bag.",
-        "Reuse the uncontaminated bowl to carry cooked meat back."
+        "Checklist:"
       ],
       "status": "reference",
       "badges": [
         "reference"
       ],
-      "searchText": "grilling raw meat carrying tip cooking reference for grilling marinated raw meat, keep the meat in a sealed ziplock bag inside the clean serving/carrying bowl. why: the bag contains raw-meat marinade and prevents contaminating the bowl. after putting meat on the grill, discard the bag. the same clean bowl can safely carry the cooked meat back. this also consolidates what needs to be carried between the kitchen and grill. checklist: put marinated raw meat in a ziplock bag. place the sealed bag inside the clean bowl that will later hold cooked meat. carry the bowl + bag together to the grill. after raw meat goes on the grill, dispose of the bag. reuse the uncontaminated bowl to carry cooked meat back."
+      "searchText": "grilling raw meat carrying tip cooking reference for grilling marinated raw meat, keep the meat in a sealed ziplock bag inside the clean serving/carrying bowl. why: the bag contains raw-meat marinade and prevents contaminating the bowl. after putting meat on the grill, discard the bag. the same clean bowl can safely carry the cooked meat back. this also consolidates what needs to be carried between the kitchen and grill. checklist:"
     },
     {
       "id": "air-fried-salmon",
@@ -363,7 +347,6 @@
       ],
       "useWith": [],
       "meta": [
-        "Category: Main",
         "Cook time: 8–9 minutes"
       ],
       "nutrition": [],
@@ -373,7 +356,7 @@
         "complete",
         "some quantities missing"
       ],
-      "searchText": "air fried salmon mains salmon filet avocado oil salt pepper coat salmon with avocado oil. season with salt and pepper. air fry at 375°f for 8 minutes. if the salmon is thick, let it sit in the air fryer for another 1 minute after cooking. simple salmon prep for a fast main protein. category: main cook time: 8–9 minutes"
+      "searchText": "air fried salmon mains salmon filet avocado oil salt pepper coat salmon with avocado oil. season with salt and pepper. air fry at 375°f for 8 minutes. if the salmon is thick, let it sit in the air fryer for another 1 minute after cooking. simple salmon prep for a fast main protein. cook time: 8–9 minutes"
     },
     {
       "id": "bulgogi-beef-bowl",
@@ -476,9 +459,7 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !cajunchicken.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -486,7 +467,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "cajun chicken with broccoli, carrots, rice or quinoa mains baked chicken breast organic raw broccoli and carrot brown rice, white rice, or quinoa image: !cajunchicken.jpeg"
+      "searchText": "cajun chicken with broccoli, carrots, rice or quinoa mains baked chicken breast organic raw broccoli and carrot brown rice, white rice, or quinoa"
     },
     {
       "id": "cajun-shrimp-with-cauliflower-rice-and-cucumber",
@@ -497,7 +478,7 @@
       "ingredients": [
         {
           "group": "Main",
-          "text": "#Cajun Butter Shrimp"
+          "text": "Cajun Butter Shrimp"
         },
         {
           "group": "Main",
@@ -515,9 +496,7 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !cajunshrimp.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -525,7 +504,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "cajun shrimp with cauliflower rice and cucumber mains #cajun butter shrimp cauliflower rice celery cucumber image: !cajunshrimp.jpeg"
+      "searchText": "cajun shrimp with cauliflower rice and cucumber mains cajun butter shrimp cauliflower rice celery cucumber"
     },
     {
       "id": "chicken-bacon-ranch-smash-and-scoop",
@@ -615,41 +594,92 @@
       "category": "Mains",
       "source": null,
       "servings": null,
-      "ingredients": [],
+      "ingredients": [
+        {
+          "group": "Tzatziki sauce",
+          "text": "Tzatziki Sauce"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 cup Greek yogurt"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "Salt"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "Pepper"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "3 garlic cloves"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 tbsp red wine vinegar"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 tbsp olive oil"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 tsp ground coriander"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 tbsp oregano"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "1 tsp smoked paprika"
+        },
+        {
+          "group": "Chicken marinade",
+          "text": "Juice of 1 lemon"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "1 cucumber"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "2 Roma tomatoes"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "1/2 red onion"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "1 tbsp red wine vinegar"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "1/4 cup parsley"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "Salt"
+        },
+        {
+          "group": "Vegetable medley",
+          "text": "Pepper"
+        }
+      ],
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Tzatziki sauce:",
-        "Chicken marinade:",
-        "Vegetable medley:"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "#Tzatziki Sauce",
-        "1 cup Greek yogurt",
-        "Salt",
-        "Pepper",
-        "3 garlic cloves",
-        "1 tbsp red wine vinegar",
-        "1 tbsp olive oil",
-        "1 tsp ground coriander",
-        "1 tbsp oregano",
-        "1 tsp smoked paprika",
-        "Juice of 1 lemon",
-        "1 cucumber",
-        "2 Roma tomatoes",
-        "1/2 red onion",
-        "1 tbsp red wine vinegar",
-        "1/4 cup parsley",
-        "Salt",
-        "Pepper"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "ingredients-only",
       "badges": [
-        "method-only"
+        "ingredients-only",
+        "some quantities missing"
       ],
-      "searchText": "chicken gyro wraps mains tzatziki sauce: chicken marinade: vegetable medley: #tzatziki sauce 1 cup greek yogurt salt pepper 3 garlic cloves 1 tbsp red wine vinegar 1 tbsp olive oil 1 tsp ground coriander 1 tbsp oregano 1 tsp smoked paprika juice of 1 lemon 1 cucumber 2 roma tomatoes 1/2 red onion 1 tbsp red wine vinegar 1/4 cup parsley salt pepper"
+      "searchText": "chicken gyro wraps mains tzatziki sauce 1 cup greek yogurt salt pepper 3 garlic cloves 1 tbsp red wine vinegar 1 tbsp olive oil 1 tsp ground coriander 1 tbsp oregano 1 tsp smoked paprika juice of 1 lemon 1 cucumber 2 roma tomatoes 1/2 red onion 1 tbsp red wine vinegar 1/4 cup parsley salt pepper"
     },
     {
       "id": "chicken-broccoli-and-potatoes",
@@ -674,9 +704,7 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !chickenandbroccoli.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -684,7 +712,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "chicken, broccoli, and potatoes mains raw broccoli baked chicken breast potatoes image: !chickenandbroccoli.jpeg"
+      "searchText": "chicken, broccoli, and potatoes mains raw broccoli baked chicken breast potatoes"
     },
     {
       "id": "chinese-beef-and-vegetable-soup-lu-s-ng-t-ng",
@@ -1038,79 +1066,28 @@
         {
           "group": "Main",
           "text": "Paprika, amount not shown (visible in video but not listed in the ingredient overlay)"
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "1. Start rice first if serving with rice."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "2. Set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "3. Prep vegetables before opening the beef. Dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "4. Hold diced potatoes in water if they will sit while you prep or cook. Drain before adding them to the pan."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "5. Organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "6. Clean the prep area before handling beef. Clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "7. Sweat the aromatics. Heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. Remove to a clean bowl."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "8. Brown the beef. Increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. Drain excess grease if needed."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "9. Season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. Stir well and scrape up browned bits."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "10. Add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. Stir to combine."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "11. Cover and cook until potatoes soften, stirring occasionally. Add a small splash of water if the pan gets too dry."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "12. Stir in sugar near the end, taste, and adjust seasoning."
-        },
-        {
-          "group": "Optimized Steps",
-          "text": "13. Serve with white rice."
-        },
-        {
-          "group": "Cleanup / Safety Notes",
-          "text": "Prep vegetables before opening raw beef to reduce cross-contamination."
-        },
-        {
-          "group": "Cleanup / Safety Notes",
-          "text": "Avoid putting raw ground beef on the cutting board; add it straight from the package to the pan."
-        },
-        {
-          "group": "Cleanup / Safety Notes",
-          "text": "Wash hands after handling the beef package."
-        },
-        {
-          "group": "Cleanup / Safety Notes",
-          "text": "Use a clean spoon for final tasting and serving."
         }
       ],
-      "steps": [],
+      "steps": [
+        "Start rice first if serving with rice.",
+        "Set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash.",
+        "Prep vegetables before opening the beef. Dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready.",
+        "Hold diced potatoes in water if they will sit while you prep or cook. Drain before adding them to the pan.",
+        "Organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby.",
+        "Clean the prep area before handling beef. Clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area.",
+        "Sweat the aromatics. Heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. Remove to a clean bowl.",
+        "Brown the beef. Increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. Drain excess grease if needed.",
+        "Season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. Stir well and scrape up browned bits.",
+        "Add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. Stir to combine.",
+        "Cover and cook until potatoes soften, stirring occasionally. Add a small splash of water if the pan gets too dry.",
+        "Stir in sugar near the end, taste, and adjust seasoning.",
+        "Serve with white rice."
+      ],
       "notes": [
-        "Original caption: “My version of giniling na baka! Such an easy recipe for ground beef.”",
+        "Prep vegetables before opening raw beef to reduce cross-contamination.",
+        "Avoid putting raw ground beef on the cutting board; add it straight from the package to the pan.",
+        "Wash hands after handling the beef package.",
+        "Use a clean spoon for final tasting and serving.",
         "Ingredient list was extracted from the TikTok video overlay; paprika was visible in the cooking steps, but the quantity was not shown.",
         "The optimized method intentionally sweats onion, bell pepper, and garlic first, sets them aside, then browns the beef for better browning and less steaming."
       ],
@@ -1118,13 +1095,13 @@
       "meta": [],
       "nutrition": [],
       "reference": [],
-      "status": "ingredients-only",
+      "status": "complete",
       "badges": [
-        "ingredients-only",
+        "complete",
         "some quantities missing",
         "source video"
       ],
-      "searchText": "giniling na baka (filipino ground beef) mains 1 lb ground beef 1 onion, diced 4 garlic cloves, minced 1 green bell pepper, diced frozen peas and carrots, to taste (preferred over dicing fresh carrot) 2 diced potatoes 2 tsp fish sauce 2 tsp chicken bouillon 0.5 tsp salt/pepper 1 tsp sugar paprika, amount not shown (visible in video but not listed in the ingredient overlay) 1. start rice first if serving with rice. 2. set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash. 3. prep vegetables before opening the beef. dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready. 4. hold diced potatoes in water if they will sit while you prep or cook. drain before adding them to the pan. 5. organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby. 6. clean the prep area before handling beef. clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area. 7. sweat the aromatics. heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. remove to a clean bowl. 8. brown the beef. increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. drain excess grease if needed. 9. season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. stir well and scrape up browned bits. 10. add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. stir to combine. 11. cover and cook until potatoes soften, stirring occasionally. add a small splash of water if the pan gets too dry. 12. stir in sugar near the end, taste, and adjust seasoning. 13. serve with white rice. prep vegetables before opening raw beef to reduce cross-contamination. avoid putting raw ground beef on the cutting board; add it straight from the package to the pan. wash hands after handling the beef package. use a clean spoon for final tasting and serving. original caption: “my version of giniling na baka! such an easy recipe for ground beef.” ingredient list was extracted from the tiktok video overlay; paprika was visible in the cooking steps, but the quantity was not shown. the optimized method intentionally sweats onion, bell pepper, and garlic first, sets them aside, then browns the beef for better browning and less steaming."
+      "searchText": "giniling na baka (filipino ground beef) mains 1 lb ground beef 1 onion, diced 4 garlic cloves, minced 1 green bell pepper, diced frozen peas and carrots, to taste (preferred over dicing fresh carrot) 2 diced potatoes 2 tsp fish sauce 2 tsp chicken bouillon 0.5 tsp salt/pepper 1 tsp sugar paprika, amount not shown (visible in video but not listed in the ingredient overlay) start rice first if serving with rice. set out 6 bowls: 3 small bowls for garlic, seasonings, and fish sauce; 3 larger bowls for aromatics, potatoes, and trash. prep vegetables before opening the beef. dice onion, bell pepper, and potatoes; mince garlic; keep frozen peas and carrots ready. hold diced potatoes in water if they will sit while you prep or cook. drain before adding them to the pan. organize ingredients: onion + bell pepper together, garlic separate, potatoes separate, frozen peas + carrots ready, and seasonings measured nearby. clean the prep area before handling beef. clear scraps, wipe the counter, and move prepped vegetables away from the raw meat area. sweat the aromatics. heat oil over medium heat, cook onion and bell pepper until softened, 3–5 minutes, then add garlic for 30–60 seconds. remove to a clean bowl. brown the beef. increase heat to medium-high, add ground beef directly from the package to the pan, spread it out, let it brown, then break it up. drain excess grease if needed. season the beef with fish sauce, chicken bouillon, salt/pepper, and paprika. stir well and scrape up browned bits. add drained potatoes, frozen peas and carrots, then return the onion, bell pepper, and garlic mixture. stir to combine. cover and cook until potatoes soften, stirring occasionally. add a small splash of water if the pan gets too dry. stir in sugar near the end, taste, and adjust seasoning. serve with white rice. prep vegetables before opening raw beef to reduce cross-contamination. avoid putting raw ground beef on the cutting board; add it straight from the package to the pan. wash hands after handling the beef package. use a clean spoon for final tasting and serving. ingredient list was extracted from the tiktok video overlay; paprika was visible in the cooking steps, but the quantity was not shown. the optimized method intentionally sweats onion, bell pepper, and garlic first, sets them aside, then browns the beef for better browning and less steaming."
     },
     {
       "id": "greek-lemon-chicken-and-potatoes-with-dairy-free-greek-salad",
@@ -1334,9 +1311,7 @@
         "Chicken thighs stay extra juicy, but chicken breast works great too."
       ],
       "useWith": [],
-      "meta": [
-        "Original title: The Best One Pan Creamy Pasta Recipe #asmrfood #mukbang"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "complete",
@@ -1345,7 +1320,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "hailey's creamy feta chicken pasta mains 1 chicken breast or boneless skin-on chicken thigh 7 oz cherry or grape tomatoes 1 whole garlic bulb, top trimmed 1 small onion, sliced 1 handful bell pepper, sliced 1 block feta cheese (7–8 oz) 3–5 tbsp olive oil 1 tsp italian seasoning 1/2 tsp smoked paprika 1/2 tsp salt, divided black pepper, to taste 6 oz spaghetti 1/2 cup heavy cream 1 sprig rosemary parsley and chili flakes for garnish assemble the bake in a baking dish with the tomatoes, feta, chicken, garlic bulb, sliced onion, bell pepper, and rosemary. season the chicken with 1/4 tsp salt and black pepper. sprinkle italian seasoning and smoked paprika over the chicken. season the tomatoes lightly with salt and black pepper. drizzle olive oil evenly over everything. bake at 400°f for 20–22 minutes, or until the chicken reaches 165°f and the tomatoes are soft and bursting. while the chicken bakes, cook the spaghetti and reserve 1/4 cup pasta water. remove the rosemary. slice the chicken and squeeze out the roasted garlic. pour in the heavy cream, then mash the tomatoes and feta together until smooth and creamy. add the cooked spaghetti and toss until evenly coated. if needed, add a splash of reserved pasta water to loosen the sauce. garnish with parsley and chili flakes. serve immediately. if the tomatoes taste too tangy, add 1/2 tsp sugar to balance the flavor. chicken thighs stay extra juicy, but chicken breast works great too. original title: the best one pan creamy pasta recipe #asmrfood #mukbang"
+      "searchText": "hailey's creamy feta chicken pasta mains 1 chicken breast or boneless skin-on chicken thigh 7 oz cherry or grape tomatoes 1 whole garlic bulb, top trimmed 1 small onion, sliced 1 handful bell pepper, sliced 1 block feta cheese (7–8 oz) 3–5 tbsp olive oil 1 tsp italian seasoning 1/2 tsp smoked paprika 1/2 tsp salt, divided black pepper, to taste 6 oz spaghetti 1/2 cup heavy cream 1 sprig rosemary parsley and chili flakes for garnish assemble the bake in a baking dish with the tomatoes, feta, chicken, garlic bulb, sliced onion, bell pepper, and rosemary. season the chicken with 1/4 tsp salt and black pepper. sprinkle italian seasoning and smoked paprika over the chicken. season the tomatoes lightly with salt and black pepper. drizzle olive oil evenly over everything. bake at 400°f for 20–22 minutes, or until the chicken reaches 165°f and the tomatoes are soft and bursting. while the chicken bakes, cook the spaghetti and reserve 1/4 cup pasta water. remove the rosemary. slice the chicken and squeeze out the roasted garlic. pour in the heavy cream, then mash the tomatoes and feta together until smooth and creamy. add the cooked spaghetti and toss until evenly coated. if needed, add a splash of reserved pasta water to loosen the sauce. garnish with parsley and chili flakes. serve immediately. if the tomatoes taste too tangy, add 1/2 tsp sugar to balance the flavor. chicken thighs stay extra juicy, but chicken breast works great too."
     },
     {
       "id": "honey-mustard-chicken-thighs",
@@ -1402,7 +1377,6 @@
         "If fully cooked but not caramelized, place under the broiler for about 1 minute, watching closely."
       ],
       "notes": [
-        "Original title: “Your new favorite chicken marinade.”",
         "Source caption hashtags include chicken, dinner, cooking, recipe, food, cook, and everydayisfeastday."
       ],
       "useWith": [],
@@ -1415,7 +1389,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "honey mustard chicken thighs mains 3–4 garlic cloves, grated or minced 1/3 cup honey 1/3 cup mustard pinch kosher salt black pepper 1/4 tsp onion powder 2–3 tsp vinegar about 1/3–1/2 cup olive oil 1 1/2–2 lbs boneless skinless chicken thighs mix garlic, honey, mustard, kosher salt, black pepper, onion powder, vinegar, and olive oil into a marinade. coat boneless skinless chicken thighs with the marinade. roast at 450°f for about 25–30 minutes, until cooked through. if fully cooked but not caramelized, place under the broiler for about 1 minute, watching closely. original title: “your new favorite chicken marinade.” source caption hashtags include chicken, dinner, cooking, recipe, food, cook, and everydayisfeastday."
+      "searchText": "honey mustard chicken thighs mains 3–4 garlic cloves, grated or minced 1/3 cup honey 1/3 cup mustard pinch kosher salt black pepper 1/4 tsp onion powder 2–3 tsp vinegar about 1/3–1/2 cup olive oil 1 1/2–2 lbs boneless skinless chicken thighs mix garlic, honey, mustard, kosher salt, black pepper, onion powder, vinegar, and olive oil into a marinade. coat boneless skinless chicken thighs with the marinade. roast at 450°f for about 25–30 minutes, until cooked through. if fully cooked but not caramelized, place under the broiler for about 1 minute, watching closely. source caption hashtags include chicken, dinner, cooking, recipe, food, cook, and everydayisfeastday."
     },
     {
       "id": "japanese-egg-salad-sando-with-potatoes-bacon-and-cucumber",
@@ -1498,21 +1472,16 @@
       "servings": null,
       "ingredients": [],
       "steps": [],
-      "notes": [
-        "Original Dinner Recipes note had this as a todo.",
-        "Missing image reference from legacy note: lettuceburgers.jpeg."
-      ],
+      "notes": [],
       "useWith": [],
-      "meta": [
-        "Status: needs extraction/details."
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "limited",
       "badges": [
         "limited"
       ],
-      "searchText": "lettuce burgers and sweet potato fries mains original dinner recipes note had this as a todo. missing image reference from legacy note: lettuceburgers.jpeg. status: needs extraction/details."
+      "searchText": "lettuce burgers and sweet potato fries mains"
     },
     {
       "id": "mayak-tofu-asanebo-style",
@@ -1523,7 +1492,7 @@
         "url": "https://www.instagram.com/reel/DcHUkkRyn3D/",
         "platform": "instagram"
       },
-      "servings": null,
+      "servings": "Not specified",
       "ingredients": [
         {
           "group": "Main",
@@ -1577,7 +1546,6 @@
       ],
       "useWith": [],
       "meta": [
-        "Original title/caption: “My Secret Tasty Tofu Recipe… Mayak Tofu, Asanebo Style!”",
         "Servings: Not specified",
         "Marinating time: Not specified in source"
       ],
@@ -1589,7 +1557,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "mayak tofu — asanebo style mains tofu — type and quantity not specified soy sauce — quantity not specified mirin — quantity not specified onion, chopped — quantity not specified ginger, grated — quantity not specified garlic, grated — quantity not specified sesame seeds — quantity not specified chili — quantity/type not specified chili oil — quantity not specified cut the tofu into pieces. add soy sauce and mirin to a shallow dish. add chopped onion, grated ginger, and grated garlic. add sesame seeds, chili, and chili oil. mix the marinade. place the tofu pieces in the marinade and marinate. the source does not show a duration. serve the marinated tofu with rice, spooning some of the marinade over the tofu. the recipe is transcribed from the reel’s visible ingredient labels and preparation shots; no measurements are shown. green onion-like pieces are visible in the marinade, but “green onion” is not separately labeled in the source, so it is not listed as a confirmed ingredient. original title/caption: “my secret tasty tofu recipe… mayak tofu, asanebo style!” servings: not specified marinating time: not specified in source"
+      "searchText": "mayak tofu — asanebo style mains tofu — type and quantity not specified soy sauce — quantity not specified mirin — quantity not specified onion, chopped — quantity not specified ginger, grated — quantity not specified garlic, grated — quantity not specified sesame seeds — quantity not specified chili — quantity/type not specified chili oil — quantity not specified cut the tofu into pieces. add soy sauce and mirin to a shallow dish. add chopped onion, grated ginger, and grated garlic. add sesame seeds, chili, and chili oil. mix the marinade. place the tofu pieces in the marinade and marinate. the source does not show a duration. serve the marinated tofu with rice, spooning some of the marinade over the tofu. the recipe is transcribed from the reel’s visible ingredient labels and preparation shots; no measurements are shown. green onion-like pieces are visible in the marinade, but “green onion” is not separately labeled in the source, so it is not listed as a confirmed ingredient. servings: not specified marinating time: not specified in source"
     },
     {
       "id": "mayo-chicken-skillet-meal",
@@ -1600,7 +1568,7 @@
         "url": "https://www.instagram.com/reel/DcgIJGiTxvs/",
         "platform": "instagram"
       },
-      "servings": null,
+      "servings": "Not specified",
       "ingredients": [
         {
           "group": "Main",
@@ -1652,8 +1620,7 @@
       ],
       "notes": [
         "The source emphasizes that the leftover marinade bits—caramelized mayonnaise, ginger, soy sauce, shio kombu, and chicken juices—add flavor to the rice and should not be wasted.",
-        "The source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving.",
-        "Original caption: “Mayo Chicken Skillet Meal.”"
+        "The source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving."
       ],
       "useWith": [],
       "meta": [
@@ -1667,7 +1634,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "mayo chicken skillet meal mains 1 chicken leg, about 250 g 1 tbsp grated ginger 1 tbsp kewpie mayonnaise 1 tsp soy sauce 1 cup soaked rice 1 tsp shio kombu ½ cup water green onions toasted sesame seeds togarashi (chili flakes seasoning) soak the rice for at least 30 minutes, until the grains turn completely white. because soaked rice has already absorbed moisture, use about half the usual amount of water. put the chicken leg in a skillet with the grated ginger, kewpie mayonnaise, and soy sauce. coat the chicken and cook until it is about 80% cooked, as shown in the source. remove the chicken while leaving the browned marinade bits in the skillet. add the soaked rice, shio kombu, and water. stir the rice through the caramelized marinade bits. return the chicken to the skillet, cover, and cook on very low heat for at least 10 minutes. finish with green onions, toasted sesame seeds, and togarashi. the source emphasizes that the leftover marinade bits—caramelized mayonnaise, ginger, soy sauce, shio kombu, and chicken juices—add flavor to the rice and should not be wasted. the source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving. original caption: “mayo chicken skillet meal.” servings: not specified"
+      "searchText": "mayo chicken skillet meal mains 1 chicken leg, about 250 g 1 tbsp grated ginger 1 tbsp kewpie mayonnaise 1 tsp soy sauce 1 cup soaked rice 1 tsp shio kombu ½ cup water green onions toasted sesame seeds togarashi (chili flakes seasoning) soak the rice for at least 30 minutes, until the grains turn completely white. because soaked rice has already absorbed moisture, use about half the usual amount of water. put the chicken leg in a skillet with the grated ginger, kewpie mayonnaise, and soy sauce. coat the chicken and cook until it is about 80% cooked, as shown in the source. remove the chicken while leaving the browned marinade bits in the skillet. add the soaked rice, shio kombu, and water. stir the rice through the caramelized marinade bits. return the chicken to the skillet, cover, and cook on very low heat for at least 10 minutes. finish with green onions, toasted sesame seeds, and togarashi. the source emphasizes that the leftover marinade bits—caramelized mayonnaise, ginger, soy sauce, shio kombu, and chicken juices—add flavor to the rice and should not be wasted. the source does not specify a serving yield or the chicken’s final internal temperature; verify that the chicken is fully cooked before serving. servings: not specified"
     },
     {
       "id": "mongolian-beef",
@@ -1678,7 +1645,7 @@
         "url": "https://www.tiktok.com/@stephvnietea/video/7324865404797504811/",
         "platform": "tiktok"
       },
-      "servings": null,
+      "servings": "3–4",
       "ingredients": [
         {
           "group": "Main",
@@ -1854,7 +1821,6 @@
         "Spoon the oyakodon over a bowl of warm rice and serve."
       ],
       "notes": [
-        "Original reel caption: “OYAKODON.”",
         "The caption lists the chicken as unseasoned and does not specify a serving yield."
       ],
       "useWith": [],
@@ -1867,7 +1833,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "oyakodon mains 1 chicken leg, about 250 g, unseasoned ¼ onion, about 20 g ¼ pack shimeji mushrooms, about 20 g 1 egg, beaten 1 tsp miso (hikari) 2 tbsp cooking sake (hinode ryorishu) 1 tsp mirin (gu wang) 1 tsp soy sauce (lee kum kee first draw authentic) a tiny splash of rice vinegar, about ⅛ tsp (din tai fung) warm rice freshly chopped green onions prepare the chicken, onion, shimeji mushrooms, seasoning, and beaten egg. the caption does not specify the cooking method or order for the chicken, onion, mushrooms, and seasoning before the finishing step. drizzle the beaten egg over the chicken and cook for another 30 seconds, just until the egg is softly set. top with freshly chopped green onions. spoon the oyakodon over a bowl of warm rice and serve. original reel caption: “oyakodon.” the caption lists the chicken as unseasoned and does not specify a serving yield."
+      "searchText": "oyakodon mains 1 chicken leg, about 250 g, unseasoned ¼ onion, about 20 g ¼ pack shimeji mushrooms, about 20 g 1 egg, beaten 1 tsp miso (hikari) 2 tbsp cooking sake (hinode ryorishu) 1 tsp mirin (gu wang) 1 tsp soy sauce (lee kum kee first draw authentic) a tiny splash of rice vinegar, about ⅛ tsp (din tai fung) warm rice freshly chopped green onions prepare the chicken, onion, shimeji mushrooms, seasoning, and beaten egg. the caption does not specify the cooking method or order for the chicken, onion, mushrooms, and seasoning before the finishing step. drizzle the beaten egg over the chicken and cook for another 30 seconds, just until the egg is softly set. top with freshly chopped green onions. spoon the oyakodon over a bowl of warm rice and serve. the caption lists the chicken as unseasoned and does not specify a serving yield."
     },
     {
       "id": "quinoa-turkey-bowls",
@@ -1875,35 +1841,64 @@
       "category": "Mains",
       "source": null,
       "servings": null,
-      "ingredients": [],
+      "ingredients": [
+        {
+          "group": "Stir fry",
+          "text": "Garlic"
+        },
+        {
+          "group": "Stir fry",
+          "text": "Bell pepper"
+        },
+        {
+          "group": "Stir fry",
+          "text": "Onion"
+        },
+        {
+          "group": "Stir fry",
+          "text": "Green onion"
+        },
+        {
+          "group": "Stir fry",
+          "text": "Olive oil"
+        },
+        {
+          "group": "Sear",
+          "text": "Ground turkey"
+        },
+        {
+          "group": "Base",
+          "text": "Quinoa"
+        },
+        {
+          "group": "Top with",
+          "text": "Lime slice"
+        },
+        {
+          "group": "Top with",
+          "text": "Cilantro"
+        },
+        {
+          "group": "Top with",
+          "text": "Avocado"
+        },
+        {
+          "group": "Top with",
+          "text": "Salsa"
+        }
+      ],
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Stir fry:",
-        "Sear:",
-        "Base:",
-        "Top with:"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "Garlic",
-        "Bell pepper",
-        "Onion",
-        "Green onion",
-        "Olive oil",
-        "Ground turkey",
-        "Quinoa",
-        "Lime slice",
-        "Cilantro",
-        "Avocado",
-        "Salsa"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "ingredients-only",
       "badges": [
-        "method-only"
+        "ingredients-only",
+        "some quantities missing"
       ],
-      "searchText": "quinoa turkey bowls mains stir fry: sear: base: top with: garlic bell pepper onion green onion olive oil ground turkey quinoa lime slice cilantro avocado salsa"
+      "searchText": "quinoa turkey bowls mains garlic bell pepper onion green onion olive oil ground turkey quinoa lime slice cilantro avocado salsa"
     },
     {
       "id": "rice-cooker-hainanese-chicken",
@@ -1963,7 +1958,6 @@
       ],
       "steps": [],
       "notes": [
-        "Source: Instagram reel from patty.plates.",
         "Good meal-prep candidate."
       ],
       "useWith": [],
@@ -1975,7 +1969,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "rice cooker hainanese chicken mains 2 cups rice 2.5 cups seasoned chicken stock 1 chicken breast, skin-on 1 chicken leg 1 cm ginger, chopped 2 cloves garlic, chopped 2 scallion whites 1 tsp sesame oil salt white pepper 1 cucumber 2 tbsp sweet chili sauce — or ginger scallion sauce as an alternative source: instagram reel from patty.plates. good meal-prep candidate."
+      "searchText": "rice cooker hainanese chicken mains 2 cups rice 2.5 cups seasoned chicken stock 1 chicken breast, skin-on 1 chicken leg 1 cm ginger, chopped 2 cloves garlic, chopped 2 scallion whites 1 tsp sesame oil salt white pepper 1 cucumber 2 tbsp sweet chili sauce — or ginger scallion sauce as an alternative good meal-prep candidate."
     },
     {
       "id": "salmon-filet-with-cabbage-stir-fry",
@@ -1994,15 +1988,13 @@
         },
         {
           "group": "Main",
-          "text": "Steamed cabbage or #Cabbage Stir Fry"
+          "text": "Steamed cabbage or Cabbage Stir Fry"
         }
       ],
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !salmonfiletcabbage.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -2010,7 +2002,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "salmon filet with cabbage stir fry mains salmon brown rice steamed cabbage or #cabbage stir fry image: !salmonfiletcabbage.jpeg"
+      "searchText": "salmon filet with cabbage stir fry mains salmon brown rice steamed cabbage or cabbage stir fry"
     },
     {
       "id": "slow-cooker-mexican-chicken-pozole-verde",
@@ -2150,9 +2142,7 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Image: !steakpotatoesandveggies.jpeg"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [],
       "status": "ingredients-only",
@@ -2160,7 +2150,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "steak and potatoes with onions and bell peppers mains skirt steak onions and bell peppers for pan deglazing potatoes image: !steakpotatoesandveggies.jpeg"
+      "searchText": "steak and potatoes with onions and bell peppers mains skirt steak onions and bell peppers for pan deglazing potatoes"
     },
     {
       "id": "street-corn-chicken-meal-prep",
@@ -2263,7 +2253,6 @@
         "Divide the cooked chicken, street corn, and jasmine rice into 6 meal-prep portions."
       ],
       "notes": [
-        "Original reel caption: “Street Corn Never Misses 🔥 558 cals 55g protein 12g fat 57g carbs.”",
         "The caption says: “If you don’t make the meal, at least make the street corn - I promise it will not disappoint 🔥”"
       ],
       "useWith": [],
@@ -2281,7 +2270,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "street corn chicken meal prep mains 2.5 lb chicken breast 2 tsp garlic powder 2 tsp onion powder 1.5 tbsp smoked paprika 2 tsp oregano 1 tsp chili powder 1 tsp cumin 1 tsp salt 1/2 tsp pepper 2 cans corn, strained 300 g non-fat plain greek yogurt 120 g light mayonnaise 100 g cotija cheese 1/2 medium red onion 2 large jalapeños cilantro 4 limes 2 tsp chili powder salt, to taste tajín, to taste 1.5 cups jasmine rice, dry season and cook the chicken, prepare the street corn mixture, and cook the jasmine rice according to the source reel. the caption provides the ingredients and quantities but does not include detailed cooking instructions, temperatures, or timings. divide the cooked chicken, street corn, and jasmine rice into 6 meal-prep portions. original reel caption: “street corn never misses 🔥 558 cals 55g protein 12g fat 57g carbs.” the caption says: “if you don’t make the meal, at least make the street corn - i promise it will not disappoint 🔥” makes: 6 meals per meal: 558 calories, 55 g protein, 12 g fat, 57 g carbohydrates"
+      "searchText": "street corn chicken meal prep mains 2.5 lb chicken breast 2 tsp garlic powder 2 tsp onion powder 1.5 tbsp smoked paprika 2 tsp oregano 1 tsp chili powder 1 tsp cumin 1 tsp salt 1/2 tsp pepper 2 cans corn, strained 300 g non-fat plain greek yogurt 120 g light mayonnaise 100 g cotija cheese 1/2 medium red onion 2 large jalapeños cilantro 4 limes 2 tsp chili powder salt, to taste tajín, to taste 1.5 cups jasmine rice, dry season and cook the chicken, prepare the street corn mixture, and cook the jasmine rice according to the source reel. the caption provides the ingredients and quantities but does not include detailed cooking instructions, temperatures, or timings. divide the cooked chicken, street corn, and jasmine rice into 6 meal-prep portions. the caption says: “if you don’t make the meal, at least make the street corn - i promise it will not disappoint 🔥” makes: 6 meals per meal: 558 calories, 55 g protein, 12 g fat, 57 g carbohydrates"
     },
     {
       "id": "turkey-lettuce-wraps-with-cilantro-lime-yogurt-sauce",
@@ -2289,29 +2278,44 @@
       "category": "Mains",
       "source": null,
       "servings": null,
-      "ingredients": [],
+      "ingredients": [
+        {
+          "group": "Turkey",
+          "text": "Avocado oil"
+        },
+        {
+          "group": "Turkey",
+          "text": "Seasonings"
+        },
+        {
+          "group": "Turkey",
+          "text": "Cheese"
+        },
+        {
+          "group": "Sauce",
+          "text": "Cilantro Lime Yogurt Sauce"
+        },
+        {
+          "group": "Toppings",
+          "text": "Avocado"
+        },
+        {
+          "group": "Toppings",
+          "text": "Cholula hot sauce"
+        }
+      ],
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Turkey:",
-        "Sauce:",
-        "Toppings:"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "Avocado oil",
-        "Seasonings",
-        "Cheese",
-        "#Cilantro Lime Yogurt Sauce",
-        "Avocado",
-        "Cholula hot sauce"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "ingredients-only",
       "badges": [
-        "method-only"
+        "ingredients-only",
+        "some quantities missing"
       ],
-      "searchText": "turkey lettuce wraps with cilantro lime yogurt sauce mains turkey: sauce: toppings: avocado oil seasonings cheese #cilantro lime yogurt sauce avocado cholula hot sauce"
+      "searchText": "turkey lettuce wraps with cilantro lime yogurt sauce mains avocado oil seasonings cheese cilantro lime yogurt sauce avocado cholula hot sauce"
     },
     {
       "id": "turkish-pasta",
@@ -2362,11 +2366,11 @@
         },
         {
           "group": "Sauces",
-          "text": "#Turkish Pasta Yogurt Garlic Sauce"
+          "text": "Turkish Pasta Yogurt Garlic Sauce"
         },
         {
           "group": "Sauces",
-          "text": "#Turkish Pasta Butter Sauce"
+          "text": "Turkish Pasta Butter Sauce"
         },
         {
           "group": "Side",
@@ -2384,7 +2388,7 @@
         "ingredients-only",
         "some quantities missing"
       ],
-      "searchText": "turkish pasta mains ground beef pasta paprika curry powder onion powder salt pepper yellow onion cherry tomato parsley #turkish pasta yogurt garlic sauce #turkish pasta butter sauce broccolini and carrots"
+      "searchText": "turkish pasta mains ground beef pasta paprika curry powder onion powder salt pepper yellow onion cherry tomato parsley turkish pasta yogurt garlic sauce turkish pasta butter sauce broccolini and carrots"
     },
     {
       "id": "yuringi-rice-bowl",
@@ -2471,8 +2475,7 @@
       ],
       "notes": [
         "Agave syrup can be replaced with honey or oligosaccharide syrup. If using sugar instead, the source says to use about 30 g.",
-        "The source recommends keeping the dish somewhat soupy so the rice can soak up the sauce.",
-        "Original reel caption: “Breakfast for husband day 66 - Yuringi Rice Bowl.”"
+        "The source recommends keeping the dish somewhat soupy so the rice can soak up the sauce."
       ],
       "useWith": [],
       "meta": [],
@@ -2484,36 +2487,7 @@
         "some quantities missing",
         "source video"
       ],
-      "searchText": "yuringi rice bowl mains 500 g chicken thighs 250 g mung bean sprouts 2 tbsp cooking oil potato starch — amount not specified; the source says any starch works salt and pepper rice, to serve shredded green onions, to serve sliced chili peppers, amount not specified 50 ml soy sauce 50 ml vinegar 50 ml agave syrup 50 ml water a splash of lemon juice 1 tbsp minced garlic sliced chili peppers add the cooking oil and potato starch to a pan and mix. add the chicken thighs, mix well, and spread them skin-side down. season the chicken with salt and pepper. place a steamer basket containing the mung bean sprouts on top of the chicken. cover and cook for 10 minutes. mix the soy sauce, vinegar, agave syrup, water, lemon juice, minced garlic, and sliced chili peppers to make the sauce. remove the tender-crisp mung bean sprouts, then cook the chicken for 5 more minutes. flip the chicken and cook for 3 minutes. flip it again and sear over high heat for about 3 minutes, until the skin is crispy. place the chicken, mung bean sprouts, and shredded green onions over rice. pour the sauce over everything right before serving. agave syrup can be replaced with honey or oligosaccharide syrup. if using sugar instead, the source says to use about 30 g. the source recommends keeping the dish somewhat soupy so the rice can soak up the sauce. original reel caption: “breakfast for husband day 66 - yuringi rice bowl.”"
-    },
-    {
-      "id": "weekly-menu-snapshot",
-      "title": "Weekly Menu Snapshot",
-      "category": "Meal Plans",
-      "source": null,
-      "servings": null,
-      "ingredients": [],
-      "steps": [],
-      "notes": [],
-      "useWith": [],
-      "meta": [
-        "Sunday/Monday:",
-        "Tuesday:"
-      ],
-      "nutrition": [],
-      "reference": [
-        "#Turkish Pasta with roasted broccolini and carrots",
-        "#Asian Tuna Salad",
-        "#Asian Tuna Salad",
-        "#Chicken Caesar Salad",
-        "Sauteed #Cabbage Stir Fry with chicken breast or thigh over rice",
-        "#Bell Peppers and Onions"
-      ],
-      "status": "method-only",
-      "badges": [
-        "method-only"
-      ],
-      "searchText": "weekly menu snapshot meal plans sunday/monday: tuesday: #turkish pasta with roasted broccolini and carrots #asian tuna salad #asian tuna salad #chicken caesar salad sauteed #cabbage stir fry with chicken breast or thigh over rice #bell peppers and onions"
+      "searchText": "yuringi rice bowl mains 500 g chicken thighs 250 g mung bean sprouts 2 tbsp cooking oil potato starch — amount not specified; the source says any starch works salt and pepper rice, to serve shredded green onions, to serve sliced chili peppers, amount not specified 50 ml soy sauce 50 ml vinegar 50 ml agave syrup 50 ml water a splash of lemon juice 1 tbsp minced garlic sliced chili peppers add the cooking oil and potato starch to a pan and mix. add the chicken thighs, mix well, and spread them skin-side down. season the chicken with salt and pepper. place a steamer basket containing the mung bean sprouts on top of the chicken. cover and cook for 10 minutes. mix the soy sauce, vinegar, agave syrup, water, lemon juice, minced garlic, and sliced chili peppers to make the sauce. remove the tender-crisp mung bean sprouts, then cook the chicken for 5 more minutes. flip the chicken and cook for 3 minutes. flip it again and sear over high heat for about 3 minutes, until the skin is crispy. place the chicken, mung bean sprouts, and shredded green onions over rice. pour the sauce over everything right before serving. agave syrup can be replaced with honey or oligosaccharide syrup. if using sugar instead, the source says to use about 30 g. the source recommends keeping the dish somewhat soupy so the rice can soak up the sauce."
     },
     {
       "id": "buffalo-protein-sauce",
@@ -3276,19 +3250,14 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Status: needs details.",
-        "Original note:"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "todo"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "limited",
       "badges": [
-        "method-only"
+        "limited"
       ],
-      "searchText": "bell peppers and onions sides & components status: needs details. original note: todo"
+      "searchText": "bell peppers and onions sides & components"
     },
     {
       "id": "broccolini-and-carrots",
@@ -3300,8 +3269,7 @@
       "steps": [],
       "notes": [],
       "useWith": [
-        "#Turkish Pasta",
-        "Status: needs details."
+        "Turkish Pasta"
       ],
       "meta": [],
       "nutrition": [],
@@ -3310,7 +3278,7 @@
       "badges": [
         "limited"
       ],
-      "searchText": "broccolini and carrots sides & components #turkish pasta status: needs details."
+      "searchText": "broccolini and carrots sides & components turkish pasta"
     },
     {
       "id": "cabbage-stir-fry",
@@ -3322,13 +3290,10 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Recipe 1:",
-        "Recipe 2:",
-        "Recipe 3:"
-      ],
+      "meta": [],
       "nutrition": [],
       "reference": [
+        "Recipe 1:",
         "1/2 napa cabbage",
         "Olive oil",
         "Garlic",
@@ -3337,25 +3302,27 @@
         "1 tsp sugar",
         "Salt",
         "When cabbage is translucent, add 1/4 tbsp oyster sauce or to taste.",
+        "Recipe 2:",
         "Mix in a bowl:",
         "2 tbsp oyster sauce",
         "2 tbsp warm water",
         "Sauté as much garlic as desired.",
         "Add 1 full tsp sugar.",
+        "Recipe 3:",
         "Panda Express teriyaki sauce."
       ],
       "status": "method-only",
       "badges": [
         "method-only"
       ],
-      "searchText": "cabbage stir fry sides & components recipe 1: recipe 2: recipe 3: 1/2 napa cabbage olive oil garlic oyster sauce asian chicken powder / lee kum kee, 1/4 tsp 1 tsp sugar salt when cabbage is translucent, add 1/4 tbsp oyster sauce or to taste. mix in a bowl: 2 tbsp oyster sauce 2 tbsp warm water sauté as much garlic as desired. add 1 full tsp sugar. panda express teriyaki sauce."
+      "searchText": "cabbage stir fry sides & components recipe 1: 1/2 napa cabbage olive oil garlic oyster sauce asian chicken powder / lee kum kee, 1/4 tsp 1 tsp sugar salt when cabbage is translucent, add 1/4 tbsp oyster sauce or to taste. recipe 2: mix in a bowl: 2 tbsp oyster sauce 2 tbsp warm water sauté as much garlic as desired. add 1 full tsp sugar. recipe 3: panda express teriyaki sauce."
     },
     {
       "id": "cajun-butter-shrimp",
       "title": "Cajun Butter Shrimp",
       "category": "Sides & Components",
       "source": null,
-      "servings": null,
+      "servings": "15 shrimp",
       "ingredients": [
         {
           "group": "Main",
@@ -3535,19 +3502,14 @@
       "steps": [],
       "notes": [],
       "useWith": [],
-      "meta": [
-        "Status: needs details.",
-        "Original note:"
-      ],
+      "meta": [],
       "nutrition": [],
-      "reference": [
-        "todo"
-      ],
-      "status": "method-only",
+      "reference": [],
+      "status": "limited",
       "badges": [
-        "method-only"
+        "limited"
       ],
-      "searchText": "onions and mushrooms sides & components status: needs details. original note: todo"
+      "searchText": "onions and mushrooms sides & components"
     },
     {
       "id": "sourdough-mozzarella-bruschetta",
@@ -3660,8 +3622,7 @@
       "steps": [],
       "notes": [],
       "useWith": [
-        "#Lettuce Burgers and Sweet Potato Fries",
-        "Status: needs details."
+        "Lettuce Burgers and Sweet Potato Fries"
       ],
       "meta": [],
       "nutrition": [],
@@ -3670,7 +3631,7 @@
       "badges": [
         "limited"
       ],
-      "searchText": "sweet potato fries sides & components #lettuce burgers and sweet potato fries status: needs details."
+      "searchText": "sweet potato fries sides & components lettuce burgers and sweet potato fries"
     },
     {
       "id": "sweet-potato-wraps",
@@ -3700,7 +3661,6 @@
       ],
       "notes": [
         "The source describes this as a two-ingredient recipe.",
-        "Original caption: “Sweet Potato Wraps 👇 about 150 cals each.”",
         "The source does not specify the sweet potato preparation method or the exact cooking temperature."
       ],
       "useWith": [],
@@ -3717,7 +3677,7 @@
         "complete",
         "source video"
       ],
-      "searchText": "sweet potato wraps sides & components 2 cups mashed sweet potato 2.5 cups all-purpose flour mix the mashed sweet potato and all-purpose flour. knead the mixture. divide and roll into 9–10 very thin wraps. cook on medium heat for about 2 minutes per side. the source describes this as a two-ingredient recipe. original caption: “sweet potato wraps 👇 about 150 cals each.” the source does not specify the sweet potato preparation method or the exact cooking temperature. makes: 9–10 wraps calories: about 150 per wrap, according to the source"
+      "searchText": "sweet potato wraps sides & components 2 cups mashed sweet potato 2.5 cups all-purpose flour mix the mashed sweet potato and all-purpose flour. knead the mixture. divide and roll into 9–10 very thin wraps. cook on medium heat for about 2 minutes per side. the source describes this as a two-ingredient recipe. the source does not specify the sweet potato preparation method or the exact cooking temperature. makes: 9–10 wraps calories: about 150 per wrap, according to the source"
     },
     {
       "id": "yamitsuki-cabbage-addictive-cabbage",
@@ -4208,5 +4168,5 @@
       "searchText": "tropical paradise smoothie smoothies 1 cup kale 1/2 cup pineapple chunks 1/2 cup mango chunks 1/2 cup coconut milk 1 tbsp chia seeds"
     }
   ],
-  "catalogRevision": "825f8a453f97"
+  "catalogRevision": "f3371cade6d2"
 }
