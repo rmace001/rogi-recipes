@@ -24,6 +24,7 @@ EXCLUDED_CATEGORIES = {"Index", "External Links / To Extract", "Source Notes Con
 # Every public URL must be reviewed individually. A None label permits the URL
 # but keeps attribution generic; changed labels also fall back to generic.
 REVIEWED_SOURCE_LABELS = {
+    "https://www.instagram.com/reel/DfY98OytZr-/": "Instagram Reel — @themacrosnerd",
     "https://www.instagram.com/reel/Dbe4svTK3Pq/": "Instagram Reel — Daniella Christie (@daniyellla)",
     "https://www.instagram.com/reel/DFT-yfhtjoa/": "Instagram Reel — Alissa Nguyen Won (@alissanguyen_)",
     "https://www.tiktok.com/@annlmartinez/video/7688129794373913870/": "TikTok — annlmartinez (@annlmartinez)",
@@ -235,6 +236,14 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
         bullet = BULLET_RE.match(line)
         content_match = bullet or numbered
         field = FIELD_RE.match(content_match.group(1) if content_match else line)
+        # Explicitly reviewed public fields for this entry; other labels remain closed.
+        if (title == "Chicken & Broccoli Salad" and section == "ingredients"
+                and line == "Dressing:"):
+            ingredient_group = "Dressing"
+            continue
+        if (title == "Chicken & Broccoli Salad" and section == "notes" and bullet
+                and bullet.group(1) == "Creator's stated nutrition: 455 calories, 64 g protein, 15 g fat, and 16 g carbohydrates. Serving count is not specified."):
+            field = None
         if section == "source" and bullet and bullet.group(1).startswith("https://"):
             source = parse_source("Source: " + bullet.group(1))
             section = "intro"

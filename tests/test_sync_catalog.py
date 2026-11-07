@@ -62,6 +62,22 @@ class SyncCatalogTests(unittest.TestCase):
         patcher.start()
         self.addCleanup(patcher.stop)
 
+    def test_chicken_broccoli_salad_reviewed_fields(self):
+        title = 'Chicken & Broccoli Salad'
+        note = "Creator's stated nutrition: 455 calories, 64 g protein, 15 g fat, and 16 g carbohydrates. Serving count is not specified."
+        recipe = parse_entry('Bowls & Salads', title, [
+            'Source: Instagram Reel — @themacrosnerd — https://www.instagram.com/reel/DfY98OytZr-/',
+            'Ingredients:', '- 200 g chicken', 'Dressing:', '- 30 g mustard',
+            'Steps:', '1. Mix.', 'Notes:', '- ' + note])
+        self.assertEqual(recipe['source']['label'], 'Instagram Reel — @themacrosnerd')
+        self.assertEqual(recipe['source']['url'], 'https://www.instagram.com/reel/DfY98OytZr-/')
+        self.assertEqual(recipe['ingredients'][1]['group'], 'Dressing')
+        self.assertEqual(recipe['notes'], [note])
+        with self.assertRaises(ValueError):
+            parse_entry('Bowls & Salads', title, ['Notes:', "- Creator's stated nutrition: private info"])
+        with self.assertRaises(ValueError):
+            parse_entry('Mains', 'Other', ['Ingredients:', '- water', 'Dressing:', '- oil'])
+
     def test_tasks_and_nested_continuations_are_never_exported(self):
         for section in ('Notes:', 'Ingredients:', 'Steps:', 'Use with:'):
             for marker in ('- [ ]', '- [x]', '- [X]', '* [ ]', '+ [x]', '1. [ ]', '2) [X]'):

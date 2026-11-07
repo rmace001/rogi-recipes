@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "count": 73,
+  "count": 74,
   "categories": [
     "Bowls & Salads",
     "Cooking Reference",
@@ -83,6 +83,84 @@
         "source video"
       ],
       "searchText": "aguachile verde ceviche bowls & salads 1 1/2–2 lb raw shrimp, cleaned and deveined 12 limes 1 red onion 2 jalapeños 1 serrano, or 2 serranos / 1 jalapeño depending on desired spice level 2 cucumbers, or more if desired a handful of cilantro 1 tsp jugo maggi salt and pepper slice the clean shrimp almost fully down the backside to butterfly-cut it. juice the limes and pour the juice over the raw shrimp. season with salt and pepper. set aside for 30 minutes or longer according to preference. the source says it keeps the shrimp in the refrigerator during this step. after 30 minutes or longer, reserve 1/2 cup of the lime juice for the salsa. blend 1/2 cucumber, the peppers, a piece of red onion, cilantro, jugo maggi, and the reserved lime juice until smooth. add sliced red onion and cucumber to the shrimp. the source specifies removing the cucumber seeds and skin before slicing. pour the salsa over the shrimp and vegetables, then mix everything together. enjoy immediately or chill in the refrigerator before serving. the source does not specify servings. the source says “2 jalapeño” in the ingredient list; this is recorded as 2 jalapeños."
+    },
+    {
+      "id": "chicken-and-broccoli-salad",
+      "title": "Chicken & Broccoli Salad",
+      "category": "Bowls & Salads",
+      "source": {
+        "label": "Instagram Reel — @themacrosnerd",
+        "url": "https://www.instagram.com/reel/DfY98OytZr-/",
+        "platform": "instagram"
+      },
+      "servings": null,
+      "ingredients": [
+        {
+          "group": "Main",
+          "text": "200 g chicken breast, butterflied"
+        },
+        {
+          "group": "Main",
+          "text": "200 g broccoli"
+        },
+        {
+          "group": "Main",
+          "text": "1 boiled egg"
+        },
+        {
+          "group": "Main",
+          "text": "Salt and pepper, to taste"
+        },
+        {
+          "group": "Main",
+          "text": "Light spray of oil for the broccoli"
+        },
+        {
+          "group": "Main",
+          "text": "Furikake seasoning, optional topping"
+        },
+        {
+          "group": "Dressing",
+          "text": "20 g roasted sesame dressing"
+        },
+        {
+          "group": "Dressing",
+          "text": "10 g chilli crisp"
+        },
+        {
+          "group": "Dressing",
+          "text": "20 g tzatziki (the creator used Willowfarms)"
+        },
+        {
+          "group": "Dressing",
+          "text": "30 g mustard"
+        },
+        {
+          "group": "Dressing",
+          "text": "Water, enough to thin"
+        }
+      ],
+      "steps": [
+        "Season both sides of the chicken with salt and pepper. Pan-fry over medium heat for 4 1/2–5 minutes per side, until cooked; rest for 6 minutes. Check that the thickest part reaches 165°F / 74°C.",
+        "Cut broccoli into bite-sized pieces, lightly spray with oil, and air-fry at 200°C for 10 minutes.",
+        "Mix the dressing ingredients in a large bowl, adding enough water for a slightly runny consistency.",
+        "Toss the cooked broccoli with the dressing. Slice the chicken into thin strips, add it to the bowl, and mix well.",
+        "Serve with the boiled egg cut into four slices. Sprinkle with furikake if desired."
+      ],
+      "notes": [
+        "Creator's stated nutrition: 455 calories, 64 g protein, 15 g fat, and 16 g carbohydrates. Serving count is not specified."
+      ],
+      "useWith": [],
+      "meta": [],
+      "nutrition": [],
+      "reference": [],
+      "status": "complete",
+      "badges": [
+        "complete",
+        "some quantities missing",
+        "source video"
+      ],
+      "searchText": "chicken & broccoli salad bowls & salads 200 g chicken breast, butterflied 200 g broccoli 1 boiled egg salt and pepper, to taste light spray of oil for the broccoli furikake seasoning, optional topping 20 g roasted sesame dressing 10 g chilli crisp 20 g tzatziki (the creator used willowfarms) 30 g mustard water, enough to thin season both sides of the chicken with salt and pepper. pan-fry over medium heat for 4 1/2–5 minutes per side, until cooked; rest for 6 minutes. check that the thickest part reaches 165°f / 74°c. cut broccoli into bite-sized pieces, lightly spray with oil, and air-fry at 200°c for 10 minutes. mix the dressing ingredients in a large bowl, adding enough water for a slightly runny consistency. toss the cooked broccoli with the dressing. slice the chicken into thin strips, add it to the bowl, and mix well. serve with the boiled egg cut into four slices. sprinkle with furikake if desired. creator's stated nutrition: 455 calories, 64 g protein, 15 g fat, and 16 g carbohydrates. serving count is not specified."
     },
     {
       "id": "chicken-caesar-salad",
@@ -4168,5 +4246,5 @@
       "searchText": "tropical paradise smoothie smoothies 1 cup kale 1/2 cup pineapple chunks 1/2 cup mango chunks 1/2 cup coconut milk 1 tbsp chia seeds"
     }
   ],
-  "catalogRevision": "f3371cade6d2"
+  "catalogRevision": "38e78adc2df4"
 }
