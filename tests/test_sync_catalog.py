@@ -9,7 +9,7 @@ from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from sync_catalog import build_catalog, clean_text, parse_entry, sanitize, split_entries
+from sync_catalog import SHORT_RIB_REVIEWED_BULLETS, build_catalog, clean_text, parse_entry, sanitize, split_entries
 
 
 SAMPLE = """# Recipe Collection
@@ -61,6 +61,34 @@ class SyncCatalogTests(unittest.TestCase):
         })
         patcher.start()
         self.addCleanup(patcher.stop)
+
+    def test_short_rib_bowl_reviewed_fields(self):
+        title = 'Spicy Short Rib Coconut Curry Brothy Rice Bowls'
+
+        source = 'Source: Brita Cooks — https://britacooks.com/short-rib-coconut-curry-brothy-rice-bowls/'
+        garnish = next(iter(SHORT_RIB_REVIEWED_BULLETS['ingredients']))
+        alternatives = sorted(SHORT_RIB_REVIEWED_BULLETS['notes'])
+        recipe = parse_entry('Bowls & Salads', title, [
+            source, 'Makes: 4 servings | Prep: 10 minutes | Cook: 1 hour 20 minutes',
+            'Ingredients:', '- 2 cups rice', '- ' + garnish,
+            'Steps — pressure cooker:', '1. Cook on high for 45 minutes.',
+            'Alternative methods:', *['- ' + item for item in alternatives], 'Notes:', '- Serve warm.'])
+        for category, source_line in [('Mains', source), ('Bowls & Salads', 'Source: Other — https://unapproved.invalid/')]:
+            with self.subTest(category=category, source=source_line), self.assertRaises(ValueError):
+                parse_entry(category, title, [source_line, 'Ingredients:', '- ' + garnish])
+        for section, item in [('Ingredients:', 'Garnish: Original note: confidential-family-detail'),
+                              ('Alternative methods:', 'Dutch oven: Original note: confidential-family-detail'),
+                              ('Alternative methods:', alternatives[0] + ' Private: confidential-family-detail')]:
+            with self.subTest(item=item), self.assertRaises(ValueError):
+                parse_entry('Bowls & Salads', title, [source, section, '- ' + item])
+        self.assertEqual(recipe['source']['label'], 'Brita Cooks')
+        self.assertEqual(recipe['servings'], '4 servings')
+        self.assertEqual(len(recipe['ingredients']), 2)
+        self.assertEqual(len(recipe['steps']), 1)
+        self.assertEqual(len(recipe['notes']), 3)
+        self.assertIn('Dutch oven', recipe['notes'][0])
+        with self.assertRaises(ValueError):
+            parse_entry('Mains', 'Other', ['Alternative methods:', '- Private: secret'])
 
     def test_chicken_broccoli_salad_reviewed_fields(self):
         title = 'Chicken & Broccoli Salad'

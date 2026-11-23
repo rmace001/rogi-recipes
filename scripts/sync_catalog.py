@@ -21,9 +21,18 @@ PUBLIC_CATEGORIES = {
 }
 EXCLUDED_TITLES = {"Recipe Name"}
 EXCLUDED_CATEGORIES = {"Index", "External Links / To Extract", "Source Notes Consolidated", "Recipe Template", "Meal Plans"}
+SHORT_RIB_URL = "https://britacooks.com/short-rib-coconut-curry-brothy-rice-bowls/"
+SHORT_RIB_REVIEWED_BULLETS = {
+    "ingredients": {"Garnish: Thai basil, sliced green onions, sesame seeds, and optional chili oil"},
+    "notes": {
+        "Dutch oven: Sear the ribs, then cook the curry paste in the pot for 2–3 minutes. Add aromatics, ribs, sauces, sugar, and enough stock to cover the ribs three-quarters of the way. Bring to a gentle simmer, cover, and cook in a 325°F oven for about 3 hours, or on the stovetop over low heat, until fall-apart tender. Shred the beef; strain the broth, add coconut milk, and season to taste. Serve over rice with garnishes.",
+        "Slow cooker: Sear the ribs in a skillet and transfer to the slow cooker. Cook curry paste in the skillet for 2–3 minutes, scraping up browned bits; add aromatics and cook 1 minute more. Stir in sauces, sugar, and stock, then pour over the ribs. Cover and cook on LOW for 8 hours or HIGH for 4–5 hours, until tender. Shred the beef; strain the broth, add coconut milk, and season to taste. Serve over rice with garnishes.",
+    },
+}
 # Every public URL must be reviewed individually. A None label permits the URL
 # but keeps attribution generic; changed labels also fall back to generic.
 REVIEWED_SOURCE_LABELS = {
+    SHORT_RIB_URL: "Brita Cooks",
     "https://www.instagram.com/reel/DfY98OytZr-/": "Instagram Reel — @themacrosnerd",
     "https://www.instagram.com/reel/Dbe4svTK3Pq/": "Instagram Reel — Daniella Christie (@daniyellla)",
     "https://www.instagram.com/reel/DFT-yfhtjoa/": "Instagram Reel — Alissa Nguyen Won (@alissanguyen_)",
@@ -190,6 +199,9 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
     excluded_list_item = False
     previous_section = "intro"
     task_indent: int | None = None
+    short_rib = (category == "Bowls & Salads" and title == "Spicy Short Rib Coconut Curry Brothy Rice Bowls"
+                 and sum(line.strip().startswith("Source:") for line in body) == 1
+                 and f"Source: Brita Cooks — {SHORT_RIB_URL}" in [line.strip() for line in body])
 
     for raw in body:
         expanded = raw.expandtabs(4)
@@ -220,6 +232,19 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
         if PRIVATE_TODO_RE.match(item.group(1) if item else line):
             continue
         lower = line.casefold()
+        reviewed_short_rib = short_rib and source == {"label": "Brita Cooks", "url": SHORT_RIB_URL, "platform": "web"}
+        if reviewed_short_rib:
+            if line == "Makes: 4 servings | Prep: 10 minutes | Cook: 1 hour 20 minutes":
+                servings = "4 servings"
+                meta.extend(["Makes: 4 servings", "Prep time: 10 minutes", "Cook time: 1 hour 20 minutes"])
+                section = "intro"
+                continue
+            if line == "Steps — pressure cooker:":
+                section = "steps"
+                continue
+            if line == "Alternative methods:":
+                section = "notes"
+                continue
         if lower == "ingredients:":
             section = "ingredients"
             continue
@@ -236,6 +261,8 @@ def parse_entry(category: str, title: str, body: list[str]) -> dict:
         bullet = BULLET_RE.match(line)
         content_match = bullet or numbered
         field = FIELD_RE.match(content_match.group(1) if content_match else line)
+        if (reviewed_short_rib and bullet and bullet.group(1) in SHORT_RIB_REVIEWED_BULLETS.get(section, set())):
+            field = None
         # Explicitly reviewed public fields for this entry; other labels remain closed.
         if (title == "Chicken & Broccoli Salad" and section == "ingredients"
                 and line == "Dressing:"):
